@@ -1,8 +1,9 @@
 ---
-title: Regional Socialism: A new economic model
-subtitle: Or, how to negate the negative effects of profit while still using it as an economic feedback mechanism
-author: Andrew M. Lyon
-...
+title: "Regional Socialism: A new economic model"
+subtitle: "Or, how to negate the negative effects of profit while still using it as an economic feedback mechanism"
+author: "Andrew M. Lyon"
+keywords: "distributed, socialism, socialist, economy"
+---
 
 In the following, the blueprint for a socialist society will be outlined, in detail, that satisfies the following requirements:
 
@@ -22,7 +23,7 @@ Also, a best effort will be made to not reiterate -- for the trillionth time -- 
 
 "What is socialism?" It's a question that's been asked over and over again, and usually the answers prompt only more questions. The idea is entirely fractured among different sects of people. Between those who self-identify as socialists, it means wildly different things. To many others, it means "anything that's not complete unregulated market-based capitalism."
 
-Anyone who has read socialist literature will know the feeling of being bombarded less with technical theory or detailed plans, but more so with endless complaints against capitalism and endless "shoulds" and "coulds". The problem with socialism is that the goals are idealized concepts and not concrete definitions.
+Anyone who has read socialist literature will know the feeling of being bombarded less with technical theory or detailed plans, but more so with endless complaints against capitalism accompanied with many "shoulds" and "coulds". The problem with socialism is that the goals it describes are idealized concepts and not concrete definitions.
 
 ## Workers own the means of production
 
@@ -32,21 +33,21 @@ In the USSR, it meant a non-elected bureaucracy controlled the means of producti
 
 The idea of worker-owned production is itself a contentious idea in socialism. In market socialism, workers own their co-ops and compete against each other in a capitalist manner. In state socialism, the state owns the means of production and hires the workers to execute its will. In other forms of socialism, workers form guilds or unions and decide what to produce collectively.
 
-I will outline a system where enterprises are community-owned and operated by the workers and operate in a mostly-decentralized manner that uses prices as an economic feedback system while not allowing capital hoarding.
+I will outline a system where enterprises are community-owned, operated by the workers, and operate in a mostly-decentralized manner that uses prices as an economic feedback system while not allowing capital hoarding.
 
 ## Production and markets
 
-Many socialists are afraid of the term "market." It's usually used in conjunction with capitalism, and as such is a trigger-word for those who support Marxian ideas. However, a market doesn't necessarily mean the exploitation of workers, and it's an idea that's almost completely glossed over in socialist literature.
+Many socialists are afraid of the term "market." It's usually used in conjunction with capitalism. However, a market doesn't necessarily mean the exploitation of workers, and it's an idea that's almost completely glossed over in socialist literature.
 
 A market is a method and means of exchanging goods and services. In the case of socialism, the workers may own the means of production (for whatever nebulous definition various theories provide), but how are they to exchange their goods and services to other workers or consumers?
 
-They do it via markets.
+They do it via markets. Even a centrally planned economy is still a market, but the parameters of the market are tightly controlled by a small board of people (whether democratically elected or not).
 
-Socialism doesn't provide a model for working markets, though, and so various socialist factions are left to define this themselves, some of them based only on such loose concepts as "workers and consumers will form organizations and decide what to produce" or "we can't know how it will all function until the workers seize the means of production!" (what a grand way to form a new model of society...what could go wrong?). You may condemn this as a straw man argument, however I have come across many who think like this.
+Socialism doesn't provide a model for working markets, though, and so various socialist factions are left to define this themselves, some of them based only on such loose concepts as "workers and consumers will form organizations and decide what to produce" or "the economy will be planned democratically." The theories are endlessly vague.
 
 There has to be a way, however, to decide who builds what, and how it is distributed. To some, this involves large unions and interest groups deciding through spokespeople or democratically-elected leadership. To others, it means a supercomputer that tells every person exactly where they should be and exactly what they should be doing. Or perhaps a capitalist market with worker-owned co-ops.
 
-I will define a working market system that neither requires top-down central planning, nor allows exploitation of the workers, all while still allowing entrepreneurship and innovation.
+I will define a working market system that neither requires top-down central planning, nor allows exploitation of the workers, all while still allowing entrepreneurship, competition, and innovation.
 
 ## Attaining socialism
 
@@ -58,9 +59,9 @@ I would argue revolution, except in extreme cases, is an effective way to remove
 
 Beyond just revolution, many have stated that socialism can only truly exist as a global phenomena. I would argue that if socialism cannot compete and win against a capitalist system after gaining a critical mass of support, then it is truly an inferior model. That's not to say the birth of a practicing socialist movement won't be extremely difficult -- even seemingly impossible at some points -- but in the end, I believe the productive capacity of those who do what they do because they love doing it will always win against those who do what they do because they will starve if they do not.
 
-I will outline a method for achieving socialism within the confines of a capitalist system such that it can happen today, and not exist as some distant fantasy that requires mass killing.
+I will outline a method for achieving socialism within the confines of a capitalist system such that it can happen today, and not exist as some distant fantasy that requires bloodshed.
 
-## Chapter 2: Regional socialism: an overview
+# Chapter 2: Regional socialism: an overview
 
 Let's be terse and start with a set of definitions and objectives:
 
@@ -165,7 +166,7 @@ Direct transfers between two people is allowed. And why not...they earned the mo
 
 After all, the goal of this economic system is not to force people to do things a certain way, but to make it easy and cheap to do things in the accepted fashion, all while accepting human nature. If someone wants to buy old cars and sell them at a profit, she can certainly do so, but she might find that working for a mechanic company instead will pay more.
 
-## Chapter 3: Function of regions
+# Chapter 3: Function of regions
 
 Regions are the economic containers of regional socialism. They are managed by the people participating in the region, and define and automate various aspects of the economy.
 
@@ -222,7 +223,7 @@ This allows companies and people in various regions to engage in commerce with e
 
 Federation of regions allows transparency and freedom of movement.
 
-## Chapter 4: Companies, workers, and wages
+# Chapter 4: Companies, workers, and wages
 
 Companies are started by region members and operated by their workers. They are autonomous economic units that can set prices for their products and services however they see fit, as long as their income matches the inputs to their production (including regionally-defined wages).
 
@@ -269,7 +270,7 @@ Worker wages are set by the members of the region. This is more complicated than
 
 For instance, a company might have a CEO, and a region might set the CEO wage to $40/hour. Now all CEOs make $40/hour. However, let's say that a region decides to invest in its growing aeronautics industry. It wants the CEO of an aeronautics firm to make more than the CEO of a towing company, but a data-entry clerk at the aeronautics firm should make the same wage as a data-entry clerk at the towing company. Not so simple!
 
-Let's imagine another situation. A region has a doctor shortage, so raises the wages for doctors, which causes doctors to move into the region to fill the available positions. Great! However, doctors keep moving in to try to get jobs. Too many doctors! The region decides to lower the doctor wage back to a previous rate to stop the influx. Does this mean the current doctors we worked hard to get will leave for greener pastures? Not necessarily. Wage reductions for existing workers can be handled such that they are delayed and/or are reduced linearly (decayed) over a regionally-set amount of time. The amount of delay (days until the wage starts changing) and rate of decay (days until the new wage takes full effect, not counting delay) are regionally-set on a per-reduction basis. New workers who take on these jobs will immediately get the new lower wages, and workers who had the higher paying jobs before will have some amount of delay and slow decline before the wage reductions take full effect (and it's important to note that the delay can be set arbitrarily high to effectively lock in previous wages). New downward changes to wages will essentially override the previous delay/decay parameters, but the new parameters will be applied to the wage at its current rate of decay. In other words, delay and decay only act to change the current wage, and cannot arbitrarily set the wage lower (unless delay and decay are both set to 0, which would force an immediate wage reduction).
+Let's imagine another situation. A region has a doctor shortage, so raises the wages for doctors, which causes doctors to move into the region to fill the available positions. Great! However, doctors keep moving in to try to get jobs. Too many doctors! The region decides to lower the doctor wage back to a previous rate to stop the influx. Does this mean the current doctors we worked hard to get will leave for greener pastures? Not necessarily. Wage reductions for existing workers can be handled such that they are delayed and/or are reduced linearly (decayed) over a regionally-set amount of time. The amount of delay (days until the wage starts changing) and rate of decay (days until the new wage takes full effect, not counting delay) are decided on a per-reduction basis. New workers who take on these jobs will immediately get the new lower wages, and workers who had the higher paying jobs before will have some amount of delay and slow decline before the wage reductions take full effect (and it's important to note that the delay can be set arbitrarily high to effectively grandfather-in previous wages). New downward changes to wages will essentially override the previous delay/decay parameters, but the new parameters will be applied to the wage at its current rate of decay. In other words, delay and decay only act to change the current wage, and cannot arbitrarily set the wage lower (unless delay and decay are both set to 0, which would force an immediate wage reduction).
 
 Wages are broken out into two categories: occupation and industry. Every occupation is part of an industry, usually as a function of the company the occupation exists in. For instance a lawyer at a bank would be a lawyer by occupation in the finance industry. Let's look at the full calculation for a wage:
 
@@ -289,9 +290,9 @@ Every industry has a need parameter which defines how much a region values that 
 - Industry weight: A value between 0 and 1 that sets how much this occupation is affected by the corresponding industry's need. A data entry occupation that takes minimal training might have this value set close to 0 (so data entry in finance makes the same as data entry in education), and a lawyer might have it set higher (so if the region values the healthcare industry more than advertising, a lawyer in healthcare would make somewhat more than a lawyer in advertising).
 - Need: A value between 0 and 1 that shows how much a region values this particular occupation. For instance, if there is a shortage of accountants, this value might go up, and if there is a surplus, it might go down.
 - Skill: A value between 0 and 1 that determines the amount of skill an occupation has. This should ideally take into account the number of years of training a profession takes (as well as difficulty of training).
-- Stress: A value between 0 and 1 that determines the physical and mental stress an occupation has. A dog walker would probably be 0. A surgeon would probably be close to 1.
-- Danger: A value between 0 and 1 that sets the physical danger of an occupation. A teacher might be close to 0, and a construction worker might be close to 1.
-- Productivity range: A value between 0 and 1 that sets the percentage of the base wage the wage can change given a worker's productivity level. In other words, with a base wage of $100/hr and a productivity range of 0.2 (or, 20%), the wage can fluctuate between $80 (at a productivity level of 0.0) and $120 (at a productivity level of 1.0). At a productivity level of 0.5, the base wage remains unchanged ($100).
+- Stress: A value between 0 and 1 that determines the physical and mental stress an occupation has. A dog walker would probably be 0. A surgeon might be close to 1.
+- Danger: A value between 0 and 1 that sets the physical danger (risk or death or permanent injury) of an occupation. A teacher might be close to 0, and a construction worker might be close to 1.
+- Productivity range: A value between 0 and 1 that sets the percentage the base wage can change given a worker's productivity level. In other words, with a base wage of $100/hr and a productivity range of 0.2 (or, 20%), the wage can fluctuate between $80 (at a productivity level of 0.0) and $120 (at a productivity level of 1.0). At a productivity level of 0.5, the base wage remains unchanged ($100).
 
 It's important to note that many of these parameters may be set once and only adjusted infrequently. Need will probably be adjusted the most, and things like skill and danger may be adjusted infrequently. However, if the miner occupation has a high danger level, the introduction of a machine that lets the miner do their job remotely would significantly reduce the danger, and the danger level would be adjusted. A robotic-assist arm may reduce the stress level of surgeons quite a bit.
 
@@ -299,7 +300,7 @@ A worker's productivity level is set by the company she works for. If a worker i
 
 Productivity level along with productivity rate allows creating some range of wages within the same occupation. This allows companies a certain level of autonomy in setting their own wages while at the same time keeping the wishes of the community as a whole in mind. The goal of this system is to balance the needs of the overall region while still giving companies a certain level of control.
 
-## Chapter 5: Banking and investment
+# Chapter 5: Banking and investment
 
 WIP
 
@@ -309,7 +310,7 @@ Companies that choose to seek financing from banks outside the regional economy 
 
 Investment via private equity will be impossible, because a company has no shares to sell (the region owns the companies). That's not to say, however, 
 
-## Chapter 6: Housing
+# Chapter 6: Housing
 
 A goal of regional socialism is to provide housing to members of the region at-cost. The idea is to attract people outside the regional economy to join and participate in the economy by providing housing at a much cheaper rate than the outside. Even if someone in the regional economy makes less money doing their job than they did outside in the capitalist world, housing (and possibly other services) would be much cheaper inside the economy and would offset the difference.
 
@@ -329,23 +330,23 @@ It is hoped that the region buying up properties and setting rents fairly will h
 
 As with other secondary markets, regional socialism takes a passive stance, even with items as large as property. That said, as with other secondary markets, individuals will be competing with regional socialism and may find it more profitable to operate in the primary markets rather than secondary.
 
-## Chapter 7: Education
+# Chapter 7: Education
 
 WIP
 
-## Chapter 8: Global trade
+# Chapter 8: Global trade
 
 WIP
 
-## Chapter 9: Unemployment and the unemployable
+# Chapter 9: Unemployment and the unemployable
 
 WIP
 
-## Chapter 10: The definition of the Conductor system
+# Chapter 10: The definition of the Conductor system
 
 WIP
 
-## Chapter 11: The start and growth of a socialist economy
+# Chapter 11: The start and growth of a socialist economy
 
 Now that we have defined a plan for how our regional socialist economies operate, we need to have a plan for breathing life into the idea.
 
