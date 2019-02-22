@@ -1,0 +1,8 @@
+---
+geometry: margin=10.5in
+indent: true
+header-includes: |
+  \usepackage{tcolorbox}
+  \newcommand\qed{\hfill\rule{1em}{1em}}
+---
+

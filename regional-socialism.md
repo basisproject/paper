@@ -1,4 +1,8 @@
-# A new economic model: Regional Socialism
+---
+title: Regional Socialism: A new economic model
+subtitle: Or, how to negate the negative effects of profit while still using it as an economic feedback mechanism
+author: Andrew M. Lyon
+...
 
 In the following, the blueprint for a socialist society will be outlined, in detail, that satisfies the following requirements:
 
