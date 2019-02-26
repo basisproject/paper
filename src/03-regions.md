@@ -10,24 +10,27 @@ The regional parameters define various aspects for how the economy will work wit
 
 All regional parameters will always be publicly available for review by any member of the region. The full list of regional parameters is as follows:
 
-- Worker hourly wages (more on how this is defined in Chapter 4)
+- Worker hourly wages (more on how this is defined in [Chapter 4](#wages-and-wage-calculations))
 - Wage reduction dampening rate/delay
 - Productivity rate value range (eg, between 0.5 and 1.5, or 0.8 and 1.2, etc)
 - Sales tax percentage
 - Income tax percentage
 - Profits-at-rest taxation delay and percentage
+- Regional bank investment allocation
 - Healthcare subsidization
 - Higher education subsidization
 - Higher education wait-list prioritization
-- Percentage above-cost to charge for apartments (essentially an apartment tax)
-- Percentage above-cost to charge for duplex and house rental (essentially a house-rental tax)
+- Percentage of-cost to charge for apartments (90% would be a 10% subsidy, 110% would be a 10% apartment tax)
+- Percentage of-cost to charge for duplex and house rental
 - UBI monthly payment amounts
+- Director position appointments for various regionally-operated companies
 
 ## Regionally-operated companies
 
 The region will operate a small amount of various types of companies. The main candidates for regional operation are:
 
-- Housing
+- Regional bank
+- Housing (and property management thereof)
 - Healthcare
 - Education
 

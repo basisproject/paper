@@ -10,12 +10,12 @@ Let's be terse and start with a set of definitions and objectives:
 - Companies are the economic drivers of the region, and anybody can start a company.
 - Companies are regionally-owned, worker-operated, and rent production equipment/facilities from the region at-cost. Companies are allowed to acquire any equipment or build any facilities they require (within local regulatory limits).
 - Company structure (hierarchy, collective, etc) is decided by workers, and decisions can be made collectively or delegated to managers (hiring, firing, spending decisions, etc).
-- Loans/operating capital are facilitated by regional banks and credit unions (operating under the same rules as other worker-run regional companies) who charge interest based on the amount of risk of any venture they fund.
+- Loans/operating capital are managed by a regionally-operated public bank. Private banks and credit unions are also possible as a means of funding enterprises (and they would be operated under the same principals as other companies in the region).
 - Companies sell their products and services at whatever prices they see fit.
-- If a company goes bankrupt, its (non-regionally-owned) assets become the property of its creditors with the caveat that the region gets right of first refusal on purchasing reclaimed assets from creditors (such as office buildings, equipment, etc). For instance, if a company bought an office building that was *not* previously owned by the region, the region would be able to buy that office building if it chose to do so.
+- If a company goes bankrupt, its (non-regionally-owned) assets become the property of its creditors. If the company was funded by th regionally-owned bank, its assets become property of the region.
 - *Company profits cannot be distributed to workers*. Profits must be used to hire more workers or to purchase more inputs to production. Profits-at-rest are taxed by a regionally-defined amount, incentivizing reinvestment, and redistributing unspent profit to the community.
 - Companies can hire who they choose (within local/state/federal regulatory restrictions).
-- Workers are paid an hourly rate based on productivity, training required, regional need, physical/mental stress, etc (productivity being decided by peers and/or industry standards if measurable, and the others being regionally-decided). Productivity rate acts to set a range of wages for each occupation, and the amount of range is regionally-decided per-occupation.
+- Workers are paid an hourly rate based on productivity, training required, regional need, physical/mental stress, etc (productivity being decided by peers and/or industry standards if measurable, and the other wage factors being regionally-decided). Productivity rate acts to set a range of wages for each occupation, and the amount of range is regionally-decided per-occupation.
 - Payment is automatically deducted from the company capital pool and transferred to workers hourly.
 - All worker income is taxed by a regionally-defined amount.
 - All sales are taxed by a regionally-defined amount.

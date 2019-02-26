@@ -22,7 +22,7 @@ It would be the regional bank director's job to see that the regional bank's act
 
 Although the loans made by the regional bank would be anonymized, the specific amounts of loans, the terms, and the industrial sectors the loans were allocated to would be publicly available information. All of the bank's holdings would be available as well.
 
-## Private equity and venture capital
+## Venture capital
 
 Because all companies are owned by the region, selling ownership of a company would not be possible. However, the region would be able, through its regional bank, to provide a venture capital fund that invests in riskier enterprises on the condition that the companies would later pay dividends to the regional bank's venture program after a certain level of profitability is reached.
 
