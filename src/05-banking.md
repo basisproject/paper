@@ -4,11 +4,9 @@ Funds from regional services and regional taxes would be stored in a regionally-
 
 The regional bank would be run by professional bankers, working under the "public banking" industry (allowing a distinction from private banking when setting regional wages).
 
-If a company goes bankrupt, the assets and collateral would be seized by the regional bank, which would then sell off or keep various assets depending on the mission. For instance, the regional bank may decide it wants to retain property but sell off all vehicles.
-
 ## Governance
 
-The regional bank, like other regionally-operated companies, would be run by a regionally-elected director. This director would likely have a background in banking and would make high-level decisions regarding the structure and operations of the regional bank, and would be responsible for executing the financial will of the region.
+The regional bank, like other regionally-operated companies, would be run by a regionally-elected board of directors. This board would likely have a background in banking and would make high-level decisions regarding the structure and operations of the regional bank, and would be responsible for executing the financial will of the region.
 
 ## Allocation
 
@@ -16,11 +14,17 @@ The region itself would decide on a desired allocation of funds. For instance, t
 
 The regional allocation would also control subsidies. The region might decide that to attract new members, housing should not be at-cost but instead 80% of cost. It might decide that 70% of all medical costs should be subsidized. The regional bank would oversee these allocations to the various regional housing and health care companies.
 
-It would be the regional bank director's job to see that the regional bank's actions matches the will of the region (within some acceptable threshold). A director that allocates funds as desired while also making a modest profit would likely be re-appointed.
+It would be the job of the regional bank's board to see that the regional bank's actions matches the will of the region (within some acceptable threshold). The members of a board that allocates funds as desired while also making a modest profit would likely be re-appointed.
 
 ## Transparency
 
 Although the loans made by the regional bank would be anonymized, the specific amounts of loans, the terms, and the industrial sectors the loans were allocated to would be publicly available information. All of the bank's holdings would be available as well.
+
+## Bankruptcy
+
+If a company goes bankrupt, the assets and collateral it owned would be seized by the regional bank, which would then sell off or keep various assets depending on the mission. For instance, the regional bank may decide it wants to retain property but sell off all vehicles.
+
+If a company is funded via a private bank or credit union within the region, the assets would be managed by that private institution.
 
 ## Venture capital
 
@@ -28,11 +32,15 @@ Because all companies are owned by the region, selling ownership of a company wo
 
 The value of dividends and the terms of the initial or ongoing investment would be at the discretion of the regional banks venture program managers.
 
+## Private banking
+
+The existence of a regional bank does not exclude in-region private banks from existing ("private" meaning banks started and run by regional members). Members of a region might want to start a credit union as a way to get interest return on their funds, or an entrepreneur with a background in finance might want to start a private bank that focuses on a particular segment of investment they think is missing from the regional bank's allocations.
+
+As with all other regional companies, profits are not able to be distributed to workers and are taxed if left too long. Banks could distribute this profit as interest or use it to reinvest into more loans.
+
 ## Outside funding
 
 Companies that choose to seek financing from banks outside the regional economy must be set up as subsidiaries to protect the region's assets from seizure. This will likely be a more intricate process than seeking capital from within the region, although it's possible this could be streamlined enough to be fairly cheap for both the region itself and the entrepreneur (who would be responsible for all filing fees).
 
-## Private banking
-
-The existence of a regional bank does not exclude private banks from existing. Members of a region might want to start a credit union as a way to get interest return on their funds, or an entrepreneur with a background in finance might want to start a private bank that focuses on a particular segment of investment they think is missing from the regional bank's allocations.
+The legal process of this would be managed by an arm of the regional bank.
 

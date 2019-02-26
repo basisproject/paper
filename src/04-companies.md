@@ -29,7 +29,7 @@ Regional socialism takes the good aspects of markets (decentralized planning usi
 
 ## Ownership
 
-Companies are all regionally-owned. It's important to distinguish between regionally-owned and regionally-operated. Regionally-operated companies are run by a director that is appointed by members of the region. They are run with transparent accounting and often are subsidized in some manner by the region's capital pool.
+Companies are all regionally-owned. It's important to distinguish between regionally-owned and regionally-operated. Regionally-operated companies are run by a board of directors appointed by members of the region. They are run with transparent accounting and often are subsidized in some manner by the region's capital pool.
 
 All other companies are worker-operated. Worker-operated companies are still regionally-owned, but the region has no direct control over a company's existence, operation, or capital pool. All these things are controlled by the workers of a company.
 

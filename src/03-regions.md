@@ -23,7 +23,7 @@ All regional parameters will always be publicly available for review by any memb
 - Percentage of-cost to charge for apartments (90% would be a 10% subsidy, 110% would be a 10% apartment tax)
 - Percentage of-cost to charge for duplex and house rental
 - UBI monthly payment amounts
-- Director position appointments for various regionally-operated companies
+- Board of director position appointments for various regionally-operated companies
 
 ## Regionally-operated companies
 
@@ -38,7 +38,7 @@ The idea is that the region will trend toward operating companies where profit-s
 
 All accounting happens through Conductor, allowing detailed information on costs of running the company. This makes it easy to offer services at-cost (or some percentage of cost, with the region subsidizing the difference). It also allows ultimate transparency: any regional member can view the accounting of any regionally-operated company.
 
-Members of the region can appoint a director for each regional company. So while regionally-operated companies are not beholden to the rule of profit, they will still be accountable to members of the region (and as such will still strive to minimize costs).
+Members of the region can appoint a board of directors for each regional company. So while regionally-operated companies are not beholden to the rule of profit, they will still be accountable to members of the region (and as such will still strive to minimize costs).
 
 Regionally-operated companies are not necessarily restricted to regional members. For instance, if a region has excess space in an apartment complex, it may rent out the rooms to non-regional members at market rate (instead of at-cost). Of course, when the market-rate tenants find out their neighbors are paying significantly lower rents, they may decide to become members.
 

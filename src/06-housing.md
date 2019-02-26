@@ -4,7 +4,7 @@ A goal of regional socialism is to provide housing to members of the region at-c
 
 Regionally-owned housing will likely be limited to mainly apartments, however there is no reason why the region can't buy condos, duplexes, and single-family homes and rent them out as well. Living in more luxurious housing would likely come with a regionally-defined (and possibly per-property) housing tax percent above the at-cost value of the property's local taxes and maintenance.
 
-In essence, the region will be a landlord who only raises rent if the underlying costs of the property go up. Property management is handled by a regionally-operated company with an elected director.
+In essence, the region will be a landlord who only raises rent if the underlying costs of the property go up. Property management is handled by a regionally-operated company with an elected board of directors.
 
 ## At-cost apartments
 
