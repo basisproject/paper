@@ -35,17 +35,15 @@ The idea is that the region will trend toward operating companies where profit-s
 
 All accounting happens through Conductor, allowing detailed information on costs of running the company. This makes it easy to offer services at-cost (or some percentage of cost, with the region subsidizing the difference). It also allows ultimate transparency: any regional member can view the accounting of any regionally-operated company.
 
-Members of the region can appoint a director or board of directors for each regional company. So while regionally-operated companies are not beholden to the rule of profit, they will still be accountable to members of the region.
+Members of the region can appoint a director for each regional company. So while regionally-operated companies are not beholden to the rule of profit, they will still be accountable to members of the region (and as such will still strive to minimize costs).
 
 Regionally-operated companies are not necessarily restricted to regional members. For instance, if a region has excess space in an apartment complex, it may rent out the rooms to non-regional members at market rate (instead of at-cost). Of course, when the market-rate tenants find out their neighbors are paying significantly lower rents, they may decide to become members.
 
-## Capital
+## Capital, banking, and transparency
 
-Regional taxation (income, sales, profits-at-rest) all generates regional income and is put into the region's capital pool. What this capital is spent on will also be regionally-decided. Should healthcare be subsidized? Should sales tax be lowered? Members can adjust the parameters of the economy to tune the growth of the capital pool.
+Regional taxation (income, sales, profits-at-rest) all generates regional income and is put into the regional bank. The regional bank allocates funds based on a regionally-decided set of allocations. See the [chapter on Banking](#chapter-5-banking-and-investment) for more information.
 
-Regional capital, like regionally-operated companies, operates under full transparency. Any member of the region can see exactly how much is in the capital pool now and at all points in history. Being able to see historical data allows charting and more long-term decision making.
-
-The transparency of the capital pool and regionally-operated companies allows making highly informed decisions on just how much the region should subsidize or tax various operations. For instance, if the members of a region know it costs $4M a month to operate the regional hospital, they know it will cost $3M a month out of the capital pool to subsidize 75% of healthcare.
+The regional bank is operated under the principles of transparency, which allows making highly informed decisions on just how much the region should subsidize or tax various operations. For instance, if the members of a region know it costs $4M a month to operate the regional hospital, they know it will cost $3M a month out of the capital pool to subsidize 75% of healthcare.
 
 ## Federation
 

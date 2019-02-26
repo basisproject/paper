@@ -8,11 +8,15 @@ If a company goes bankrupt, the assets and collateral would be seized by the reg
 
 ## Governance
 
-The regional bank, like other regionally-operated companies, would be run by a regionally-elected director. This director would likely have a background in banking and would make high-level decisions regarding the structure and operations of the regional bank, would be responsible for executing the wills of the region's desired allocations.
+The regional bank, like other regionally-operated companies, would be run by a regionally-elected director. This director would likely have a background in banking and would make high-level decisions regarding the structure and operations of the regional bank, and would be responsible for executing the financial will of the region.
 
-The region itself would vote on a desired allocation of funds. For instance, the region may decide that it wants the regional bank to invest 30% of its funds in agriculture, 30% in energy technology, and allocate the rest at its discretion. It may also determine the overall risk: 50% of funds in stable loans, 30% in medium-risk loans, and 20% in the venture capital fund.
+## Allocation
 
-It would be the regional bank director's job to see that the regional bank matches the will of the region (within some acceptable threshold). A director that allocates funds as desired while also making a modest profit would likely be re-elected.
+The region itself would decide on a desired allocation of funds. For instance, the region may decide that it wants the regional bank to invest 30% of its funds in agriculture, 30% in energy technology, and allocate the remaining 40% at its discretion. It may also determine the overall risk: 50% of funds in stable loans, 30% in medium-risk loans, and 20% in the venture capital fund.
+
+The regional allocation would also control subsidies. The region might decide that to attract new members, housing should not be at-cost but instead 80% of cost. It might decide that 70% of all medical costs should be subsidized. The regional bank would oversee these allocations to the various regional housing and health care companies.
+
+It would be the regional bank director's job to see that the regional bank's actions matches the will of the region (within some acceptable threshold). A director that allocates funds as desired while also making a modest profit would likely be re-appointed.
 
 ## Transparency
 

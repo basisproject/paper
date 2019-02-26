@@ -1,10 +1,10 @@
 # Chapter 6: Housing
 
-A goal of regional socialism is to provide housing to members of the region at-cost. The idea is to attract people outside the regional economy to join and participate in the economy by providing housing at a much cheaper rate than the outside. Even if someone in the regional economy makes less money doing their job than they did outside in the capitalist world, housing (and possibly other services) would be much cheaper inside the economy and would offset the difference.
+A goal of regional socialism is to provide housing to members of the region at-cost (or, depending on the region, perhaps only a percentage of cost). The idea is to attract people outside the regional economy to join and participate in the economy by providing housing at a much cheaper rate than the outside. Even if someone in the regional economy makes less money doing their job than they did outside in the capitalist world, housing (and possibly other services) would be much cheaper inside the economy and would offset the difference.
 
 Regionally-owned housing will likely be limited to mainly apartments, however there is no reason why the region can't buy condos, duplexes, and single-family homes and rent them out as well. Living in more luxurious housing would likely come with a regionally-defined (and possibly per-property) housing tax percent above the at-cost value of the property's local taxes and maintenance.
 
-In essence, the region will be a landlord who only raises rent if the underlying costs of the property go up. Property management is handled by a regionally-operated company with an elected director or board of directors.
+In essence, the region will be a landlord who only raises rent if the underlying costs of the property go up. Property management is handled by a regionally-operated company with an elected director.
 
 ## At-cost apartments
 
