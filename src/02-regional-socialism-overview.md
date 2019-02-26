@@ -1,0 +1,103 @@
+# Chapter 2: Regional socialism: an overview
+
+Let's be terse and start with a set of definitions and objectives:
+
+- A region is any group of people who decide to associate with each other using this new economic system, generally within a geographic location. A region can be a city or county, or even a network of people within a capitalist-operating city.
+- Production and its tools (factories, offices, machines, etc) are regionally/collectively-owned.
+- A system-wide, electronic currency is used, and can be exchanged intra- and inter-region.
+- Open-source software (named "Conductor") is used to manage the parameters of the regional economies, handle transfers of currency between entities, distribute payment to workers, facilitate purchasing between different companies, advertise job openings for companies, and act as an accounting tool for measuring the costs of regionally-operated companies. Regional capital pool(s) and regionally-operated companies will publish records of all transfer and purchasing for public review.
+- Companies outside the regional-socialist economy will be allowed to participate in the buying and selling of products/services using the Conductor network, allowing companies inside the economy to get the inputs to their production, and also sell products services to the outside world.
+- Companies are the economic drivers of the region, and anybody can start a company.
+- Companies are regionally-owned, worker-operated, and rent production equipment/facilities from the region at-cost. Companies are allowed to acquire any equipment or build any facilities they require (within local regulatory limits).
+- Company structure (hierarchy, collective, etc) is decided by workers, and decisions can be made collectively or delegated to managers (hiring, firing, spending decisions, etc).
+- Loans/operating capital are facilitated by regional banks and credit unions (operating under the same rules as other worker-run regional companies) who charge interest based on the amount of risk of any venture they fund.
+- Companies sell their products and services at whatever prices they see fit.
+- If a company goes bankrupt, its (non-regionally-owned) assets become the property of its creditors with the caveat that the region gets right of first refusal on purchasing reclaimed assets from creditors (such as office buildings, equipment, etc). For instance, if a company bought an office building that was *not* previously owned by the region, the region would be able to buy that office building if it chose to do so.
+- *Company profits cannot be distributed to workers*. Profits must be used to hire more workers or to purchase more inputs to production. Profits-at-rest are taxed by a regionally-defined amount, incentivizing reinvestment, and redistributing unspent profit to the community.
+- Companies can hire who they choose (within local/state/federal regulatory restrictions).
+- Workers are paid an hourly rate based on productivity, training required, regional need, physical/mental stress, etc (productivity being decided by peers and/or industry standards if measurable, and the others being regionally-decided). Productivity rate acts to set a range of wages for each occupation, and the amount of range is regionally-decided per-occupation.
+- Payment is automatically deducted from the company capital pool and transferred to workers hourly.
+- All worker income is taxed by a regionally-defined amount.
+- All sales are taxed by a regionally-defined amount.
+- Global (or, external) trade happens via the Conductor system or, if needed products/goods are unavailable, regional companies that operate on the Conductor network and import/export goods (as well as handle returns).
+- K-12 education is set up as a regionally-operated company (thus all purchasing and funds are transparent) and fully subsidized. Teachers, administrators, and maintenance staff are payed under the same guidelines as other regional companies (regionally-set wages).
+- Colleges and trade schools are regionally-operated and subsidized. Students pay a (regionally-decided) percentage of the operational cost of the school they attend while they are enrolled.
+- Private schools are set up as non-subsidized regional companies and operate under the same rules of profit as other regional companies.
+- Regionally-owned colleges/trade schools are wait-listed (via Conductor) favoring new students or those who have not been to school in N years (N being decided regionally). Wait-listing allows determining demand (to hire more teachers or expand facilities), as well as balancing the need for re-training new careers with excessive and unnecessary schooling.
+- Apartments are regionally-owned and rented out at-cost, or some regionally-decided percentage above cost (cost being property tax, maintenance, and administration). Housing is wait-listed (via software), allowing collective measure of demand.
+- Home ownership is not restricted or managed by the region, although if more regional housing is desired, homes may be purchased by the region and rented out at-cost (or a regionally-decided percentage above-cost).
+- Hospitals are regionally-owned and subsidized. Patients pay a (regionally-decided) percentage of visits/procedures. Pricing is at-cost. Private hospitals are also allowed and set up as regional companies.
+- All members of the region will be paid a (regionally-decided) monthly stipend out of the region's capital pool (UBI).
+
+Probably the most important thing to note here is that (non regionally-operated) companies can extract profit from the products they sell, but they can only use that profit to expand production (via hiring, buying more inputs to production) or make production more efficient (automating various aspects of production, buying more efficient machinery, etc). More details on this in the "Company profits" section below.
+
+Another thing you may notice is that a lot of things happen in the above model as if by clockwork (workers are paid hourly from the company pool, products and jobs are listed, etc). The goal of this model of socialism is not to just provide a blueprint, but to actually provide the open-source software that will be used as the backbone of its functioning. Things like tracking workers' hours, buying and selling products and services, job listings, etc will all be tracked in this distributed software system that lets not only people participating in a region engage in commerce, but also lets people in different regions engage via a federated network. In other words, someone from the San Francisco region would be able to see job listings in the New York region, and a Houston region company can see and buy products from a Minneapolis region company.
+
+Because it tracks work hours (along with wages) and inputs (products bought needed to supply a company) of regionally-owned companies (hospitals, schools, etc), it can account for exactly how much things cost to run, and can provide services to their customers at-cost.
+
+Let's tackle a few key concepts.
+
+## Regions
+
+Why the regional approach? It comes down to human nature. Nobody likes someone else telling them how to live their life. However, it's usually much worse when the person doing so lives far away and has no idea what life is like for people here.
+
+Economic decisions should reflect the needs of communities, not some state planning board from some distant land. Regions are set up such that people participating in the region set the parameters of their own economy to suit their needs.
+
+Regions are the geographically-separated pockets of ever-growing socialist economies. This locality of them, and their ability to function with only a handful of people in them, is the very means by which the movement will eventually spread and grow.
+
+## Company profits
+
+Companies can have profit, and can buy and sell things at will. So did we just invent market socialism?
+
+The answer is no, because a) the means of production are regionally/community-owned and b) the workers are paid based on regionally-decided parameters (the region decides "Teachers get $50/hr, doctors get $40/hr, shopkeepers get $20/hr, etc"). The only motives for a company's profit are to a) grow the company and hire more workers and b) invest in making the company more efficient.
+
+Capitalists often crow about how private property and the free exchange of capital allows reinvestment into enterprise (although they will defend a company laying off workers and buying back their own shares after receiving an enormous tax break). Well here, we make this function explicit and define profit as only useful to a business for paying the workforce and reinvesting into the business.
+
+Profit has another use here, though. It's the feedback mechanism that drives the economy. In essence, it forgoes the need for detailed economic planning. You can measure a company's inputs and outputs and measure consumer satisfaction and match supply exactly with demand by tracking every single possible economic variable until you're blue in the face, or you can relegate that to the people who are actually running the production. In essence, profit becomes the measure of an enterprise's economic success. You are giving the workers the means to produce, the freedom to produce how they see fit, and the ability to innovate and derive profit not for personal gain but for the profit of the common good.
+
+Profit is what keeps a central planner in some bureaucratic office from coming by one day and telling the workers that they aren't meeting the needs of society. It lets a company know whether the value of the products it creates are enough to pay for the labor (as it is valued by the community) going into those products. It acts as a signal of customer satisfaction. It creates a drive to improve efficiency without the temptation to pocket the surplus value.
+
+Many socialists might argue that markets and profits create waste and are antithetical to the actual needs of society. For instance, how much human labor is spent in advertising to get consumers to buy things they don't need? The answer to this is, of course, to lower the wages for people in the advertising industry. Because wages are now explicitly set as a controlled economic variable, the region can decide which activities it finds useful and which it does not. In addition, because profits cannot be distributed personally, the endless "race to the bottom" one finds in capitalism would be controlled not just by fixed wages, but also by the various restrictions on how profit is used. Would this fix all consumerism? Likely, not. However, there is a suspicious and worrying amount of overlap between "production meeting people's needs" and a central planning board deciding that only certain styles of glasses frames will be produced.
+
+Regional socialism will not solve climate change or consumerism, but it aims to temper the things that cause them.
+
+## Open-source Software ("Conductor")
+
+Those who opt-in to regional socialism will also be opting to use the software, named "Conductor," that manages various aspects of the economy. This software will be open-source and available to the public for review and for (controlled) modification. The database it operates on will be publicly viewable and operated under the conditions of absolute transparency (although all balances and transactions will be private, except for regionally-operated companies).
+
+The software defines the many operations that can take place in the economy. It tracks the number of worker hours. It automates the transfer of company profits to worker accounts, the repayment of loans from companies to banks/credit unions, and tenant payments to regional apartments. It facilitates purchasing via a payment and product network. It allows management of specific attributes such as hourly wages, profit-at-rest taxation levels, etc. It has various levels of permissions control, such that only specific people can do specific tasks, sometimes requiring approval from multiple people to perform an action.
+
+The purpose of Conductor is not just to enforce policies, but to lower the barrier to entry for many tasks people and companies will be performing on a constant basis. And beyond that, its goal is to be so good at what it does, that to not use it isn't just inconvenient, it's expensive.
+
+The platform will exist as a set of tools to make regional socialism cheaper to operate.
+
+## Currency
+
+Currency is a touchy subject in socialism. Are people paid in dollars? In labor tokens? If not, how do consumers purchase things, and how to workers buy the inputs to their production process? We all dream of a self-organizing, moneyless economy, but how such a thing might work in practice is anyone's guess.
+
+In regional socialism, a currency is defined and used. We will just use Regional-Socialist Credits ("RSC"). This currency will be transferable within regions and between regions. The currency itself will be completely electronic and automatically managed by the Conductor system.
+
+The currency is set up such that direct transfers between:
+
+- Any two people are allowed (allowing purchase of second-hand products)
+- A person and a company are prohibited (instead, products can be purchased via Conductor)
+- A company and another company are prohibited (products and services would be bought as Conductor purchases)
+
+It may seem draconian to limit transactions this way, however it ensures that:
+
+- Companies spend excess profit on reinvestment, hiring, or purchasing inputs to their production instead of payouts
+- Company profits must come from product sales or services, thus adding value to society
+- Regionally-operated companies (schools, hospitals, etc) are completely transparent, allowing to provide services at-cost
+
+Instead of direct transfers, Conductor provides various actions that facilitate the flow of RSC:
+
+- A person or company purchasing a product or service
+- A person or company paying rent on regional housing or production equipment
+- A bank or credit union loaning capital to a person (for purchasing a home or car) or company
+- A person or company paying back a loan
+- A region pooling funds with other regions to pay for common infrastructure or cross-regional services (such as public transit)
+
+Direct transfers between two people is allowed. And why not...they earned the money, they should be able to do what they wish with it. The rationale behind prohibiting direct transfers between people is to limit secondary markets, but secondary markets will form whether using the accepted currency or not. Why not accept this, instead of trying to control it?
+
+After all, the goal of this economic system is not to force people to do things a certain way, but to make it easy and cheap to do things in the accepted fashion, all while accepting human nature. If someone wants to buy old cars and sell them at a profit, she can certainly do so, but she might find that working for a mechanic company instead will pay more.
+

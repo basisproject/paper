@@ -1,14 +1,16 @@
 .PHONY: all book html latext clean
 
-PATH := $(PATH):/c/tools/pandoc
+PATH := $(PATH):/c/dev/pandoc
 
-converted/regional-socialism.epub: regional-socialism.md
+mdfiles := $(shell find src/ -name "*.md" | sort)
+
+converted/regional-socialism.epub: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -o $@ $^
 
-converted/regional-socialism.tex: regional-socialism.md
+converted/regional-socialism.tex: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -s -o $@ $^
 
-converted/regional-socialism.html: regional-socialism.md
+converted/regional-socialism.html: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -s -o $@ $^
 
 book: converted/regional-socialism.epub
