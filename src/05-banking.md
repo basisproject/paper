@@ -1,36 +1,41 @@
 # Chapter 5: Banking and investment
 
-Funds from regional services and regional taxes would be stored in a regionally-operated "public" bank. Not only would this bank hold the various forms of regional income, it would also be the region's primary lender. Companies would apply for loans from the public bank and the structure of the loan would reflect the risk of the venture.
+Funds from regional services and regional taxes will be stored in a regionally-operated "public" bank. Not only will this bank hold the various forms of regional income, it will also be the region's primary lender. Companies will apply for loans from the public bank and the structure of the loan will reflect the risk of the venture.
 
-The regional bank would be run by professional bankers, working under the "public banking" industry (allowing a distinction from private banking when setting regional wages).
+The regional bank will be run by professional bankers, working under the "public banking" industry (allowing a distinction from private banking when setting regional wages).
 
-## Governance
+The regional bank, like other regionally-operated companies, will be run by a regionally-elected board of directors. This board will have stipulations on its constituents:
 
-The regional bank, like other regionally-operated companies, would be run by a regionally-elected board of directors. This board would likely have a background in banking and would make high-level decisions regarding the structure and operations of the regional bank, and would be responsible for executing the financial will of the region.
+- At least two directors must have banking experience.
+- At least one member must have a legal background in finance or banking.
+- At least one non-leadership bank employee.
+- At least one member must be a compliance expert.
+
+This board will make high-level decisions regarding the leadership and operations of the regional bank, and will be responsible for seeing the banking wills of the region fulfilled.
 
 ## Allocation
 
-The region itself would decide on a desired allocation of funds. For instance, the region may decide that it wants the regional bank to invest 30% of its funds in agriculture, 30% in energy technology, and allocate the remaining 40% at its discretion. It may also determine the overall risk: 50% of funds in stable loans, 30% in medium-risk loans, and 20% in the venture capital fund.
+The region itself will decide on a desired allocation of funds. For instance, the region may decide that it wants the regional bank to invest 30% of its funds in agriculture, 30% in energy technology, and allocate the remaining 40% at its discretion. It may also determine the overall risk: 50% of funds in stable loans, 30% in medium-risk loans, and 20% in the venture capital fund.
 
-The regional allocation would also control subsidies. The region might decide that to attract new members, housing should not be at-cost but instead 80% of cost. It might decide that 70% of all medical costs should be subsidized. The regional bank would oversee these allocations to the various regional housing and health care companies.
+The regional allocation will also control subsidies. The region might decide that to attract new members, housing should not be at-cost but instead 80% of cost. It might decide that 70% of all medical costs should be subsidized. The regional bank will oversee these allocations to the various regional housing and health care companies.
 
-It would be the job of the regional bank's board to see that the regional bank's actions matches the will of the region (within some acceptable threshold). The members of a board that allocates funds as desired while also making a modest profit would likely be re-appointed.
+It will be the job of the regional bank's board to see that the regional bank's actions matches the will of the region (within some acceptable threshold). The members of a board that allocates funds as desired while also making a modest profit will likely be re-appointed.
 
 ## Transparency
 
-Although the loans made by the regional bank would be anonymized, the specific amounts of loans, the terms, and the industrial sectors the loans were allocated to would be publicly available information. All of the bank's holdings would be available as well.
+Although the loans made by the regional bank will be anonymized, the specific amounts of loans, the terms, and the industrial sectors the loans were allocated to will be publicly available information. All of the bank's holdings will be available as well.
 
 ## Bankruptcy
 
-If a company goes bankrupt, the assets and collateral it owned would be seized by the regional bank, which would then sell off or keep various assets depending on the mission. For instance, the regional bank may decide it wants to retain property but sell off all vehicles.
+If a company goes bankrupt, the assets and collateral it owned will be seized by the regional bank, which will then sell off or keep various assets depending on the mission. For instance, the regional bank may decide it wants to retain property but sell off all vehicles.
 
-If a company is funded via a private bank or credit union within the region, the assets would be managed by that private institution.
+If a company is funded via a private bank or credit union within the region, the assets will be managed by that private institution.
 
 ## Venture capital
 
-Because all companies are owned by the region, selling ownership of a company would not be possible. However, the region would be able, through its regional bank, to provide a venture capital fund that invests in riskier enterprises on the condition that the companies would later pay dividends to the regional bank's venture program after a certain level of profitability is reached.
+Because all companies are owned by the region, selling ownership of a company will not be possible. However, the region will be able, through its regional bank, to provide a venture capital fund that invests in riskier enterprises on the condition that the companies will later pay dividends to the regional bank's venture program after a certain level of profitability is reached.
 
-The value of dividends and the terms of the initial or ongoing investment would be at the discretion of the regional banks venture program managers.
+The value of dividends and the terms of the initial or ongoing investment will be at the discretion of the regional banks venture program managers.
 
 ## Private banking
 
@@ -40,7 +45,7 @@ As with all other regional companies, profits are not able to be distributed to 
 
 ## Outside funding
 
-Companies that choose to seek financing from banks outside the regional economy must be set up as subsidiaries to protect the region's assets from seizure. This will likely be a more intricate process than seeking capital from within the region, although it's possible this could be streamlined enough to be fairly cheap for both the region itself and the entrepreneur (who would be responsible for all filing fees).
+Companies that choose to seek financing from banks outside the regional economy must be set up as subsidiaries to protect the region's assets from seizure. This will likely be a more intricate process than seeking capital from within the region, although it's possible this could be streamlined enough to be fairly cheap for both the region itself and the entrepreneur (who will be responsible for all filing fees).
 
-The legal process of this would be managed by an arm of the regional bank.
+The legal process of this will be managed by an arm of the regional bank.
 

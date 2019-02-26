@@ -2,7 +2,7 @@
 
 Now that we have defined a plan for how our regional socialist economies operate, we need to have a plan for breathing life into the idea.
 
-The plan is to create an ever-expanding "zone" of regional socialism starting with a core group of participants and moving out from there. Likely, the movement would start with one zone and would be set up legally as a co-op: all members of the co-op equally own all assets of the co-op. An articles of incorporation is written up such that:
+The plan is to create an ever-expanding "zone" of regional socialism starting with a core group of participants and moving out from there. Likely, the movement will start with one zone and will be set up legally as a co-op: all members of the co-op equally own all assets of the co-op. An articles of incorporation is written up such that:
 
 - Anybody can join the co-op, and can do so without any transfer of assets to the co-op.
 - All members of the co-op equally share ownership over all assets.
@@ -24,7 +24,7 @@ WIP
 
 Members of the co-op at this stage are dedicated to a socialist cause, and willing to work hard for this cause. They will set themselves up as "companies" in Conductor, and any income they derive outside of Conductor as a company will be converted to RSC and added to their company's profits, from which they can pay themselves an hourly rate the same as their capitalist rate (which will be taxed at some minimal amount). This income tax is what will feed the co-op's capital pool.
 
-At this stage, Conductor will allow setting hourly rates per-company/per-worker, and members will be allowed to set the number of hours they worked manually (essentially emptying their company profit pool after each pay period). In an ideal world, hourly rates would be per-profession and decided democratically, and worker hours would be tracked by automated systems, but this would be suicidal in early stages. The survival of the system at this stage requires a near 1:1 match between capitalist wages and worker payment. If wages were to be equalized when the regional capital pool was too small and the products/services provided within the region were limited, the members making more would subsidize the ones making less, until the ones making more went bankrupt, and then all is lost. This stage is not set up to tackle income inequality.
+At this stage, Conductor will allow setting hourly rates per-company/per-worker, and members will be allowed to set the number of hours they worked manually (essentially emptying their company profit pool after each pay period). In an ideal world, hourly rates would be per-profession and decided democratically, and worker hours would be tracked by automated systems, but this would be suicidal in early stages. The survival of the system at this stage requires a near 1:1 match between capitalist wages and worker payment. If wages were to be equalized when the regional capital pool was too small and the products/services provided within the region were limited, the members making more will subsidize the ones making less, until the ones making more went bankrupt, and then all is lost. This stage is not set up to tackle income inequality.
 
 After being paid by their company, members will be able to convert some or all of their RSC income back to USD automatically so they can participate with little-to-no effort.
 

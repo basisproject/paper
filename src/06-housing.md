@@ -1,8 +1,8 @@
 # Chapter 6: Housing
 
-A goal of regional socialism is to provide housing to members of the region at-cost (or, depending on the region, perhaps only a percentage of cost). The idea is to attract people outside the regional economy to join and participate in the economy by providing housing at a much cheaper rate than the outside. Even if someone in the regional economy makes less money doing their job than they did outside in the capitalist world, housing (and possibly other services) would be much cheaper inside the economy and would offset the difference.
+A goal of regional socialism is to provide housing to members of the region at-cost (or, depending on the region, perhaps only a percentage of cost). The idea is to attract people outside the regional economy to join and participate in the economy by providing housing at a much cheaper rate than the outside. Even if someone in the regional economy makes less money doing their job than they did outside in the capitalist world, housing (and possibly other services) will be much cheaper inside the economy and will offset the difference.
 
-Regionally-owned housing will likely be limited to mainly apartments, however there is no reason why the region can't buy condos, duplexes, and single-family homes and rent them out as well. Living in more luxurious housing would likely come with a regionally-defined (and possibly per-property) housing tax percent above the at-cost value of the property's local taxes and maintenance.
+Regionally-owned housing will likely be limited to mainly apartments, however there is no reason why the region can't buy condos, duplexes, and single-family homes and rent them out as well. Living in more luxurious housing will likely come with a regionally-defined (and possibly per-property) housing tax percent above the at-cost value of the property's local taxes and maintenance.
 
 In essence, the region will be a landlord who only raises rent if the underlying costs of the property go up. Property management is handled by a regionally-operated company with an elected board of directors.
 
@@ -12,7 +12,7 @@ Apartment buildings owned by the region will use Conductor for all purchasing an
 
 ## Home purchasing
 
-Regional socialism -- while possibly engaging in the purchasing of condos, duplexes, and single-family homes at its own will -- takes no position on its members buying or selling property inside or outside the geographical region. While property speculation will be a method of generating personal profit, the complications of attempting to regulate this market are much too numerous and would likely stifle participation.
+Regional socialism -- while possibly engaging in the purchasing of condos, duplexes, and single-family homes at its own will -- takes no position on its members buying or selling property inside or outside the geographical region. While property speculation will be a method of generating personal profit, the complications of attempting to regulate this market are much too numerous and will likely stifle participation.
 
 It is hoped that the region buying up properties and setting rents fairly will have a calming effect on the surrounding housing markets, reducing the amount of profit that real estate speculation can deliver.
 
