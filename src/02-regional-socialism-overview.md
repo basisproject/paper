@@ -10,7 +10,7 @@ We'll be terse and start with a set of definitions and objectives:
 - Companies are the economic drivers of the region, and anybody can start a company.
 - Companies are co-ops (worker-owned) and rent production equipment/facilities from the region at-cost. If the region is missing facilities or equipment the company needs, they may build or acquire it as needed.
 - Company structure (hierarchy, collective, etc) is decided by workers, and decisions can be made collectively or delegated to managers (hiring, firing, spending decisions, etc).
-- Loans/operating capital are managed by a regionally-operated public bank. Companies can certainly seek funding from non-regional banks, but will likely get much better interest rates and terms by borrowing regionally.
+- Loans/operating capital are managed by a regionally-owned public bank. Companies can certainly seek funding from non-regional banks, but will likely get much better interest rates and terms by borrowing regionally.
 - Companies can sell their products and services at whatever prices they see fit.
 - If a company goes bankrupt, its (non-regionally-owned) assets become the property of its creditors. If the company was funded by the regionally-owned bank, its assets become property of the region, which can decide whether or not to keep them (and rent them out) or sell them at market value.
 - *Company profits cannot be distributed to workers*. Profits must be used to hire more workers, to purchase more inputs to production, or to make production more efficient. Profits-at-rest are taxed by a regionally-defined amount, incentivizing reinvestment, and redistributing unspent profit to the community.
@@ -19,13 +19,13 @@ We'll be terse and start with a set of definitions and objectives:
 - Payment is automatically deducted from the company capital pool and transferred to workers hourly.
 - All worker income is taxed by a regionally-defined amount.
 - All sales are taxed by a regionally-defined amount. However, sales to companies outside of the region and sales to companies inside the region are separate, and as such it would be possible to tax internal sales at 0% and external sales at some low value (such as 0.1%) to incentivize in-region economic activity.
-- Colleges and trade schools are regionally-operated and subsidized. Students pay a (regionally-decided) percentage of the operational cost of the school they attend while they are enrolled.
+- Colleges and trade schools are regionally-owned and subsidized. Students pay a (regionally-decided) percentage of the operational cost of the school they attend while they are enrolled.
 - Regionally-owned colleges/trade schools are wait-listed, favoring new students or those who have not been to school in N years (N being decided regionally). Wait-listing allows determining demand (to hire more teachers or expand facilities), as well as balancing the need for re-training new careers with excessive and unnecessary schooling.
 - Apartments are regionally-owned and rented out at-cost, or some regionally-decided percentage above cost (cost being property tax, maintenance, and administration). Housing is wait-listed, allowing collective measure of demand.
 - Home ownership is not restricted or managed by the region, although if more regional housing is desired, homes may be purchased by the region and rented out.
 - All members of the region will be paid a social dividend. This is a (regionally-decided) percentage of regional profits realized through taxation, public bank interest, and non-member usage of regional services (such as housing). The dividend is paid monthly.
 
-Probably the most important thing to note here is that (non regionally-operated) companies can extract profit from the products they sell, but they can only use that profit to expand production (via hiring, buying more inputs to production) or make production more efficient (automating various aspects of production, buying more efficient machinery, etc). More details on this in the "Company profits" section below.
+Probably the most important thing to note here is that (non regionally-owned) companies can extract profit from the products they sell, but they can only use that profit to expand production (via hiring, buying more inputs to production) or make production more efficient (automating various aspects of production, buying more efficient machinery, etc). More details on this in the "Company profits" section below.
 
 Another thing you may notice is that a lot of things happen in the above model as if by clockwork (workers are paid hourly from the company pool, products and jobs are listed, etc). The goal of this model of socialism is not to just provide a blueprint, but to actually provide the open-source software that will be used as the backbone of its functioning. Things like tracking workers' hours, buying and selling products and services, job listings, etc will all be tracked in this distributed software system that lets not only people participating in a region engage in commerce, but also lets people in different regions engage via a federated network. In other words, someone from the San Francisco region will be able to see job listings in the New York region, and a Houston region company can see and buy products from a Minneapolis region company.
 
@@ -57,7 +57,7 @@ Regional socialism will not solve climate change or consumerism, but it aims to 
 
 ## Open-source Software ("Conductor")
 
-Those who opt-in to regional socialism will also be opting to use the software, named "Conductor," that manages various aspects of the economy. This software will be open-source and available to the public for review and for (controlled) modification. The database it operates on will be publicly viewable and operated under the conditions of absolute transparency (although all balances and transactions will be private, except for regionally-operated companies).
+Those who opt-in to regional socialism will also be opting to use the software, named "Conductor," that manages various aspects of the economy. This software will be open-source and available to the public for review and for (controlled) modification. The database it operates on will be publicly viewable and operated under the conditions of absolute transparency (although all balances and transactions will be private, except for regionally-owned companies).
 
 The software defines the many operations that can take place in the economy. It tracks the number of worker hours. It automates the transfer of company profits to worker accounts, the repayment of loans from companies to banks/credit unions, and tenant payments to regional apartments. It facilitates purchasing via a payment and product network. It allows management of specific attributes such as hourly wages, profit-at-rest taxation levels, etc. It has various levels of permissions control, such that only specific people can do specific tasks, sometimes requiring approval from multiple people to perform an action.
 
@@ -81,7 +81,7 @@ It may seem draconian to limit transactions this way, however it ensures that:
 
 - Companies spend excess profit on reinvestment, hiring, or purchasing inputs to their production instead of payouts
 - Company profits must come from product sales or services, thus adding value to society
-- Regionally-operated companies (schools, hospitals, etc) are completely transparent, allowing to provide services at-cost
+- Regionally-owned companies (schools, hospitals, etc) are completely transparent, allowing to provide services at-cost
 
 Instead of direct transfers, Conductor provides various actions that facilitate the flow of RSC:
 

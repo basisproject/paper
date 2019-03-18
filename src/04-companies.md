@@ -29,15 +29,9 @@ Regional socialism takes the good aspects of markets (decentralized planning usi
 
 ## Ownership
 
-Companies are all regionally-owned. It's important to distinguish between regionally-owned and regionally-operated. Regionally-operated companies are run by a board of directors appointed by members of the region. They are run with transparent accounting and often are subsidized in some manner by the regional bank.
+Companies are separate entities from the region and are owned by their workers. The region itself does not have any membership or ownership in the worker-owned companies. In other words, the region has no control over member companies.
 
-All other companies are worker-operated. Worker-operated companies are still regionally-owned, but the region has no direct control over a company's existence, operation, or capital pool. All these things are controlled by the workers of a company.
-
-All companies in the region are owned by the region, and the region itself is owned by its members. Therefor, every member is a part owner of every regional company. This ownership does not afford members any kind of special control over specific companies they are not employees of, but does allow making collective decisions on matters that affect the region as a whole (for instance when to buy or sell housing, office buildings, various machinery for production, etc).
-
-It's important to mention legality and ownership. In the final chapter, a method of birthing regional socialism is described. It will likely be set up as a co-op structure that is a legal entity which owns the companies operating inside of it. In the event of a regional company acting in an illegal manner, the region may investigate and decide whether or not to close the company and/or fire the workers involved from the co-op.
-
-Under this co-op structure, companies that reach a particular number of employees may be spun off as subsidiary companies to act as a legal barrier to protect the co-op while still maintaining regional control of the company.
+It's worth mentioning though that if a company does deviate from the economic framework, the company, and its employees, will lose access to regional services. This applies not only to subsidized office space and favorable loan conditions from the regional bank, but also the subsidized housing, education, social dividend, and all other services. Essentially, the companies play by the rules, or membership is lost and the region switches to profit generation mode.
 
 ## Wages and wage calculations
 

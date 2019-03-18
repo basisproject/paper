@@ -1,10 +1,10 @@
 # Chapter 5: Banking and investment
 
-Funds from regional services and regional taxes will be stored in a regionally-operated "public" bank. Not only will this bank hold the various forms of regional income, it will also be the region's primary lender. Companies will apply for loans from the public bank and the structure of the loan will reflect the risk of the venture.
+Funds from regional services and regional taxes will be stored in a regionally-owned "public" bank. Not only will this bank hold the various forms of regional income, it will also be the region's primary lender. Companies will apply for loans from the public bank and the structure of the loan will reflect the risk of the venture.
 
 The regional bank will be run by professional bankers, working under the "public banking" industry (allowing a distinction from private banking when setting regional wages).
 
-The regional bank, like other regionally-operated companies, will be run by a regionally-elected board of directors. This board will have stipulations on its constituents:
+The regional bank, like other regionally-owned companies, will be run by an elected board of directors. This board will have stipulations on its constituents:
 
 - At least two directors must have banking experience.
 - At least one member must have a legal background in finance or banking.

@@ -4,7 +4,7 @@ A goal of regional socialism is to provide housing to members of the region at-c
 
 Regionally-owned housing will likely be a mix of apartments, duplexes, triplexes, and single-family homes. Each property (and/or each unit in an apartment complex) will be given a luxury ranking, which will affect the per-square-footage rate.
 
-In essence, the region will be a landlord who only raises rent if the underlying costs of the properties go up. Property management is handled by a regionally-operated company with an elected board of directors.
+In essence, the region will be a landlord who only raises rent if the underlying costs of the properties go up. Property management is handled by a regionally-owned company with an elected board of directors.
 
 COUNTERPOINT: if a member gains reduced-price housing, then leaves the economy, could the region evict them?
 
@@ -35,7 +35,7 @@ The idea is that for each unit, you pay the total percentage of costs that your 
 
 ## Transparency
 
-Like other regionally-operated companies, costs of housing would be transparent and accounted through the Conductor system, allowing members to see the overall costs and to see exactly how their rent prices are derived.
+Like other regionally-owned companies, costs of housing would be transparent and accounted through the Conductor system, allowing members to see the overall costs and to see exactly how their rent prices are derived.
 
 ## Home purchasing
 

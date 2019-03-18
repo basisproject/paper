@@ -22,10 +22,10 @@ All regional parameters will always be publicly available for review by any memb
 - Higher education wait-list prioritization
 - Percentage of-cost to charge for housing (90% would be a 10% subsidy, 110% would be a 10% apartment tax)
 - Threshold of housing acquisition (such that new housing is acquired when the housing wait-list is N% of the total population)
-- Board of directors position appointments for various regionally-operated companies
+- Board of directors position appointments for various regionally-owned companies
 - Monthly social dividend percentage
 
-## Regionally-operated companies
+## Regionally-owned companies
 
 The region will operate a small amount of various types of companies. The main candidates for regional operation are:
 
@@ -36,13 +36,13 @@ The region will operate a small amount of various types of companies. The main c
 
 The idea is that the region will trend toward operating companies where parasitic profit-seeking is detrimental to society as a whole, focusing on regional welfare instead of amassing of capital. This serves two purposes: to allow members to adjust their own cost of living and to attract outsiders to participate.
 
-All accounting for regionally-operated companies happens through Conductor, allowing detailed information on costs of running the company. This makes it easy to offer services at-cost (or some percentage of cost, with the region subsidizing the difference). It also allows ultimate transparency: any regional member can view the accounting of any regionally-operated company.
+All accounting for regionally-owned companies happens through Conductor, allowing detailed information on costs of running the company. This makes it easy to offer services at-cost (or some percentage of cost, with the region subsidizing the difference). It also allows ultimate transparency: any regional member can view the accounting of any regionally-owned company.
 
-Regionally-operated companies are not necessarily restricted to servicing only regional members. For instance, if a region has excess space in an apartment complex, it may rent out the rooms to non-regional members at market rate (instead of at-cost). The regional college may enroll students who are not members and charge them much higher tuition.
+Regionally-owned companies are not necessarily restricted to servicing only regional members. For instance, if a region has excess space in an apartment complex, it may rent out the rooms to non-regional members at market rate (instead of at-cost). The regional college may enroll students who are not members and charge them much higher tuition.
 
-Members of the region will appoint a board of directors for each regional company. So while regionally-operated companies are not beholden to the rule of profit, they will still be accountable to members of the region (and as such will still strive to minimize costs). Board members will be paid a regionally-decided hourly wage, and will have all board-related expenses reimbursed (for travel or lodging, if required) through the company they govern. Boards will handle the appointment of company leadership and will oversee that the company faithfully executes the will of the region.
+Members of the region will appoint a board of directors for each regional company. So while regionally-owned companies are not beholden to the rule of profit, they will still be accountable to members of the region (and as such will still strive to minimize costs). Board members will be paid a regionally-decided hourly wage, and will have all board-related expenses reimbursed (for travel or lodging, if required) through the company they govern. Boards will handle the appointment of company leadership and will oversee that the company faithfully executes the will of the region.
 
-The board of directors for each regionally-operated company will self-govern using consensus such that:
+The board of directors for each regionally-owned company will self-govern using consensus such that:
 
 - The board meets *at least* once every quarter.
 - Any director can propose an idea or change (ideally advance notice is given before meetings).
