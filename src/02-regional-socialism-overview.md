@@ -1,33 +1,29 @@
 # Chapter 2: Regional socialism: an overview
 
-Let's be terse and start with a set of definitions and objectives:
+Given our our problems, our solutions, and the goals used to reach those solutions, let's define exactly what this system looks like.
 
-- A region is any group of people who decide to associate with each other using this new economic system, generally within a geographic location. A region can be a city or county, or even a network of people within a capitalist-operating city.
+We'll be terse and start with a set of definitions and objectives:
+
+- A region is any group of people who decide to associate with each other using this economic system, generally within a geographic location. A region can be a city or county, or even a network of people within a capitalist-operating city.
+- A region is defined legally as co-operative corporation. The owner-members of the co-op will be the employees of the regional companies that are participating.
 - Production and its tools (factories, offices, machines, etc) are regionally/collectively-owned.
-- A system-wide, electronic currency is used, and can be exchanged intra- and inter-region.
-- Open-source software (named "Conductor") is used to manage the parameters of the regional economies, handle transfers of currency between entities, distribute payment to workers, facilitate purchasing between different companies, advertise job openings for companies, and act as an accounting tool for measuring the costs of regionally-operated companies. Regional capital pool(s) and regionally-operated companies will publish records of all transfer and purchasing for public review.
-- Companies outside the regional-socialist economy will be allowed to participate in the buying and selling of products/services using the Conductor network, allowing companies inside the economy to get the inputs to their production, and also sell products services to the outside world.
 - Companies are the economic drivers of the region, and anybody can start a company.
-- Companies are regionally-owned, worker-operated, and rent production equipment/facilities from the region at-cost. Companies are allowed to acquire any equipment or build any facilities they require (within local regulatory limits).
+- Companies are co-ops (worker-owned) and rent production equipment/facilities from the region at-cost. If the region is missing facilities or equipment the company needs, they may build or acquire it as needed.
 - Company structure (hierarchy, collective, etc) is decided by workers, and decisions can be made collectively or delegated to managers (hiring, firing, spending decisions, etc).
-- Loans/operating capital are managed by a regionally-operated public bank. Private banks and credit unions are also possible as a means of funding enterprises (and they will be operated under the same principals as other companies in the region).
-- Companies sell their products and services at whatever prices they see fit.
-- If a company goes bankrupt, its (non-regionally-owned) assets become the property of its creditors. If the company was funded by th regionally-owned bank, its assets become property of the region.
-- *Company profits cannot be distributed to workers*. Profits must be used to hire more workers or to purchase more inputs to production. Profits-at-rest are taxed by a regionally-defined amount, incentivizing reinvestment, and redistributing unspent profit to the community.
+- Loans/operating capital are managed by a regionally-operated public bank. Companies can certainly seek funding from non-regional banks, but will likely get much better interest rates and terms by borrowing regionally.
+- Companies can sell their products and services at whatever prices they see fit.
+- If a company goes bankrupt, its (non-regionally-owned) assets become the property of its creditors. If the company was funded by the regionally-owned bank, its assets become property of the region, which can decide whether or not to keep them (and rent them out) or sell them at market value.
+- *Company profits cannot be distributed to workers*. Profits must be used to hire more workers, to purchase more inputs to production, or to make production more efficient. Profits-at-rest are taxed by a regionally-defined amount, incentivizing reinvestment, and redistributing unspent profit to the community.
 - Companies can hire who they choose (within local/state/federal regulatory restrictions).
 - Workers are paid an hourly rate based on productivity, training required, regional need, physical/mental stress, etc (productivity being decided by peers and/or industry standards if measurable, and the other wage factors being regionally-decided). Productivity rate acts to set a range of wages for each occupation, and the amount of range is regionally-decided per-occupation.
 - Payment is automatically deducted from the company capital pool and transferred to workers hourly.
 - All worker income is taxed by a regionally-defined amount.
-- All sales are taxed by a regionally-defined amount.
-- Global (or, external) trade happens via the Conductor system or, if needed products/goods are unavailable, regional companies that operate on the Conductor network and import/export goods (as well as handle returns).
-- K-12 education is set up as a regionally-operated company (thus all purchasing and funds are transparent) and fully subsidized. Teachers, administrators, and maintenance staff are payed under the same guidelines as other regional companies (regionally-set wages).
+- All sales are taxed by a regionally-defined amount. However, sales to companies outside of the region and sales to companies inside the region are separate, and as such it would be possible to tax internal sales at 0% and external sales at some low value (such as 0.1%) to incentivize in-region economic activity.
 - Colleges and trade schools are regionally-operated and subsidized. Students pay a (regionally-decided) percentage of the operational cost of the school they attend while they are enrolled.
-- Private schools are set up as non-subsidized regional companies and operate under the same rules of profit as other regional companies.
-- Regionally-owned colleges/trade schools are wait-listed (via Conductor) favoring new students or those who have not been to school in N years (N being decided regionally). Wait-listing allows determining demand (to hire more teachers or expand facilities), as well as balancing the need for re-training new careers with excessive and unnecessary schooling.
-- Apartments are regionally-owned and rented out at-cost, or some regionally-decided percentage above cost (cost being property tax, maintenance, and administration). Housing is wait-listed (via software), allowing collective measure of demand.
-- Home ownership is not restricted or managed by the region, although if more regional housing is desired, homes may be purchased by the region and rented out at-cost (or a regionally-decided percentage above-cost).
-- Hospitals are regionally-owned and subsidized. Patients pay a (regionally-decided) percentage of visits/procedures. Pricing is at-cost. Private hospitals are also allowed and set up as regional companies.
-- All members of the region will be paid a (regionally-decided) monthly stipend out of the region's capital pool (UBI).
+- Regionally-owned colleges/trade schools are wait-listed, favoring new students or those who have not been to school in N years (N being decided regionally). Wait-listing allows determining demand (to hire more teachers or expand facilities), as well as balancing the need for re-training new careers with excessive and unnecessary schooling.
+- Apartments are regionally-owned and rented out at-cost, or some regionally-decided percentage above cost (cost being property tax, maintenance, and administration). Housing is wait-listed, allowing collective measure of demand.
+- Home ownership is not restricted or managed by the region, although if more regional housing is desired, homes may be purchased by the region and rented out.
+- All members of the region will be paid a social dividend. This is a (regionally-decided) percentage of regional profits realized through taxation, public bank interest, and non-member usage of regional services (such as housing). The dividend is paid monthly.
 
 Probably the most important thing to note here is that (non regionally-operated) companies can extract profit from the products they sell, but they can only use that profit to expand production (via hiring, buying more inputs to production) or make production more efficient (automating various aspects of production, buying more efficient machinery, etc). More details on this in the "Company profits" section below.
 
@@ -42,8 +38,6 @@ Let's tackle a few key concepts.
 Why the regional approach? It comes down to human nature. Nobody likes someone else telling them how to live their life. However, it's usually much worse when the person doing so lives far away and has no idea what life is like for people here.
 
 Economic decisions should reflect the needs of communities, not some state planning board from some distant land. Regions are set up such that people participating in the region set the parameters of their own economy to suit their needs.
-
-Regions are the geographically-separated pockets of ever-growing socialist economies. This locality of them, and their ability to function with only a handful of people in them, is the very means by which the movement will eventually spread and grow.
 
 ## Company profits
 

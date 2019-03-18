@@ -13,31 +13,32 @@ All regional parameters will always be publicly available for review by any memb
 - Worker hourly wages (more on how this is defined in [Chapter 4](#wages-and-wage-calculations))
 - Wage reduction dampening rate/delay
 - Productivity rate value range (eg, between 0.5 and 1.5, or 0.8 and 1.2, etc)
-- Sales tax percentage
+- Sales tax percentage (both in-region and extra-region sales tax)
 - Income tax percentage
 - Profits-at-rest taxation delay and percentage
 - Regional bank investment allocation
-- Healthcare subsidization
+- Healthcare subsidization (or in many cases, health insurance subsidization)
 - Higher education subsidization
 - Higher education wait-list prioritization
-- Percentage of-cost to charge for apartments (90% would be a 10% subsidy, 110% would be a 10% apartment tax)
-- Percentage of-cost to charge for duplex and house rental
-- Board of director position appointments for various regionally-operated companies
+- Percentage of-cost to charge for housing (90% would be a 10% subsidy, 110% would be a 10% apartment tax)
+- Threshold of housing acquisition (such that new housing is acquired when the housing wait-list is N% of the total population)
+- Board of directors position appointments for various regionally-operated companies
+- Monthly social dividend percentage
 
 ## Regionally-operated companies
 
 The region will operate a small amount of various types of companies. The main candidates for regional operation are:
 
-- Banking
-- Housing (and property management thereof)
-- Healthcare
-- Education
+- A central bank, which invests in companies based on regionally-desired allocations
+- A housing company, tasked with acquisition and maintenance of various forms of housing
+- Hospitals
+- Colleges and trade schools (and K-12 if there are no public options)
 
-The idea is that the region will trend toward operating companies where parasitic profit-seeking is detrimental to society as a whole, focusing on regional welfare instead of amassing of capital.
+The idea is that the region will trend toward operating companies where parasitic profit-seeking is detrimental to society as a whole, focusing on regional welfare instead of amassing of capital. This serves two purposes: to allow members to adjust their own cost of living and to attract outsiders to participate.
 
 All accounting for regionally-operated companies happens through Conductor, allowing detailed information on costs of running the company. This makes it easy to offer services at-cost (or some percentage of cost, with the region subsidizing the difference). It also allows ultimate transparency: any regional member can view the accounting of any regionally-operated company.
 
-Regionally-operated companies are not necessarily restricted to servicing only regional members. For instance, if a region has excess space in an apartment complex, it may rent out the rooms to non-regional members at market rate (instead of at-cost). Of course, when the market-rate tenants find out their neighbors are paying significantly lower rents, they may decide to become members.
+Regionally-operated companies are not necessarily restricted to servicing only regional members. For instance, if a region has excess space in an apartment complex, it may rent out the rooms to non-regional members at market rate (instead of at-cost). The regional college may enroll students who are not members and charge them much higher tuition.
 
 Members of the region will appoint a board of directors for each regional company. So while regionally-operated companies are not beholden to the rule of profit, they will still be accountable to members of the region (and as such will still strive to minimize costs). Board members will be paid a regionally-decided hourly wage, and will have all board-related expenses reimbursed (for travel or lodging, if required) through the company they govern. Boards will handle the appointment of company leadership and will oversee that the company faithfully executes the will of the region.
 
@@ -46,13 +47,13 @@ The board of directors for each regionally-operated company will self-govern usi
 - The board meets *at least* once every quarter.
 - Any director can propose an idea or change (ideally advance notice is given before meetings).
 - Proposals are discussed, along with their pros and cons, and updated based on feedback.
-- Proposals are modified until everyone reaches an agreement. If agreement cannot be reached, the proposal returns to discussion.
+- Proposals are updated and modified until everyone reaches an agreement. If agreement cannot be reached, the proposal returns to discussion.
 - Even if just one director dissents, the proposal cannot move forward. Ultimately, after full discussion, disagreement must satisfy one of the following conditions:
   - The proposal will materially harm the company in the short or long term.
-  - The proposal is materially opposed to the goals or spirit of the company.
-  - The proposal is materially opposed to the wishes of the region/community.
+  - The proposal is in material opposition to the goals or spirit of the company.
+  - The proposal is in material opposition to the wishes of the region/community.
   - The proposal is morally or legally unjustifiable.
-- If a proposal is seen as immediately essential for a company's continued operation by over 75% of the board members, they can perform a majority vote to implement the proposal even if consensus is not reached.
+- If a proposal is seen as immediately essential for a company's continued operation, then a vote can be called and if over 75% agree to the proposal, it is accepted even if full consensus is not reached.
 
 This consensus mechanism, while intricate and lengthy, makes sure that various members of the board are able to have their expertise shared and acted on. This is in contrast to majority rule, which tends to silence certain important inputs to discussion.
 
