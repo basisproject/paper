@@ -25,7 +25,15 @@ All regional parameters will always be publicly available for review by any memb
 - Board of directors position appointments for various regionally-owned companies
 - Monthly social dividend percentage
 
-## Regionally-owned companies
+## Governance
+
+Since each region will be set up as a co-op, some form of governance needs to be defined. Although the goal is to have many decisions made by democratic vote, there will still need to be high-level leadership to manage certain things such as region splitting, continued development of the software driving the region's functions, oversight of regionally-owned companies, and overall maintenance of the system.
+
+The governing board of the regional co-op corporation will be known as the High Council. The members of the region will democratically elect two-thirds of this board, with the other third are elected by direct employees of the co-op.
+
+The High Council will select the overall leadership and will be ultimately responsible for the oversight of all things that are not democratically decided by the members. The High Council may also guide development of the overall system to have more democratic decisions, if the members wish.
+
+### Regionally-owned companies
 
 The region will operate a small amount of various types of companies. The main candidates for regional operation are:
 
@@ -40,9 +48,25 @@ All accounting for regionally-owned companies happens through Conductor, allowin
 
 Regionally-owned companies are not necessarily restricted to servicing only regional members. For instance, if a region has excess space in an apartment complex, it may rent out the rooms to non-regional members at market rate (instead of at-cost). The regional college may enroll students who are not members and charge them much higher tuition.
 
-Members of the region will appoint a board of directors for each regional company. So while regionally-owned companies are not beholden to the rule of profit, they will still be accountable to members of the region (and as such will still strive to minimize costs). Board members will be paid a regionally-decided hourly wage, and will have all board-related expenses reimbursed (for travel or lodging, if required) through the company they govern. Boards will handle the appointment of company leadership and will oversee that the company faithfully executes the will of the region.
+Each regionally-owned company will have an elected board of directors governing it. The boards of each individual company will be democratically selected as follows:
 
-The board of directors for each regionally-owned company will self-govern using consensus such that:
+- All members of the region will select one-third of the board
+- The workers of the regionally-owned company will elect another third of their board
+- The High Council will elect the last third of the board
+
+Seats will be filled in the above order. In other words, if there are seven seats, the 7th member would be selected by the regional members. If there are are eight seats, the 8th seat will be selected by the workers of the regional company.
+
+With this setup, regionally-owned companies will be accountable to members of the region, to the workers in the company, and to the leadership of the region.
+
+## Board details
+
+Board elections for all boards (including the High Council) will be held every three years.
+
+Board members will be paid a regionally-decided hourly wage when they are meeting, and will have all board-related expenses reimbursed (for travel or lodging, if required) through the company they govern. Boards will handle the appointment of company leadership and will oversee that the company faithfully executes the will of the region.
+
+The president of each company will sit on the board of the company as a non-voting, advisory member.
+
+Boards will self-govern using consensus such that:
 
 - The board meets *at least* once every quarter.
 - Any director can propose an idea or change (ideally advance notice is given before meetings).
@@ -64,6 +88,8 @@ Board members should be selected using a certain set of criteria, which will var
 Regional taxation (income, sales, profits-at-rest) all generates regional income and is put into the regional bank. The regional bank allocates funds based on a regionally-decided set of allocations. See the [chapter on Banking](#chapter-5-banking-and-investment) for more information.
 
 The regional bank is operated under the principles of transparency, which allows making highly informed decisions on just how much the region should subsidize or tax various operations. For instance, if the members of a region know it costs $4M a month to operate the regional hospital, they know it will cost $3M a month out of the region's capital pool to subsidize 75% of healthcare.
+
+By default, the wages of all workers are stored in the public bank. Workers are allowed to withdraw their funds at any time, and can even set up recurring transfers to send their money to another bank of their choice (which would essentially be direct deposit at any other company).
 
 ## Federation
 
