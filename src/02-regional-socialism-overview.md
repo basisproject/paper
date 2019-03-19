@@ -43,7 +43,7 @@ Economic decisions should reflect the needs of communities, not some state plann
 
 Companies can have profit, and can buy and sell things at will. So did we just invent market socialism?
 
-The answer is no, because a) the means of production are regionally/community-owned and b) the workers are paid based on regionally-decided parameters (the region decides "Teachers get $50/hr, doctors get $40/hr, shopkeepers get $20/hr, etc"). The only motives for a company's profit are to a) grow the company and hire more workers and b) invest in making the company more efficient.
+The answer is no, because a) the means of production are regionally/community-owned and b) the workers are paid based on regionally-decided parameters (the region decides "teachers get $50/hr, doctors get $40/hr, shopkeepers get $20/hr, etc"). The only motives for a company's profit are to a) grow the company and hire more workers and b) invest in making the company more efficient.
 
 Capitalists often crow about how private property and the free exchange of capital allows reinvestment into enterprise (although they will defend a company laying off workers and buying back their own shares after receiving an enormous tax break). Well here, we make this function explicit and define profit as only useful to a business for paying the workforce and reinvesting into the business.
 
@@ -57,41 +57,11 @@ Regional socialism will not solve climate change or consumerism, but it aims to 
 
 ## Open-source Software ("Conductor")
 
-Those who opt-in to regional socialism will also be opting to use the software, named "Conductor," that manages various aspects of the economy. This software will be open-source and available to the public for review and for (controlled) modification. The database it operates on will be publicly viewable and operated under the conditions of absolute transparency (although all balances and transactions will be private, except for regionally-owned companies).
+Those who opt-in to regional socialism will also be opting to use the software, named "Conductor," that manages various aspects of the economy. This software will be open-source and available to the public for review and for (controlled) modification.
 
-The software defines the many operations that can take place in the economy. It tracks the number of worker hours. It automates the transfer of company profits to worker accounts, the repayment of loans from companies to banks/credit unions, and tenant payments to regional apartments. It facilitates purchasing via a payment and product network. It allows management of specific attributes such as hourly wages, profit-at-rest taxation levels, etc. It has various levels of permissions control, such that only specific people can do specific tasks, sometimes requiring approval from multiple people to perform an action.
+The software will define the many operations that can take place in the economy, and over time these operations will expand. It will tracks the number of worker hours. It will automate the transfer of company profits to worker accounts, the repayment of loans from companies to banks/credit unions, and tenant payments to regional apartments. It will facilitate purchasing via a payment and product network. It will allow management of specific attributes such as hourly wages, profit-at-rest taxation levels, etc. It will provide various levels of permissions control, such that only specific people can do specific tasks, sometimes requiring approval from multiple people to perform an action.
 
 The purpose of Conductor is not just to enforce policies, but to lower the barrier to entry for many tasks people and companies will be performing on a constant basis. And beyond that, its goal is to be so good at what it does, that to not use it isn't just inconvenient, it's expensive.
 
 The platform will exist as a set of tools to make regional socialism cheaper to operate.
-
-## Currency
-
-Currency is a touchy subject in socialism. Are people paid in dollars? In labor tokens? If not, how do consumers purchase things, and how to workers buy the inputs to their production process? We all dream of a self-organizing, moneyless economy, but how such a thing might work in practice is anyone's guess.
-
-In regional socialism, a currency is defined and used. We will just use Regional-Socialist Credits ("RSC"). This currency will be transferable within regions and between regions. The currency itself will be completely electronic and automatically managed by the Conductor system.
-
-The currency is set up such that direct transfers between:
-
-- Any two people are allowed (allowing purchase of second-hand products)
-- A person and a company are prohibited (instead, products can be purchased via Conductor)
-- A company and another company are prohibited (products and services will be bought as Conductor purchases)
-
-It may seem draconian to limit transactions this way, however it ensures that:
-
-- Companies spend excess profit on reinvestment, hiring, or purchasing inputs to their production instead of payouts
-- Company profits must come from product sales or services, thus adding value to society
-- Regionally-owned companies (schools, hospitals, etc) are completely transparent, allowing to provide services at-cost
-
-Instead of direct transfers, Conductor provides various actions that facilitate the flow of RSC:
-
-- A person or company purchasing a product or service
-- A person or company paying rent on regional housing or production equipment
-- A bank or credit union loaning capital to a person (for purchasing a home or car) or company
-- A person or company paying back a loan
-- A region pooling funds with other regions to pay for common infrastructure or cross-regional services (such as public transit)
-
-Direct transfers between two people is allowed. And why not...they earned the money, they should be able to do what they wish with it. The rationale behind prohibiting direct transfers between people is to limit secondary markets, but secondary markets will form whether using the accepted currency or not. Why not accept this, instead of trying to control it?
-
-After all, the goal of this economic system is not to force people to do things a certain way, but to make it easy and cheap to do things in the accepted fashion, all while accepting human nature. If someone wants to buy old cars and sell them at a profit, she can certainly do so, but she might find that working for a mechanic company instead will pay more.
 
