@@ -1,4 +1,4 @@
-# Chapter 11: The start and growth of a socialist economy
+# Chapter 9: The start and growth of a socialist economy
 
 Now that we have defined a plan for how our regional socialist economies operate, we need to have a plan for breathing life into the idea.
 
