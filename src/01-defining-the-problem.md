@@ -4,11 +4,13 @@ The problems with capitalism are generally fairly self-evident. There is the own
 
 The freedom people think of when they look up, teary-eyed, at the American flag is nothing more than an illusion. Our political freedom, democracy, changes little. And as power centralizes in the federal government, people have even less control than ever while corporate powers gain more. But political freedom isn't everything. America has economic freedom as well! You can sell your labor to whoever wants your services. Hopefully your skills are in demand. If not, you can start a business! And for that, all you need is capital. You can get it by borrowing from a bank who will extract profit via interest long before *you're* profitable (and banks often want you to have capital already as collateral), or you can seek investment from venture capital by selling a (large) piece of your company. Breaking this down, in order to access capital, you need to enlist the support of a holder of capital, and they will be incentivized to take as much from you as possible. Economic freedom, in this case, means the freedom to beg for money from somebody who has it already. Often, it also means you must already have capital as well.
 
+Our economic operation is much more oligarchic than democratic, with the largest holders of capital able to make the largest decisions.
+
 ## Profit
 
 One of the problems with how things work in market systems is that profit is the ultimate incentive. The problem is, profit does not care about the well being of the people generating it. It does not care about the environment. It does not care for stability or equilibrium. It cares only to install in the minds of the people engaging with it the unquenchable desire to generate ever more.
 
-Profit is antagonistic to the goals of humanity. It drives production forward but does so in such a way that legal systems are required to temper its effects. And these legal systems always seem to be a step behind. And they always seem to be under attack by flag-waving patriots who love "freedom."
+Profit is often antagonistic to the goals of humanity. It drives production forward but does so in such a way that legal systems are required to temper its effects. And these legal systems always seem to be a step behind. And they always seem to be under attack by people who love "freedom."
 
 Profit isn't categorically bad, though. In a market system, it acts as a feedback mechanism. It allows people producing things to know whether to produce more or less of what they make. So what happens when profit can be made, can be reinvested in production to make things more efficient or to hire more workers, but cannot be distributed to those making it?
 
@@ -34,11 +36,11 @@ Why is it celebrated to have a class of people who make money simply by owning t
 
 What if, instead of extracting profit, these properties were community-owned, and rented out to individuals and companies at-cost, such that averaged over the year, the income and the expenses were equal? Now imagine these community-owned properties had all their loans paid off. Oh, how cheap it would be to rent an apartment or an office space if all you were paying for was the regular maintenance instead of lining the pockets of a mortgage bank or a private owner!
 
-If you were to provide office spaces, factories, warehouses, and equipment to companies at-cost, instead of generating enough profit to pay those extracting profit from them, they can instead focus on their productive process and their work conditions. And because they're not making someone else richer in the process of their operation, they can run their business *while still being competitive against those who are having profit extracted from them via rent.* In essence, you lower the barriers to entry for business and allow the business to only pay, truly, for what it uses.
+If you were to provide office spaces, factories, warehouses, and equipment to companies at-cost, they could focus on their productive process and their work conditions without having to worry about paying those who are extracting profit from them. And because they're not making someone else richer in the process of their operation, they can run their business *while still being competitive against those who are having profit extracted from them via rent.* In essence, you lower the barriers to entry for business and allow the business to only pay, truly, for what it uses.
 
 And if the workers of those companies could live in apartments or houses rented to them at-cost, then more of their wages could be spent on things that make them happy, such as art or travel. Or, perhaps, they could work four days a week instead of five. What a world!
 
-Elimination of the rent-seeking class allows *much higher margins* both for companies and for individual workers. Beyond this, it creates stability and security. They know that their rent will only go up if the actual underlying costs go up, instead of rent going up because the private owner has their eye on a new Mercedes.
+Elimination of the rent-seeking class allows *higher margins* both for companies and for individual workers. Beyond this, it creates stability and security. They know that their rent will only go up if the actual underlying costs go up, instead of the private owner realizing they are charging less than market rate and arbitrarily raising rent.
 
 ## Ownership
 
