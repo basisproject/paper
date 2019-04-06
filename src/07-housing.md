@@ -1,4 +1,4 @@
-# Chapter 6: Housing
+# Chapter 7: Housing
 
 A goal of regional socialism is to provide housing to members of the region at-cost (or, depending on the region, perhaps only a percentage of cost). The idea is to attract people outside the regional economy to join and participate in the economy by providing housing at a much cheaper rate than the outside. Even if someone in the regional economy makes less money doing their job than they did outside in the capitalist world, housing (and possibly other services) will be cheaper inside the economy and will offset the difference.
 
@@ -25,13 +25,13 @@ Properties (and units, in the case of apartments or duplexes) would all get luxu
 The monthly price calculation for any unit is follows:
 
 ```
-((unit_square_footage * unit_luxury) / (total_square_footage * average_luxury)) *
-    (total_yearly_costs / 12)
+(((unit_square_footage * unit_luxury) / (total_square_footage * average_luxury)) *
+    (total_yearly_costs / 12)) + housing_company_fee
 ```
 
-In these calculations, `square_footage` *incorporates land*. In other words, if renting a house, you're not just paying for the square footage of the house itself, but also for the square footage of the land. The idea is you pay for the space you use. `unit_luxury` is the luxury index of the particular unit being occupied. `total_square_footage` is the summed square footage of *all units managed by the region*, and `average_luxury` is the average luxury index *of all managed units*. `total_yearly_costs` is the summed expenses of *all costs* of the housing company: mortgage payments, property maintenance, wages of housing company employees, etc.
+In these calculations, `square_footage` *incorporates land*. In other words, if renting a house, you're not just paying for the square footage of the house itself, but also for the square footage of the land. The idea is you pay for the space you use. `unit_luxury` is the luxury index of the particular unit being occupied. `total_square_footage` is the summed square footage of *all units managed by the region*, and `average_luxury` is the average luxury index *of all managed units*. `total_yearly_costs` is the summed expenses of *all costs* of the housing company: mortgage payments, property maintenance, wages of housing company employees, etc. `housing_company_fee` will be set such that divided equally between all tenants, the housing company will have enough income to cover its cost of operation.
 
-The idea is that for each unit, you pay the total percentage of costs that your unit encompasses from those costs. Of course, this is *entirely* going to match because the housing company has to account for things like unit vacancies (which inflate the cost for everyone) but the idea is that year over year these costs average out such that the housing company makes little to no profit.
+The idea is that for each unit, you pay the total percentage of costs that your unit encompasses from those costs. Of course, this is not *entirely* going to match because the housing company has to account for things like unit vacancies (which inflate the cost for everyone) but the idea is that year over year these costs average out such that the housing company makes little to no profit.
 
 ## Transparency
 

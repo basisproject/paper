@@ -15,7 +15,7 @@ In the following, the blueprint for a socialist society will be outlined, in det
 - Companies are worker-owned and operate in a market system
 - Company profits are treated specially, tempering some of the negative effects of markets
 - Wages are decided regionally using a number of factors such as stress, danger, need, etc and are paid out to workers hourly
-- Housing, edcuation, and other essential services are provided at-cost or subsidized
+- Housing, education, and other essential services are provided at-cost or subsidized
 - Banking, and therefor investment, is decided using a democratically-decided plan which allows greater participation in deciding the direction of the local economy
 
 The goals of this system are as follows:

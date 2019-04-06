@@ -13,7 +13,7 @@ The regional bank, like other regionally-owned companies, will be run by an elec
 
 This board will make high-level decisions regarding the leadership and operations of the regional bank, and will be responsible for seeing the banking wills of the region fulfilled.
 
-The bank's primary function will be economic development. It will value this over any profit, and as such, will be able to engage in delaying of loan payments or even debt fogiveness in extreme cases. The ultimate goal of the bank is to favor success of enterprises over accumulation of capital. Obviously, these goals need to be balanced such that the bank does not hemorrhage money.
+The bank's primary function will be economic development. It will value this over profit, and as such, will be able to engage in delaying of loan payments or even debt forgiveness in extreme cases. The ultimate goal of the bank is to favor success of enterprises over accumulation of capital. Obviously, these goals need to be balanced such that the bank still makes money in the long run in order to create more economic development.
 
 ## Allocation
 
@@ -25,7 +25,7 @@ It will be the job of the regional bank's board to see that the regional bank's 
 
 ## Transparency
 
-Although the loans made by the regional bank will be anonymized, the specific amounts of loans, the terms, and the industrial sectors the loans were allocated to will be publicly available information. All of the balances of the region's capital pool and each of the regionally-owned companies will be publicly viewable by members of the region.
+Although the parties involved in the loans made by the regional bank will be anonymous, the specific amounts of loans, the terms, and the industrial sectors the loans were allocated to will be publicly available information. The balances of the region's capital pool and each of the regionally-owned companies will be publicly viewable by members of the region.
 
 ## Bankruptcy
 
@@ -35,7 +35,7 @@ If a company is funded via a private bank or credit union within the region, the
 
 ## Venture capital
 
-Because all companies are worker co-ops, selling ownership of a company will not be possible. However, the region will be able, through its regional bank, to provide a venture capital fund that invests in riskier enterprises on the condition that the companies will later pay dividends to the regional bank's venture program after a certain level of profitability is reached.
+Because all companies are worker co-ops, selling ownership of a company will not be possible. However, the region will be able, through its regional bank, to provide a venture capital fund that invests in riskier enterprises by purchasing dividend shares from companies.
 
 The value of dividends and the terms of the initial or ongoing investment will be at the discretion of the regional bank's venture program managers.
 
