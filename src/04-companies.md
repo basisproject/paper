@@ -81,3 +81,13 @@ A worker's productivity level is set by the company she works for. If a worker i
 
 Productivity level, along with productivity rate, allows creating some range of wages within the same occupation. This allows companies a certain level of autonomy in setting their own wages while at the same time keeping the wishes of the community as a whole in mind. The goal of this system is to balance the needs of the overall region while still giving companies a certain level of control.
 
+## Loss of membership
+
+Companies that refuse to participate within the rules of the region may lose membership. When a company loses membership, it loses all benefits:
+
+- preferential loan rates
+- at-cost pricing for productive assets
+- housing, education, and other services for the company's worker-members
+
+Loss of membership will be determined by the High Council, the region's highest authority. It will likely issue warnings before a company permanently loses membership.
+

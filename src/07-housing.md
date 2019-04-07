@@ -33,6 +33,10 @@ In these calculations, `square_footage` *incorporates land*. In other words, if 
 
 The idea is that for each unit, you pay the total percentage of costs that your unit encompasses from those costs. Of course, this is not *entirely* going to match because the housing company has to account for things like unit vacancies (which inflate the cost for everyone) but the idea is that year over year these costs average out such that the housing company makes little to no profit.
 
+## Subletting
+
+Tenants are prohibited from subletting their units. This will be enforced by the lease contract tenants sign with the housing company when beginning their tenancy. This is to keep members from getting low rates on housing and then profiting by subletting it for market rate.
+
 ## Transparency
 
 Like other regionally-owned companies, costs of housing would be transparent and accounted through the Conductor system, allowing members to see the overall costs and to see exactly how their rent prices are derived.

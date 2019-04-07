@@ -42,3 +42,7 @@ Where `unit_projected_10_year_average_cost` will incorporate the mortgage, proje
 
 While it might seem unfair that some productive assets cost more than others, this is a necessary requirement to handle the diversity of the needs businesses will have. Over time, as mortgages are paid off, the prices will trend downward.
 
+## Subletting
+
+Regional companies are prohibited from subletting productive assets. Only the MoP agency can engage in renting productive assets to companies, and this will be enforced via contract. Companies breaking this contract may lose not just their use of the productive asset but their regional privileges.
+
