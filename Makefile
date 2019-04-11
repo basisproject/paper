@@ -13,13 +13,13 @@ converted/regional-socialism.tex: $(mdfiles)
 converted/regional-socialism.html: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -s -o $@ $^
 
-converted/regional-socialism.docx: $(mdfiles)
+converted/regional-socialism.odt: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -s -o $@ $^
 
 book: converted/regional-socialism.epub
 html: converted/regional-socialism.html
 latex: converted/regional-socialism.tex
-docx: converted/regional-socialism.docx
+odt: converted/regional-socialism.odt
 
 all: book
 
