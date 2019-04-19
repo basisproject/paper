@@ -81,6 +81,52 @@ A worker's productivity level is set by the company she works for. If a worker i
 
 Productivity level, along with productivity rate, allows creating some range of wages within the same occupation. This allows companies a certain level of autonomy in setting their own wages while at the same time keeping the wishes of the community as a whole in mind. The goal of this system is to balance the needs of the overall region while still giving companies a certain level of control.
 
+## Taxation
+
+Taxation of companies will be necessary to sustain growth of the region. Taxes will be held in the public bank and can be used in any number of ways:
+
+- Paying for management of the region
+- Debt forgiveness (for either regionally-owned or worker-owned companies)
+- Subsidies for regional services (housing, education, etc)
+- Social dividend
+
+It's important to note that after paying for the management of the region itself (wages and maintenance of the regional co-op), the rest of the money from taxations is essentially at the disposal of the regional members' will. They can issue it back to themselves via dividend, they can grow the region by buying more housing and more offices/warehouses/etc, they can subsidize housing or education, or they can decide to just lower taxes altogether.
+
+Also, while the types of taxes available are listed below, that does not necessarily mean a region will decide to impose them. It may only select a few and set the rest to 0. The following taxes are additive.
+
+### Company net income
+
+Companies pay a regionally-decided flat tax on net income.
+
+### Reserve fund tax
+
+Profitable companies that keep more than X% of their total expenses for a year in cash will have the amount above X% of their expenses taxed by Y%.
+
+In other words, let's say X is 80% and Y is 10%. If a company has $114K in revenue, $92K in expenses (so a profit of $22K), and $214K in cash reserves, then 80% of its expenses would be $73.6K (`0.8 * 92K`) and it would pay `0.10 * (214K - 73.6K)`, or ~$14K.
+
+The purpose of this tax is to incentivize reinvestment without penalizing saving for difficult times. It is essentially a wealth tax with a dynamic threshold (based on yearly expenses).
+
+### Employee income tax
+
+Employee incomes will be taxed using regionally-decided progressive tax brackets.
+
+### Size tax
+
+Company profits will be taxed based on the number of employees they have. This will be based off of regionally-decided size brackets. Here's an example of what size brackets might look like:
+
+- 0-999 (0%)
+- 1000-9999 (5%)
+- 10000-19999 (10%)
+- 20000-39999 (20%)
+- 40000-99999 (40%)
+- 100000+ (80%)
+
+So a company with 14239 employees will pay a 10% size tax.
+
+The purpose of this tax is is to put downward pressure on company sizes and limit the economic power of any one company. This incentivizes multiple smaller companies instead of a few large ones.
+
+If a region has 100 companies with 50 employees or less and one company with 20000 employees, then the board of the company with 20000 employees has much more leverage and can be taxed for this economic power.
+
 ## Loss of membership
 
 Companies that refuse to participate within the rules of the region may lose membership. When a company loses membership, it loses all benefits:

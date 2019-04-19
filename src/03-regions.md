@@ -11,6 +11,7 @@ The regional parameters define various aspects for how the economy will work wit
 All regional parameters will always be publicly available for review by any member of the region. The full list of regional parameters is as follows:
 
 - Worker hourly wages (more on how this is defined in [Chapter 4](#wages-and-wage-calculations))
+- Worker minimum average weekly hours to be considered members
 - Wage reduction dampening rate/delay
 - Productivity rate value range (eg, between 0.5 and 1.5, or 0.8 and 1.2, etc)
 - Sales tax percentage (both in-region and extra-region sales tax)
@@ -32,6 +33,26 @@ Since each region will be set up as a co-op, some form of governance needs to be
 The governing board of the regional co-op corporation will be known as the High Council. The members of the region will democratically elect two-thirds of this board, with the other third are elected by direct employees of the co-op.
 
 The High Council will select the overall leadership and will be ultimately responsible for the oversight of all things that are not democratically decided by the members. The High Council may also guide development of the overall system to have more democratic decisions, if the members wish.
+
+## Duties of the region
+
+The mission of the regional co-op company will be to:
+
+- Coordinate and mediate between the regionally-owned companies
+- Develop and maintain the software systems used to power the region's economy (Conductor)
+- Provide education and guidance to new companies
+- Facilitate elections and hold meetings with members of the region
+- Foster a sense of community between all the members in the region
+- Facilitate regional splitting
+- Coordinate and cooperate with other regions on issues relating to housing and services
+
+## Membership
+
+In order to be a member of the region, you must be a worker for a company that has regional membership, and you must work at least an average of N hours a week (N being regionally decided, of course). It's important to note that this value should take into account time off (vacation, sick days, etc).
+
+It's important to note that this takes into account total hours worked. In other words, if the minimum is 25 hours a week, then someone who works 25 hours a week is a member even if they split their hours between two or more regional companies via part-time employment.
+
+WIP: need a membership grace period for unemployment (quit, fired, injured, etc).
 
 ### Regionally-owned companies
 
@@ -98,4 +119,16 @@ While many parameters of the economy are regionally-defined, regions are able to
 This allows companies and people in various regions to engage in commerce with each other without barriers. It also allows someone to find a region that has the highest wages for work they might be interested in, and to see if in-region housing is available there.
 
 Federation of regions allows transparency and freedom of movement.
+
+### Coordination with other regions
+
+Let's say someone lives in the Saint Paul region, but they get a new job in the Minneapolis region. In other words, they are not truly a member of the Saint Paul region because they no longer work in that region. Should they lose access to their housing? The answer is nuanced.
+
+If the Saint Paul region subsidizes housing by 50% and the Minneapolis region does not subsidize at all, then the worker is getting all the benefits of a low-tax job with the benefits of subsidized housing. While this situation is most likely extreme, it's not outside the realm of possibility. How is it solved?
+
+The answer is for regions to coordinate with each other. They might come to a deal where a worker in the Minneapolis region can get housing in Saint Paul, but only at a 5% subsidy instead of a 50%.
+
+The Conductor system would allow setting rules like this (if they live in X region but work in Y region, housing costs Z). This would be transparent to both the worker (who would see the different cost of housing when they applied for the new job) and to the Saint Paul housing company who will be able to see the full list of housed members and at what cost their rent is.
+
+The premise is, membership is a function of where someone works, but regions can coordinate between themselves to offer services to members of other regions if there is a need to do so.
 

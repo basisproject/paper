@@ -44,5 +44,5 @@ While it might seem unfair that some productive assets cost more than others, th
 
 ## Subletting
 
-Regional companies are prohibited from subletting productive assets. Only the MoP agency can engage in renting productive assets to companies, and this will be enforced via contract. Companies breaking this contract may lose not just their use of the productive asset but their regional privileges.
+Regional companies are prohibited from subletting productive assets. Only the MoP agency can engage in renting productive assets to companies, and this will be enforced via contract. Companies breaking this contract may lose not just their use of the productive asset but their regional membership.
 

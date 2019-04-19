@@ -6,8 +6,6 @@ Regionally-owned housing will likely be a mix of apartments, duplexes, triplexes
 
 In essence, the region will be a landlord who only raises rent if the underlying costs of the properties go up. Property management is handled by a regionally-owned company with an elected board of directors.
 
-COUNTERPOINT: if a member gains reduced-price housing, then leaves the economy, could the region evict them?
-
 ## Property management
 
 All properties will be owned and managed by the regional housing company. The board of this company will be decided democratically by the members of the region, and the board will hire the top-level management to execute the duties of management.
@@ -48,4 +46,8 @@ Regional socialism -- while possibly engaging in the purchasing of condos, duple
 It is hoped that the region buying up properties and setting rents fairly will have a calming effect on the surrounding housing markets, reducing the amount of profit that real estate speculation can deliver.
 
 As with other secondary markets, regional socialism takes a passive stance, even with items as large as property. That said, as with other secondary markets, individuals will be competing with regional socialism and may find it more profitable to operate in the primary markets rather than secondary.
+
+## Loss of membership
+
+If someone loses their regional membership for whatever reason, while they are free to keep their housing, they must pay market rate for it.
 
