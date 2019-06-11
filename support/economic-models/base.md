@@ -1,0 +1,173 @@
+- currency is used
+  - currency is a measure of societal value
+  - stored electronically, all transactions go through conductor
+    - the idea is to make it expensive to make secondary markets
+    - direct transfers impossible, must be buying goods or services
+      - see "services" section
+
+- equations:
+  - ProfessionHours: (hours worked) * StressIndex * SocialNeed
+    - StressIndex: mental + physical stress
+    - SocialNeed: NEED teachers. NEED construction. we don't NEED dildos (well, i do, most people don't)
+    - values determined per-profession, per-region
+  - ProductivityRate: determines a person's productivity
+    - based on industry average (ranges from 0 to 2, 1 being average)
+      - range can be variable regionally
+    - NOTE: this would be HEAVILY per-industry influenced and nuanced
+      - ex: can a dr's productivity be measured by "patients per hour"?
+        - would incentivize bad behavior
+      - programmers were measured in the past by lines of code
+    - might need to be based on mutual workplace agreements and quarterly peer evaluation
+  - BaseSalary: ProfessionHours * ProductivityRate
+  - CostOfEducation:
+    - Reschooling for market shifts should not be penalized
+      - education scarcity to decentivize overschooling
+    - Simplified: easier to track, averages costs
+      - For each day:
+        - (CostOfLabor + Maintenance) / TotalStudents
+          - CostOfLabor: the labor cost of all staff summed (teachers, administrative, janitorial, IT, etc)
+          - Maintenance: supplies/equipment
+            - light bulbs
+            - boiler room shit
+            - cleaning supplies
+            - etc
+          - basically average the cost of running the entire school, per-day, over each student (daily)
+    - Exact: requires specific student/teacher tracking (good luck)
+      - For each day:
+        - TeacherHoursPerStudent + (Mainenance / TotalStudents)
+          - TeacherHoursPerStuden:
+            - for each teacher student has
+              - CostOfSkilledLabor * (hours spent with student)
+          - Maintenance:
+            - for each enrolled hour (eg, 4 years would be 365 * 24 * 4 = 35040)
+              - labor hours (skilled or unskilled) of all maintenance staff
+                - janitorial
+                - electrician
+                - IT
+          - TotalStudents:
+            - on any given day, how many students are enrolled
+  - EducationVesting: A value starting at N and approaching 1 (linearly) over H hours as education is payed back
+    - Min(N + (((hours worked) / H) * (1 - N)), 1)
+      - 0 < N <= 1
+      - 1 < D <= Infinity
+    - N / Y set per-region/per-industry
+    - company pays salary as worker sees it (worker pays off education to state via reduced labor cost)
+      - cheaper to hire workers out of school
+      - more expensive to retain/hire seasoned workers
+      - requires careful tuning of vesting schedule/rate values
+        - want to not create artificial market for hiring fresh meat and/or firing veterans
+        - also want to penalize workers for shifting careers too early
+        - balanced N value
+  - Salary: (BaseSalary * EducationVesting)
+      - ProductivityRate: 0.1 <= x <= 2
+        - Collectively-decided measure of a worker's productivity based on industry standard (1 being average)
+
+- banking/investment
+  - controls allocation of regional capital into new ventures
+  - coordinates regionally-owned means of production
+    - tracks inventory
+    - responsible for maintenance
+  - democratic/local control (board)
+    - size ranges from 1-N in odd numbers
+      - based on population?
+    - votes on funding regional businesses
+  - allows community control of investment
+
+- conductor base functions
+  - regional/state payment processor
+    - decentralized via cryptocurrency
+    - pseudanonymous
+  - regional/state job/product market
+    - available jobs listed
+    - products listed (capital and consumer)
+    - shipping companies/methods listed
+  - cost tracking: all resources/work for each product are calculated:
+    - raw material costs (owned by state or via foreign trade)
+    - labor hours
+    - shipping
+
+- how is global trade operated?
+  - trade companies buy foreign products at the exchange rate of the currency
+  - the "cost" of the products (to society, not the price sold) is the exact $$ amount used to purchase/ship
+    - foreign exchanges have exchange rates set (per-currency or across the board) via planning
+
+- federate on the company level? or region level?
+  - probably region (city/municipality), right?
+
+- job markets
+  - companies have listings on conductor for positions
+  - companies interview and hire the best candidates
+  - self-employment is an option
+    - all transactions go through conductor
+      - enforces payment via labor-hours (see salary)
+
+- production company modeling
+  - anybody can start a company
+    - ask regional bank for a loan, must show there is a market
+      - if approved, company can "rent" factory space (see "equipment rental")
+      - if strong market is shown, company can "rent" land and build a factory/storefront
+
+- workforce
+  - every worker paid salary while working
+    - see "equations.salary"
+  - measure cost based not just on labor hours, but the societal cost of education
+    - (CostOfEducation / years productive) * (ProfessionHours * ProductivityRate)
+      - CostOfEducation: factors in all the skilled/unskilled labor hours to educate
+        - recursive? must have dampening to avoid infinite looping
+      - given the above, new workers are MUCH more expensive to society than old ones.
+        - perhaps this should be taken into account in salary for *skilled workers*
+    - EducationPayback: At some point a person has payed back their education completely?
+      - at this point EducationVesting in salary equation should be 1
+      - also at this point, if they are a teacher, CostOfEducation 
+  - education cost per student
+    - cost of teacher hours (skill
+  - can't work (injury/brain condition/etc)
+    - pay them low-level salary?
+  - don't want to work
+    - some acceptable buffer of non-productive population
+      - EUTHENIZATION jkjkjk
+      - SJW CUCKS
+      - ??
+
+- housing
+  - state-owned
+  - like equipment, state charges rent
+  - land can be purchased from state
+    - house can be built on purchased land
+  - house can be sold back to state at market value
+    - market value is determined via yearly assessment
+  - house can be bought from state at market value
+    - state bank issues loans
+  - apartments owned by state
+    - rent is cost of operating the building
+  - is it "free" or does it take credits?
+  - houses for non-working?
+    - probably, low end, or shelters with food (see "don't want to work")
+
+- equipment rental
+  - WIP
+  - all means of production owned by community/region
+    - trucks
+    - factories
+    - machines
+    - etc (anything a "company" owns is owned by local public)
+  - everything used is rented from region
+
+- regional coordination
+  - WIP
+  - allow creation of pools of capital that coordinating regions can spend from
+  - examples:
+    - road spanning multiple regions
+    - public transit
+    - bridge over body of water between two regions
+
+- unknowns / WIP:
+  - secondary/black markets
+    - people paying each other directly or exchanging gifts
+      - does this matter? black market would have to pay more than worker salary
+    - possibility of exploitation?
+    - foreign money as a means of exchange
+      - heavy taxes on foreign -> local currency exchanges?
+  - working from home/running company from home
+    - only a problem IF companies do not have profit and do not pay workers from company pool
+
