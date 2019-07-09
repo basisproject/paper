@@ -1,0 +1,172 @@
+# Labor-hours
+
+This Conductor model uses an updated labor vouchers system (blockchain, NON-EXPIRING, *transferable*) to model production. The idea is that social demand is measured through orders of goods either as inputs to production or as final consumer products and vouchers are paid as a function of fulfilled orders.
+
+This model does *not* extend the base model, as it is radically different.
+
+- known issues (unresolved)
+  - production/service scale
+    - if i provide a service to one company, they cover 100% of my hours. if for the same social labor hours, i can serve 100 companies, then it becomes much more expensive for the first company then for the second one (and so on)
+    - this is solved in capitalism via funding: can focus on getting more companies on board until they can cover the cost of our services at some more reasonable price point.
+    - this applies to production as well! if our factory can serve 2 orders at once but we only have 1 current order, the cost for the items produced will be double
+    - problem for:
+      - production
+      - software
+      - restaurants
+      - storefronts
+      - aka EVERYTHING
+    - services that require customers to operate at scale must either
+      - have some kind of reserve pool they can draw from to pay wages as they find a way to equalize prices
+      - be based on ongoing allowances (aka, "we the people hereby declare that 1000 social labor hours shall be devoted to seafood restaurants")
+        - this solution is WAYY to central-planny
+
+- equations:
+  - wages/labor:
+    - `conductor.minimum_wage`: the lowest per-hour someone can be paid
+    - `conductor.wage_multiplier`: the highest someone can be paid
+      - this is where wealth disparity comes in. if this is `100` and `conductor.minimum_wage` is `1` then the highest paid person in the economy will earn 100x more than the lowest paid person
+    - `conductor.productivity_rage`: a value that determines, as a ratio, how much `worker.productivity` can adjust the final wage either up or down.
+      - as an example, if the worker's base wage is 100, and `productivity_range` is 0.3, then at a productivity of 1, the worker's wage will be 130, and at a productivity of 0, the wage will be 70.
+    - `industry.need`: how much society values a particular industry
+    - `occupation.*`: values determined collectively on a regional level (democratically), values are `0 <= n <= 1`
+      - `occupation.industry_weight`: how much an industry's need affects a particular occupation
+      - `occupation.scale_weight`: controls how much `worker.scale` affects the overall occupation `wage_ratio`
+      - `occupation.skill`: how much skill or education is required for this occupation
+      - `occupation.need`: the social need of the occupation (people sick? might need more doctors...)
+      - `occupation.stress`: how much stress the occupation involves. gardening? might be low. heart surgery? probably high
+      - `occupation.danger`: chance of injury or death
+    - `worker.scale`: a value `1 <= N <= conductor.max_scale` that describes how many direct people this worker affects. this is meant to give various occupations (company leadership, entertainers, politicians) weight based on how many people are being served by them. the idea is, the more people served, the more difficult the occupation and this should be taken into account.
+    - `worker.productivity`: a self-assigned or peer-assigned value that determines a worker's productivity. if worker A can make chairs twice as fast as worker B, worker A will likely have a higher productivity value. productivity serves to give workers control over their own wages.
+    - `worker.wage_ratio`: the ratio at which society values a particular occupation
+      - `WeightedAvg((industry.need, occupation.industry_weight), (occupation.skill, 1), (occupation.need, 1), (occupation.stress, 1), (occupation.danger, 1), (worker.scale / conductor.max_scale, occupation.scale_weight))`
+    - `worker.base_wage`: the hourly wage of a worker before productivity is factored in
+      - `worker.wage_ratio * conductor.wage_multiplier`
+    - `worker.productivity_adjuster`: a value calculated to adjust the final wage based on a worker's `worker.productivity` value
+      - `(2 * (worker.productivity - 0.5)) * (conductor.productivity_range * worker.base_wage)`
+    - `worker.wage`: the amount a worker is paid per-hour
+      - `Max(worker.base_wage + worker.productivity_adjuster, conductor.minimum_wage)`
+    - `labor_hours`: direct hours of labor a worker has performed
+    - `social_labor_hours`: the unit of accounting for all cost tracking in the system
+      - `labor_hours * worker.wage`
+  - companies
+    - product cost
+      - `company.social_labor_hours`: how many `social_labor_hours` a company has spent in a production cycle
+        - this is *not* just how many `social_labor_hours` the company's workers have spent directly, but *also* the `social_labor_hours` of all productive inputs, maintenance, services used, etc that the company has spent during a production cycle.
+        - example: we make chairs. to do so we need wood. when we order our wood, the `social_labor_hours` it took to make that wood are added to our `company.social_labor_hours` for that cycle. if a hammer breaks and we need to replace it, we order a new one and the `social_labor_hours` used to create the hammer are added to our total hours as well.
+      - `product.labor_factor`: the estimated average number of hours it takes to build a product. for instance if a company makes chairs, a simple wooden chair might have a factor of 1 (as in it takes on average 1 hour to produce) and an intricate and detailed chair might have a factor of 7, meaning the detailed chair takes 7x as long to make as the simple chair. this is decided by the company internally.
+      - `product.num_produced`: how many of a certain product type were produced in a cycle
+      - `company.total_effort`: sum of, for each product type, `(product.num_produced * product.labor_factor)`
+      - `product.cost`: how much labor time a particular product costs society in social labor hours
+        - `(((product.num_produced * product.labor_factor) / company.total_effort) * company.social_labor_hours) / product.num_produced`
+    - reserve pool
+      - `company.num_workers`: the number of workers in a company
+      - `company.reserve_pool_size`: `region.reserve_pool_factor * company.num_workers`
+      - `company.reserve_pool_allowance`: WIP, but based on some percentage of average monthly order volume
+  - housing:
+    - `housing.unit.square_footage`: *incorporates land*, in other words, if renting a house, you're not just paying for the square footage of the house itself, but also for the square footage of the land (you pay for the space you use)
+    - `housing.unit.luxury`: the luxury index of the particular unit being occupied (determined by housing council)
+    - `housing.total_square_footage`: the summed square footage of *all units managed by the region*
+    - `housing.average_luxury`: the average luxury index *of all managed units* 
+    - `housing.total_yearly_costs`: the summed total of all active external mortgages the housing council holds
+    - `housing.unit.rent`: 
+      - `((housing.unit.square_footage * housing.unit.luxury) / (housing.total_square_footage * housing.average_luxury)) * (housing.total_yearly_costs / 12)` 
+
+- companies
+  - product cost
+    - products for b2b are not "sold" but ordered/transferred.
+    - when a company orders a product (or service) the *total* labor hours it took to produce that product or service are added to the company's total production hours for their current cycle (`company.social_labor_hours`).
+    - See `product.cost` equation
+    - the idea here is that the more labor it takes to make something, the more that is tallied as the inputs/outputs move through the economic network. the final product (consumable) is then priced at *exactly* the cost it took to build the product. using this method, we build things for direct use and the total cost of products or services is the cost of what it takes to produce them, no more, no less.
+  - service cost
+    - because services are provided on a 1:1 hourly basis, there is no need for any complicated pricing. one hour of services provided is one hour of the `social_labor_hours` of the person providing the service.
+    - if a company orders the service, the cost of that service is added to `company.social_labor_hours` for the company receiving the service
+    - the hours for service provided are *not* added to `company.social_labor_hours` for the providing company *because the product being created was both produced and consumed at the same time*. therefor if we make chairs *and* repair chairs, our repair people doing repairs does not raise the cost of the chairs we sell.
+  - ownership
+    - workers own the companies (co-op)
+    - companies are collections of workers, organizing in whatever way they see fit (whether a traditional hierarchical structure with democratically-elected board members or a collective)
+    - companies collectively own the products/assets transferred to them (things like laptops, desks, etc), until they transfer them to another company
+    - asset depreciation
+      - WIP
+      - a laptop that has been used for 4 years is not worth the `social_labor_hours` used to create it, so if a company orders new laptops and sends the old ones away, the company who gets the old laptops presumably should not have their `company.social_labor_hours` increased by the original `social_labor_hours` cost of each laptop.
+      - an apple has a depreciation schedule as well =]
+      - depreciation is per-unit (not per-product type)
+      - the same products might depreciate differently for different companies
+  - reserve pool
+    - WIP
+    - a pool of `social_labor_hours` a company can use to
+      - pay workers if orders are less than production
+      - pay down `company.social_labor_hours` in the current cycle if costs are too high
+    - acts as a buffer to protect companies from overproduction or ballooned costs (smooths out otherwise exaggerated fluctuations in costs/wages)
+    - sized as a function of `company.reserve_pool_size` (see equations)
+    - added to every month as a function of `company.reserve_pool_allowance` (see equations)
+  - wages
+    - paid from reserve pool or directly from orders
+
+- governance
+  - councils
+  - democratically elected at municipal or regional level
+  - operate on consensus decision making
+
+- markets
+  - primary: association of producers providing products/services based on measured demand
+    - concerned only with production of products/services, 
+  - secondary:
+    - labor tokens are transferable between people therefor secondary markets are possible
+    - second-hand products can be bought at arbitrary values...they have already been "paid" for in the primary markets, therefor no reason to restrict resale
+
+- means of production
+  - owned municipally, like roads/bridges/etc
+  - fixed capital: productive land, airports, seaports, factories, warehouses, office buildings
+    - NOT: laptops, toothbrushes, pencils, etc (duh). these are owned by the people/companies who buy them
+  - managed by democratically-elected council
+    - determines what MoP to buy/sell (see "global trade")
+    - manages maintenance
+  - use determined by availability and ability to pay for opportunity cost (`social_opportunity_cost`) rent, decided by MoP council
+    - if MoP is mortgaged from an outside economy, cost of mortgage is added to rent
+  - waitlisted
+  - ongoing cost of maintenance (in `social_labor_hours`) is budgeted directly as an ongoing social cost and is *not* charged to the occupying company
+  - building new MoP:
+    - see "projects and allocations" section
+
+- housing
+  - partially socially owned
+  - apartments, duplexes, some single-family homes
+  - managed by democratically-elected council
+    - determines what housing to buy/sell (see "global trade")
+    - manages maintenance
+  - use determined by availability and ability to pay for rent
+    - rent is determined mainly by luxury of the unit and the external costs (mortgages in the external economy) of housing (see `housing.unit.rent` equation)
+  - waitlisted
+  - ongoing cost of maintenance (in `social_labor_hours`) is budgeted directly as an ongoing social cost and is *not* charged to the occupying company
+  - building new housing:
+    - see "projects and allocations" section
+
+- projects and allocations
+  - WIP
+  - ongoing allocations
+    - budgeting labor time for various activities that might be socially useful (cleaning streets, building video games, etc)
+  - projects
+    - single projects that people can vote on that budget certain amounts of labor tokens
+    - vote or share cost on??
+
+- global trade
+  - facilitated by public bank
+  - managed by democratically-elected council
+  - converts between `social_labor_hours` and external currency
+    - set by banking council
+    - two conversion rates:
+      - `banking.company_rate`: primary economy conversion (b2b)
+        - optimizes for two-way commerce
+      - `banking.individual_rate`: conversion to/from local currency by non-productive individuals (non-companies)
+        - optimizes slightly for keeping money in-system
+  - allows companies in primary economy to
+    - fulfill orders in external economy seamlessly (paying laborers their `social_labor_hours` as a result)
+    - order inputs to production, adding `social_labor_hours` to their `company.social_labor_hours` at the current conversion rate
+    - companies cannot exchange `social_labor_hours`/currency directly, must happen through orders via conductor
+  - allows individuals to convert `social_labor_hours` to currency via the `banking.individual_rate`
+
+- raw materials
+  - WIP
+  - idea: assigned an initial cost (in `social_labor_hours`) based on rareness, so when used in production, more rare materials are more costly
+    - WIP: assigning initial cost in a meaningful way (obviously, can't be voted on because the general public won't know if a resource is abundant or not, and people will almost always vote for resources to be cheaper)
+

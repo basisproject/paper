@@ -47,9 +47,9 @@
           - TotalStudents:
             - on any given day, how many students are enrolled
   - EducationVesting: A value starting at N and approaching 1 (linearly) over H hours as education is payed back
-    - Min(N + (((hours worked) / H) * (1 - N)), 1)
-      - 0 < N <= 1
-      - 1 < D <= Infinity
+    - `Min(N + (((hours worked) / H) * (1 - N)), 1)`
+      - `0 < N <= 1`
+      - `1 < D <= Infinity`
     - N / Y set per-region/per-industry
     - company pays salary as worker sees it (worker pays off education to state via reduced labor cost)
       - cheaper to hire workers out of school
@@ -59,7 +59,7 @@
         - also want to penalize workers for shifting careers too early
         - balanced N value
   - Salary: (BaseSalary * EducationVesting)
-      - ProductivityRate: 0.1 <= x <= 2
+      - ProductivityRate: `0.1 <= x <= 2`
         - Collectively-decided measure of a worker's productivity based on industry standard (1 being average)
 
 - banking/investment
