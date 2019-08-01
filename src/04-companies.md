@@ -4,7 +4,7 @@ Companies are started by region members and operated by their workers. They are 
 
 ## Profit
 
-Companies can make profit. The difference with market capitalism, however, is that company profit cannot be arbitrarily distributed to workers. Profit must be spent, via the Conductor system, on more inputs to production, hiring more workers, or buying products or services to make production more efficient. Profits which sit too long (using FIFO accounting) in a company's capital pool are taxed at a regionally-defined rate.
+Companies can make profit. The difference with market capitalism, however, is that company profit cannot be arbitrarily distributed to workers. Profit must be spent, via the Factor system, on more inputs to production, hiring more workers, or buying products or services to make production more efficient. Profits which sit too long (using FIFO accounting) in a company's capital pool are taxed at a regionally-defined rate.
 
 This separation of profit from the workers ensures a few things:
 

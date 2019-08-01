@@ -1,6 +1,6 @@
 - currency is used
   - currency is a measure of societal value
-  - stored electronically, all transactions go through conductor
+  - stored electronically, all transactions go through Factor
     - the idea is to make it expensive to make secondary markets
     - direct transfers impossible, must be buying goods or services
       - see "services" section
@@ -73,7 +73,7 @@
     - votes on funding regional businesses
   - allows community control of investment
 
-- conductor base functions
+- Factor base functions
   - regional/state payment processor
     - decentralized via cryptocurrency
     - pseudanonymous
@@ -95,10 +95,10 @@
   - probably region (city/municipality), right?
 
 - job markets
-  - companies have listings on conductor for positions
+  - companies have listings on Factor for positions
   - companies interview and hire the best candidates
   - self-employment is an option
-    - all transactions go through conductor
+    - all transactions go through Factor
       - enforces payment via labor-hours (see salary)
 
 - production company modeling
