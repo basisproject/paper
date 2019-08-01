@@ -1,6 +1,6 @@
-# Conductor manifesto
+# Factor whitepaper
 
-It's important to note there are two major version of this manifesto.
+It's important to note there are two major version of this paper.
 
 One, the original, is a market-based model that derives use-values of products via market forces by placing limitations on how company profits can be spent.
 
