@@ -20,8 +20,8 @@ that this model, if desired, would likely come *after* the company-profit model.
   - product pricing:
     - companies sell products for exactly the cost the make them
       - WIP: this was the original idea, and has not been fully thought out
-      - production expands via reinvestment from bank/conductor based on output numbers (automated feedback loop)
-        - (paid for by some form of conductor-adjustable sales tax)
+      - production expands via reinvestment from bank/Factor based on output numbers (automated feedback loop)
+        - (paid for by some form of Factor-adjustable sales tax)
         - allows community-controlled expansion/contraction of enterprises
         - reinvestment value MUST be high enough to pay back loans
         - workers paid directly from region/state pool, not company pool
@@ -35,11 +35,11 @@ that this model, if desired, would likely come *after* the company-profit model.
         - WIP: requires loans to weather lulls in demand
         - more "centralized"/controlled, feels forced
         - reeks of overcomplication
-        - cost of things much harder to determine (conductor calculates final price, pricing needs exact calculations)
+        - cost of things much harder to determine (Factor calculates final price, pricing needs exact calculations)
   - services:
-    - services needed listed in conductor
-    - services provided listed in conductor
-    - bookings happen via conductor
+    - services needed listed in Factor
+    - services provided listed in Factor
+    - bookings happen via Factor
       - allows tracking 
   - performance:
     - WIP

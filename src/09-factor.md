@@ -1,6 +1,6 @@
-# Chapter 9: The definition of the Conductor system
+# Chapter 9: The definition of the Factor system
 
-WIP. For now, this is just a high-level list of operations Conductor will need to facilitate:
+WIP. For now, this is just a high-level list of operations Factor will need to facilitate:
 
 - Creation of companies
 - Listing/discovery of products and services

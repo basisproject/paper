@@ -6,7 +6,7 @@ Management of regional parameters and operations can be decided by direct democr
 
 ## Regional parameters
 
-The regional parameters define various aspects for how the economy will work within the region. They will be defined in the Conductor system and managed either directly by the region's participants or by elected representatives.
+The regional parameters define various aspects for how the economy will work within the region. They will be defined in the Factor system and managed either directly by the region's participants or by elected representatives.
 
 All regional parameters will always be publicly available for review by any member of the region. The full list of regional parameters is as follows:
 
@@ -39,7 +39,7 @@ The High Council will select the overall leadership and will be ultimately respo
 The mission of the regional co-op company will be to:
 
 - Coordinate and mediate between the regionally-owned companies
-- Develop and maintain the software systems used to power the region's economy (Conductor)
+- Develop and maintain the software systems used to power the region's economy (Factor)
 - Provide education and guidance to new companies
 - Facilitate elections and hold meetings with members of the region
 - Foster a sense of community between all the members in the region
@@ -65,7 +65,7 @@ The region will operate a small amount of various types of companies. The main c
 
 The idea is that the region will trend toward operating companies where parasitic profit-seeking is detrimental to society as a whole, focusing on regional welfare instead of amassing of capital. This serves two purposes: to allow members to adjust their own cost of living and to attract outsiders to participate.
 
-All accounting for regionally-owned companies happens through Conductor, allowing detailed information on costs of running the company. This makes it easy to offer services at-cost (or some percentage of cost, with the region subsidizing the difference). It also allows ultimate transparency: any regional member can view the accounting of any regionally-owned company.
+All accounting for regionally-owned companies happens through Factor, allowing detailed information on costs of running the company. This makes it easy to offer services at-cost (or some percentage of cost, with the region subsidizing the difference). It also allows ultimate transparency: any regional member can view the accounting of any regionally-owned company.
 
 Regionally-owned companies are not necessarily restricted to servicing only regional members. For instance, if a region has excess space in an apartment complex, it may rent out the rooms to non-regional members at market rate (instead of at-cost). The regional college may enroll students who are not members and charge them much higher tuition.
 
@@ -128,7 +128,7 @@ If the Saint Paul region subsidizes housing by 50% and the Minneapolis region do
 
 The answer is for regions to coordinate with each other. They might come to a deal where a worker in the Minneapolis region can get housing in Saint Paul, but only at a 5% subsidy instead of a 50%.
 
-The Conductor system would allow setting rules like this (if they live in X region but work in Y region, housing costs Z). This would be transparent to both the worker (who would see the different cost of housing when they applied for the new job) and to the Saint Paul housing company who will be able to see the full list of housed members and at what cost their rent is.
+The Factor system would allow setting rules like this (if they live in X region but work in Y region, housing costs Z). This would be transparent to both the worker (who would see the different cost of housing when they applied for the new job) and to the Saint Paul housing company who will be able to see the full list of housed members and at what cost their rent is.
 
 The premise is, membership is a function of where someone works, but regions can coordinate between themselves to offer services to members of other regions if there is a need to do so.
 
