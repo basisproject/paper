@@ -4,22 +4,22 @@ PATH := $(PATH):/c/dev/pandoc
 
 mdfiles := $(shell find src/ -name "*.md" | sort)
 
-converted/regional-socialism.epub: $(mdfiles)
+converted/factor.epub: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -o $@ $^
 
-converted/regional-socialism.tex: $(mdfiles)
+converted/factor.tex: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -s -o $@ $^
 
-converted/regional-socialism.html: $(mdfiles)
+converted/factor.html: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -s -o $@ $^
 
-converted/regional-socialism.odt: $(mdfiles)
+converted/factor.odt: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -s -o $@ $^
 
-book: converted/regional-socialism.epub
-html: converted/regional-socialism.html
-latex: converted/regional-socialism.tex
-odt: converted/regional-socialism.odt
+book: converted/factor.epub
+html: converted/factor.html
+latex: converted/factor.tex
+odt: converted/factor.odt
 
 all: book
 

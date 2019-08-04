@@ -111,7 +111,7 @@ This model does *not* extend the base model, as it is radically different.
   - primary: association of producers providing products/services based on measured demand
     - concerned only with production of products/services, 
   - secondary:
-    - labor tokens are transferable between people therefor secondary markets are possible
+    - labor vouchers are transferable between people therefor secondary markets are possible
     - second-hand products can be bought at arbitrary values...they have already been "paid" for in the primary markets, therefor no reason to restrict resale
 
 - means of production
@@ -146,7 +146,7 @@ This model does *not* extend the base model, as it is radically different.
   - ongoing allocations
     - budgeting labor time for various activities that might be socially useful (cleaning streets, building video games, etc)
   - projects
-    - single projects that people can vote on that budget certain amounts of labor tokens
+    - single projects that people can vote on that budget certain amounts of labor vouchers
     - vote or share cost on??
 
 - global trade
