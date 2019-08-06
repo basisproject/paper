@@ -4,6 +4,7 @@ Companies are started by region members and operated by their workers. They are 
 
 - Be worker-owned such that all employees have some controlling share in the company
 - Use the Factor system for all accounting (incoming orders, outgoing orders, and worker time tracking)
+- Meet some social need, defined as their final products being purchased by consumers or used as the productive input to other companies that have final products purchased by consumers
 
 ## Ownership
 
@@ -49,19 +50,43 @@ It's important to note that many of these parameters may be set once and only ad
 
 A worker's productivity level is set by the company she works for. If a worker is the only employee of a company, she can set her own productivity rate arbitrarily. In a larger company, productivity rates will likely be set by peer or managerial review. The process of how productivity rates are set for each worker is left up to the companies and their workers.
 
-Productivity level, along with productivity rate, allows creating some range of wages within the same occupation. This allows companies a certain level of autonomy in setting their own wages while at the same time keeping the wishes of the community as a whole in mind. The goal of this system is to balance the needs of the overall region while still giving companies a certain level of control.
+Productivity level, along with productivity rate, allows creating some range of wages within the same occupation. This allows companies a certain level of autonomy in setting their own wages while at the same time keeping the wishes of the community as a whole in mind. The goal of this system is to balance the needs of the overall region while still giving companies a certain level of control. The higher the regional `productivity_range` parameter, the more autonomy companies have in setting their own wages.
 
 ## Product and service pricing
 
-All product and service pricing will be internally-automated such that given the operating costs of the company, the products and services offered are priced at exactly the average cost of operation over time. The idea here is to eliminate all profit entirely and price final products at the exact cost to make them.
+All product and service pricing will be internally automated such that given the operating costs of the company, the products and services offered are priced at exactly the average cost of operation over time. The idea here is to eliminate all profit entirely and price final products at the exact cost to make them.
 
 Since companies will be using Factor for their accounting as well as the medium of exchange for their products and services, pricing products can be automated.
 
-However, it's important to note that companies can still give their products and services a market value (and are encouraged to do so), so companies *outside* of the Factor economy buying their products will be paying the fair market price (as opposed to the at-cost value provided to in-system members). The market currency for outside purchases goes directly to the regional bank (so companies never deal directly with any currency).
+It's important to note that companies can still give their products and services a market price (and are encouraged to do so), so companies *outside* of the Factor economy buying their products will be paying the market price (as opposed to the at-cost value provided to in-system members). The market currency for outside purchases goes directly to the regional bank (so companies never deal directly with any currency). The market price for products and services *must be set at or above the at-cost value of the product* as determined by the current exchange ratio (and Factor will help automate this).
 
-## Accounting between Factor companies
+The actual algorithm for pricing products is fairly in-depth, so it won't be listed here. However, as a quick description: each product is given an `effort` value, which is essentially how much time it takes to produce. It also has the inputs to productions it requires associated with it. Using these values we can determine given the total costs of the inputs to production, the total operating costs of the company, and the number of items produced under each product type, the breakdown of costs as they are associated with each product.
 
-TODO: everything is free, costs are accounted for
+See here for an standalone model of the product pricing system: <https://gitlab.com/factor-/product-costs>
+
+## Accounting between member companies
+
+Member companies will have no system of accounting between them. No currency will exchange when orders between companies are completed.
+
+That said, *costs* will still be accounted for in the final products. Let's take an example. A chair maker needs wood to make her chairs. She orders the wood (and remember, there is no bank account she uses to buy the wood from, she simply makes the order) at a cost equal to the raw-material cost of trees plus the cost of the labor to cut, mill, and ship them. Then she spends five hours making each chair. Ultimately her final product is the cost of her labor, plus the cost of the milled wood, plus the cost of the rent of her workshop etc, averaged over some long operational period. When another member company orders her chairs, the cost of the chairs are added to *their* average costs, and whatever things they produce will include the cost of the chairs in them.
+
+So if there's no system of accounting between member companies, what keeps the chair maker from clocking in and twiddling her thumbs all day? If there is no company bank account tracking expenses, she can get paid for sitting around doing nothing! There are a few things at play here that keep people from taking advantage. First, because the system is entirely transparent, anybody can see that she's not fulfilling orders and her company costs are ballooning. Even if her and another company colluded to just order each other's products ceaselessly, it would be fairly easy to see that nothing useful was being produced, and they are therefor not meeting any social need. Secondly, because all costs are accounted for, if she did only make one chair per week while collecting all of her pay, the costs of her chairs would be astronomically high, because one chair takes `(40 * hourly_wage) + weekly_operational_costs`.
+
+In the extreme case where a number of companies collude and never actually produce anything that meets some social need, they could be found by their interrelated transactions and ever-growing cost pool. They would simply lose membership, and their workers would either need to seek employment at other member companies or they would need to find their fortune in the outside market system.
+
+## Accounting with non-member companies
+
+Until all regions acting together are, as a whole, self-sufficient between themselves, it will be necessary for them to interact with the outside market system. This entails buying products and services from outside the region (and we covered selling products at market prices in the last section). If member companies do not actually manage any capital, then how does this happen?
+
+TODO. Ideas:
+
+- monthly/yearly voucher pool stipend which can be spent out of only for market expenses?
+- would need to be dependent on the region's incoming capital vs outgoing capital
+- systemic incentives to strongly favor intra-region purchasing
+- essentially, regional bank needs to have more incoming than outgoing =]
+  - this is where regional allocation comes into play
+  - likely smaller regions will have to be very selective about which companies can participate
+
 
 ## Loss of membership
 
@@ -70,5 +95,5 @@ Companies that refuse to participate within the rules of the region may lose mem
 - at-cost pricing for productive assets
 - at-cost pricing for housing, education, and other services for the company's worker-members
 
-Loss of membership will be determined by the Regional Council, the region's highest authority. It will likely issue warnings before a company permanently loses membership.
+Loss of membership will be determined by the Regional Council. It will likely issue warnings before a company permanently loses membership.
 
