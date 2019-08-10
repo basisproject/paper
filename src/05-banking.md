@@ -1,6 +1,6 @@
 # Chapter 5: Banking
 
-Banking is foundational to a Factor socialist region. It essentially acts as a cell wall, protecting the inside economy from the outside market one.
+Banking is foundational to a Factor socialist region. It essentially acts as a cell wall, protecting the inside economy from the outside market one. Because member companies don't actually hold any capital, the 
 
 Funds from regional services and regional taxes will be stored in a regionally-owned "public" bank. In addition, all companies participating in the region must store their funds in the public bank. Not only will this bank hold the various forms of regional income, it will also be the region's primary lender. Companies will apply for loans from the public bank and the structure of the loan will reflect the risk of the venture.
 

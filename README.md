@@ -2,7 +2,7 @@
 
 This is a huge work in progress. The original version of this project was built on top of a market system and called "regional socialism." It has close ties to mutualism and/or libertarian market socialism (probably). It can be found on [this git branch](https://gitlab.com/factor-/whitepaper/tree/regional-socialism.market-model.v1) for those curious.
 
-The current, in-progress version is going to be based on more of a collectivist-anarchist model: products are priced at the average cost to produce them (as well attempting to internalize scarcity, ecology, pollution, and waste management), jobs are paid via labor vouchers, different jobs have different wages which are derived from democratically-set attributes (skill, danger, stress, etc), the only inter-company accounting is need-based, means of production and (a lot of) housing are socialized, and a public bank is used to interface with external market systems.
+The current, in-progress version is going to be based on more of a collectivist-anarchist model: products are priced via an in-kind system (labor and raw materials while attempting to internalize scarcity, ecology, pollution, and waste management), jobs are paid via labor vouchers, different jobs have different wages which are derived from democratically-set attributes (skill, danger, stress, etc), the only inter-company accounting is need-based, means of production and (a lot of) housing are socialized, and a public bank is used to interface with external market systems.
 
 On top of this, a system of investment is defined for things that are difficult to account for via labor hours/incoming orders (such as large-scale software) and can also be used to subsidize public services (such as schools or hospitals).
 
