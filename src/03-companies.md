@@ -3,7 +3,7 @@
 Companies are started by region members and operated by their workers. They are autonomous economic units that build and produce things as they see fit. In order to be considered for regional membership, companies must:
 
 - Be worker-owned such that all employees have some controlling share in the company
-- Use the Factor system for all accounting (incoming orders, outgoing orders, and worker time tracking)
+- Use the Basis system for all accounting (incoming orders, outgoing orders, and worker time tracking)
 - Meet some social need, defined as their final products being purchased by consumers or used as the productive input to other companies that have final products purchased by consumers
 
 ## Ownership
@@ -56,13 +56,13 @@ Productivity level, along with productivity rate, allows creating some range of 
 
 All product and service pricing will be internally automated such that given the operating costs of the company, the products and services offered are priced at exactly the average cost of operation over time. The idea here is to eliminate all profit entirely and price final products at the exact cost to make them.
 
-Since companies will be using Factor for their accounting as well as the medium of exchange for their products and services, pricing products can be automated.
+Since companies will be using Basis for their accounting as well as the medium of exchange for their products and services, pricing products can be automated.
 
-It's important to note that companies can still give their products and services a market price (and are encouraged to do so), so companies *outside* of the Factor economy buying their products will be paying the market price (as opposed to the at-cost value provided to in-system members). The market currency for outside purchases goes directly to the regional bank (so companies never deal directly with any currency). The market price for products and services *must be set at or above the at-cost value of the product* as determined by the current exchange ratio (and Factor will help automate this).
+It's important to note that companies can still give their products and services a market price (and are encouraged to do so), so companies *outside* of the Basis economy buying their products will be paying the market price (as opposed to the at-cost value provided to in-system members). The market currency for outside purchases goes directly to the regional bank (so companies never deal directly with any currency). The market price for products and services *must be set at or above the at-cost value of the product* as determined by the current exchange ratio (and Basis will help automate this).
 
 The actual algorithm for pricing products is fairly in-depth, so it won't be listed here. However, as a quick description: each product is given an `effort` value, which is essentially how much time it takes to produce. It also has the inputs to productions it requires associated with it. Using these values we can determine given the total costs of the inputs to production, the total operating costs of the company, and the number of items produced under each product type, the breakdown of costs as they are associated with each product.
 
-See here for an standalone model of the product pricing system: <https://gitlab.com/factor-/product-costs>
+See here for an standalone model of the product pricing system: <https://gitlab.com/basis-/product-costs>
 
 ## Accounting between member companies
 

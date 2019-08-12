@@ -37,7 +37,7 @@ Tenants are prohibited from subletting their units. This will be enforced by the
 
 ## Transparency
 
-Like other regionally-owned companies, costs of housing would be transparent and accounted through the Factor system, allowing members to see the overall costs and to see exactly how their rent prices are derived.
+Like other regionally-owned companies, costs of housing would be transparent and accounted through the Basis system, allowing members to see the overall costs and to see exactly how their rent prices are derived.
 
 ## Home purchasing
 

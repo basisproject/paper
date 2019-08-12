@@ -4,22 +4,22 @@ PATH := $(PATH):/c/dev/pandoc
 
 mdfiles := $(shell find src/ -name "*.md" | sort)
 
-converted/factor.epub: $(mdfiles)
+converted/basis.epub: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -o $@ $^
 
-converted/factor.tex: $(mdfiles)
+converted/basis.tex: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -s -o $@ $^
 
-converted/factor.html: $(mdfiles)
+converted/basis.html: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -s -o $@ $^
 
-converted/factor.odt: $(mdfiles)
+converted/basis.odt: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -s -o $@ $^
 
-book: converted/factor.epub
-html: converted/factor.html
-latex: converted/factor.tex
-odt: converted/factor.odt
+book: converted/basis.epub
+html: converted/basis.html
+latex: converted/basis.tex
+odt: converted/basis.odt
 
 all: book
 

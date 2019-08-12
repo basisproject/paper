@@ -11,7 +11,7 @@ must be re-invested into hiring more people and/or increasing production.
 Profits-at-rest are taxed by some regionally-decided variable amount.
 
 This model can be much more lax about the planning aspect of the economy, in
-fact I'm not sure to what extent Factor would even be needed.
+fact I'm not sure to what extent Basis would even be needed.
 
 ## Extension of base
 

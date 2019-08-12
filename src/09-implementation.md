@@ -1,6 +1,6 @@
-# Chapter 9: The definition of the Factor system
+# Chapter 9: The definition of the Basis system
 
-WIP. For now, this is just a high-level list of operations Factor will need to facilitate:
+WIP. For now, this is just a high-level list of operations Basis will need to facilitate:
 
 - Creation of companies
 - Listing/discovery of products and services

@@ -1,14 +1,14 @@
 # Chapter 2: Regions
 
-While Factor is designed to provide one large economic network, it segments members regionally. Why the regional approach? It comes down to human nature. Nobody likes someone else telling them how to live their life. However, it's usually much worse when the person doing so lives far away and has no idea what life is like for people here.
+While Basis is designed to provide one large economic network, it segments members regionally. Why the regional approach? It comes down to human nature. Nobody likes someone else telling them how to live their life. However, it's usually much worse when the person doing so lives far away and has no idea what life is like for people here.
 
 Economic decisions should reflect the needs of communities, not some state planning board from some distant land. Regions are set up such that people participating in the region set the parameters of their own economy to suit their needs.
 
-Management of regional parameters and operations can be decided by direct democratic process, through elected representatives, or by various other methods. The exact process for governing regions won't be defined here, and will likely vary from region to region. Factor will strive to provide as many tools as is practical for various methods of management, but will also not force any given structure on members. Ultimately, Factor is an economic system that requires some governance, not a governance system in general, and this will be reflected in its set of features.
+Management of regional parameters and operations can be decided by direct democratic process, through elected representatives, or by various other methods. The exact process for governing regions won't be defined here, and will likely vary from region to region. Basis will strive to provide as many tools as is practical for various methods of management, but will also not force any given structure on members. Ultimately, Basis is an economic system that requires some governance, not a governance system in general, and this will be reflected in its set of features.
 
 ## Regional parameters
 
-The regional parameters define various aspects for how the economy will work within the region. They will be defined in the Factor system and managed either directly by the region's members or by elected representatives.
+The regional parameters define various aspects for how the economy will work within the region. They will be defined in the Basis system and managed either directly by the region's members or by elected representatives.
 
 All regional parameters will always be publicly available for review by any member of the region. The full list of regional parameters is as follows:
 
@@ -60,7 +60,7 @@ The region will operate a small amount of various types of companies. The main c
 
 The idea is that the region will trend toward operating companies where parasitic profit-seeking is detrimental to society as a whole, focusing on regional welfare instead of amassing of capital. This serves two purposes: to allow members to adjust their own cost of living and to attract outsiders to participate (by driving costs downwards for members through the removal of profit).
 
-All accounting for regionally-owned companies happens through Factor, allowing detailed information on costs of running the company. This makes it easy to offer services at-cost. It also allows ultimate transparency: any regional member can view the accounting of any regionally-owned company.
+All accounting for regionally-owned companies happens through Basis, allowing detailed information on costs of running the company. This makes it easy to offer services at-cost. It also allows ultimate transparency: any regional member can view the accounting of any regionally-owned company.
 
 Regionally-owned companies are not necessarily restricted to servicing only regional members. For instance, if a region has excess space in an apartment complex, it may rent out the rooms to non-regional members at market rate (instead of at-cost). The regional college may enroll students who are not members and charge them much higher tuition. In these situations, all extra profits go to the regional bank which disperses funds internally based on democratically-decided distribution plans (buying more housing, social dividend, etc).
 
@@ -110,7 +110,7 @@ Federation of regions allows transparency and freedom of movement.
 Coordination between regions is important not just for obvious reasons (for instance, building a bridge over a river separating the two regions) but for more nuanced problems. 
 Let's say someone lives in the Saint Paul region, but they get a new job in the Minneapolis region. In other words, they are not truly a member of the Saint Paul region anymore because they no longer work in that region. Should they now have to pay market-rate for their housing in St. Paul? The answer depends on if the two regions have coordinated and decided how to handle this situation. It might be that St. Paul charges *some price between at-cost and market-rate* to Minneapolis regional members. Or they both might decide that they let all their members use all their housing at-cost.
 
-Factor will allow setting up these rules between regions such that it's automated and transparent to members who wish to see what costs would be if they were to find employment in another region (and not just housing, but health care, schooling, etc).
+Basis will allow setting up these rules between regions such that it's automated and transparent to members who wish to see what costs would be if they were to find employment in another region (and not just housing, but health care, schooling, etc).
 
 The premise is, membership is a function of where someone works, but regions can coordinate between themselves to offer services to members of other regions if there is a desire to do so.
 

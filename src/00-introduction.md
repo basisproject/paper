@@ -1,5 +1,5 @@
 ---
-title: "Factor: a blockchain implementation of a socialist mode of production"
+title: "Basis: a blockchain implementation of a socialist mode of production"
 subtitle: "Or, how to save the world by getting rid of markets, capital, and profits"
 author:
   - "Andrew M. Lyon"
@@ -67,11 +67,11 @@ The reason why capitalism seems a much better solution than any form of socialis
 
 This paper will define a system that makes implementing and maintaining a socialist mode of production as simple as possible. Its goals are to use incentives, as opposed to coercion, to grow naturally and eat capitalism slowly over time, replacing it with a system that pays people the full value of their labor, distributes based on contribution, and accounts for the costs that capitalism externalizes. It will do this without sacrificing autonomy or individual choice.
 
-## What is Factor?
+## What is Basis?
 
-Factor is a software implementation of the system described above. It facilitates orders and transactions between companies, allows for the managing of housing and means of production, facilitates democratic participation, and defines a currency that can be used by members.
+Basis is a software implementation of the system described above. It facilitates orders and transactions between companies, allows for the managing of housing and means of production, facilitates democratic participation, and defines a currency that can be used by members.
 
 It will be built on top of a blockchain system which will make it resilient against both tampering and corruption. The nature of this blockchain will also make all economic and civic operations transparent, while preserving privacy of individual purchases and votes.
 
-Factor's goal, beyond providing economic structure, is to be so good at what it does that not using it isn't just inconvenient, it's expensive.
+Basis's goal, beyond providing economic structure, is to be so good at what it does that not using it isn't just inconvenient, it's expensive.
 

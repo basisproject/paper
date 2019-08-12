@@ -1,12 +1,12 @@
-# Chapter 1: Defining Factor's goals
+# Chapter 1: Defining Basis's goals
 
-Factor is a foundation for automation and democratization of economic-related processes (and the governance thereof) within the framework of a socialist mode of production. The ultimate goal is to replace as much governance as possible with automation and to enable self-governance by members where automation is infeasible.
+Basis is a foundation for automation and democratization of economic-related processes (and the governance thereof) within the framework of a socialist mode of production. The ultimate goal is to replace as much governance as possible with automation and to enable self-governance by members where automation is infeasible.
 
-In other words, Factor is the basis for a collectivist-anarchist system (using socially-owned means of production and a calculation-in-kind pricing system) with the eventual goal of evolving into anarcho-communism: no wages, no money, no government.
+In other words, Basis is the basis for a collectivist-anarchist system (using socially-owned means of production and a calculation-in-kind pricing system) with the eventual goal of evolving into anarcho-communism: no wages, no money, no government.
 
-Another primary goal of Factor is to be deployed inside of a capitalist market system and grow from there. No violent revolution, no killing, no massive systemic upset that often results in authoritarianism. Its growth is achieved by using the concept of duality: all housing, productive instruments, services, and products are provided to members at-cost, and are also provided to non-members at market rate. Fixed costs of housing (and of economic assets such as office buildings or warehouses) over time creates a large economic incentive for membership: why pay $3000/mo in rent when you can pay $500? As the market continues to price these assets at an ever-growing rate, members will enjoy only paying the costs of local property taxes and average ongoing costs of maintenance. This puts downward pressure on costs of living and costs of doing business, creating a system that can out-compete the market system over time.
+Another primary goal of Basis is to be deployed inside of a capitalist market system and grow from there. No violent revolution, no killing, no massive systemic upset that often results in authoritarianism. Its growth is achieved by using the concept of duality: all housing, productive instruments, services, and products are provided to members at-cost, and are also provided to non-members at market rate. Fixed costs of housing (and of economic assets such as office buildings or warehouses) over time creates a large economic incentive for membership: why pay $3000/mo in rent when you can pay $500? As the market continues to price these assets at an ever-growing rate, members will enjoy only paying the costs of local property taxes and average ongoing costs of maintenance. This puts downward pressure on costs of living and costs of doing business, creating a system that can out-compete the market system over time.
 
-Let's go over some of the key points of Factor.
+Let's go over some of the key points of Basis.
 
 ## Governance
 
@@ -53,5 +53,5 @@ Let's go over some of the key points of Factor.
   - A social dividend where all participants within a region are given a monthly stipend based on a percentage of that month's profits
 - A system of social investment is defined such that if a project is deemed socially necessary on a one-time basis (such as building a bridge) or an ongoing basis (such as funding cancer research), the members working on those projects are paid their share of labor voucher, entitling them to some share of the final social productive pool. These projects use the same duality pricing system as every other company in the system: members pay the subsidized rate, non-members pay the full market value, and the difference is socialized.
 
-It's very important to note that while this paper serves as the initial blueprint, it is nothing more than a set of ideas. When Factor is deployed in the real world, the ideas and needs of the system may evolve suddenly and rapidly.
+It's very important to note that while this paper serves as the initial blueprint, it is nothing more than a set of ideas. When Basis is deployed in the real world, the ideas and needs of the system may evolve suddenly and rapidly.
 

@@ -1,6 +1,6 @@
 # Labor-hours
 
-This Factor model uses an updated labor vouchers system (blockchain, NON-EXPIRING, *transferable*) to model production. The idea is that social demand is measured through orders of goods either as inputs to production or as final consumer products and vouchers are paid as a function of fulfilled orders.
+This Basis model uses an updated labor vouchers system (blockchain, NON-EXPIRING, *transferable*) to model production. The idea is that social demand is measured through orders of goods either as inputs to production or as final consumer products and vouchers are paid as a function of fulfilled orders.
 
 This model does *not* extend the base model, as it is radically different.
 
@@ -22,10 +22,10 @@ This model does *not* extend the base model, as it is radically different.
 
 - equations:
   - wages/labor:
-    - `Factor.minimum_wage`: the lowest per-hour someone can be paid
-    - `Factor.wage_multiplier`: the highest someone can be paid
-      - this is where wealth disparity comes in. if this is `100` and `Factor.minimum_wage` is `1` then the highest paid person in the economy will earn 100x more than the lowest paid person
-    - `Factor.productivity_rage`: a value that determines, as a ratio, how much `worker.productivity` can adjust the final wage either up or down.
+    - `Basis.minimum_wage`: the lowest per-hour someone can be paid
+    - `Basis.wage_multiplier`: the highest someone can be paid
+      - this is where wealth disparity comes in. if this is `100` and `Basis.minimum_wage` is `1` then the highest paid person in the economy will earn 100x more than the lowest paid person
+    - `Basis.productivity_rage`: a value that determines, as a ratio, how much `worker.productivity` can adjust the final wage either up or down.
       - as an example, if the worker's base wage is 100, and `productivity_range` is 0.3, then at a productivity of 1, the worker's wage will be 130, and at a productivity of 0, the wage will be 70.
     - `industry.need`: how much society values a particular industry
     - `occupation.*`: values determined collectively on a regional level (democratically), values are `0 <= n <= 1`
@@ -35,16 +35,16 @@ This model does *not* extend the base model, as it is radically different.
       - `occupation.need`: the social need of the occupation (people sick? might need more doctors...)
       - `occupation.stress`: how much stress the occupation involves. gardening? might be low. heart surgery? probably high
       - `occupation.danger`: chance of injury or death
-    - `worker.scale`: a value `1 <= N <= Factor.max_scale` that describes how many direct people this worker affects. this is meant to give various occupations (company leadership, entertainers, politicians) weight based on how many people are being served by them. the idea is, the more people served, the more difficult the occupation and this should be taken into account.
+    - `worker.scale`: a value `1 <= N <= Basis.max_scale` that describes how many direct people this worker affects. this is meant to give various occupations (company leadership, entertainers, politicians) weight based on how many people are being served by them. the idea is, the more people served, the more difficult the occupation and this should be taken into account.
     - `worker.productivity`: a self-assigned or peer-assigned value that determines a worker's productivity. if worker A can make chairs twice as fast as worker B, worker A will likely have a higher productivity value. productivity serves to give workers control over their own wages.
     - `worker.wage_ratio`: the ratio at which society values a particular occupation
-      - `WeightedAvg((industry.need, occupation.industry_weight), (occupation.skill, 1), (occupation.need, 1), (occupation.stress, 1), (occupation.danger, 1), (worker.scale / Factor.max_scale, occupation.scale_weight))`
+      - `WeightedAvg((industry.need, occupation.industry_weight), (occupation.skill, 1), (occupation.need, 1), (occupation.stress, 1), (occupation.danger, 1), (worker.scale / Basis.max_scale, occupation.scale_weight))`
     - `worker.base_wage`: the hourly wage of a worker before productivity is factored in
-      - `worker.wage_ratio * Factor.wage_multiplier`
+      - `worker.wage_ratio * Basis.wage_multiplier`
     - `worker.productivity_adjuster`: a value calculated to adjust the final wage based on a worker's `worker.productivity` value
-      - `(2 * (worker.productivity - 0.5)) * (Factor.productivity_range * worker.base_wage)`
+      - `(2 * (worker.productivity - 0.5)) * (Basis.productivity_range * worker.base_wage)`
     - `worker.wage`: the amount a worker is paid per-hour
-      - `Max(worker.base_wage + worker.productivity_adjuster, Factor.minimum_wage)`
+      - `Max(worker.base_wage + worker.productivity_adjuster, Basis.minimum_wage)`
     - `labor_hours`: direct hours of labor a worker has performed
     - `social_labor_hours`: the unit of accounting for all cost tracking in the system
       - `labor_hours * worker.wage`
@@ -162,7 +162,7 @@ This model does *not* extend the base model, as it is radically different.
   - allows companies in primary economy to
     - fulfill orders in external economy seamlessly (paying laborers their `social_labor_hours` as a result)
     - order inputs to production, adding `social_labor_hours` to their `company.social_labor_hours` at the current conversion rate
-    - companies cannot exchange `social_labor_hours`/currency directly, must happen through orders via Factor
+    - companies cannot exchange `social_labor_hours`/currency directly, must happen through orders via Basis
   - allows individuals to convert `social_labor_hours` to currency via the `banking.individual_rate`
 
 - raw materials
