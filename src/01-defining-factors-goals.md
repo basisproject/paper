@@ -1,27 +1,34 @@
 # Chapter 1: Defining Factor's goals
 
-Factor is a foundation for automation and democratization of economic-related processes (and the governance thereof) within the framework of a socialist mode of production. The ultimate goal is to have no governing authority where possible and self-governance by members where automation is infeasible.
+Factor is a foundation for automation and democratization of economic-related processes (and the governance thereof) within the framework of a socialist mode of production. The ultimate goal is to replace as much governance as possible with automation and to enable self-governance by members where automation is infeasible.
 
-In other words, Factor is the basis for a collectivist-anarchist system (using a calculation-in-kind pricing system) with the eventual goal of evolving into anarcho-communism.
+In other words, Factor is the basis for a collectivist-anarchist system (using socially-owned means of production and a calculation-in-kind pricing system) with the eventual goal of evolving into anarcho-communism: no wages, no money, no government.
+
+Another primary goal of Factor is to be deployed inside of a capitalist market system and grow from there. No violent revolution, no killing, no massive systemic upset that often results in authoritarianism. Its growth is achieved by using the concept of duality: all housing, productive instruments, services, and products are provided to members at-cost, and are also provided to non-members at market rate. Fixed costs of housing (and of economic assets such as office buildings or warehouses) over time creates a large economic incentive for membership: why pay $3000/mo in rent when you can pay $500? As the market continues to price these assets at an ever-growing rate, members will enjoy only paying the costs of local property taxes and average ongoing costs of maintenance. This puts downward pressure on costs of living and costs of doing business, creating a system that can out-compete the market system over time.
+
+Let's go over some of the key points of Factor.
 
 ## Governance
 
-- Management of all parts of the system is done democratically by members. This includes setting wage parameters, investment plans, subsidies, etc.
+- Management of the system is done democratically by members. This includes setting wage parameters, investment plans, subsidies, etc.
+- Larger tasks that require more coordination or planning may be delegated to various councils. For instance, a housing council might buy housing (and set the market rates for rent) depending on housing wait lists for a region. A production council might handle buying productive assets such as factories, warehouses, office space, and large equipment depending on regional need as well as scheduling maintenance. Council members will be democratically elected and immediately recallable.
 - All parameters of the system are regional, allowing different areas to set different parameters depending on the residents of that region. In other words, this project is made to set up a federation of local economies (although it can be used at a higher level if desired).
 
 ## Productive instruments
 
 - The means of production are socialized, with the end goal of making starting and running a company much easier so that production can be spun up and down based on societal need as opposed to driven by the whims of profit and the interests of capital holders.
+- Maintenance and purchasing of means of production are handled by a production council, tasked with coordinating with the region's members to make decisions based on needs (and wait listing).
 
 ## Companies
 
 - Anybody can start a company, and any company can hire anybody they want. People are free to move and create as they see fit, and as long as they are meeting some societal need (as in, fulfilling orders from other companies or consumers) they are paid for their labor.
-- People are paid the full value of their labor as valued by society. A labor voucher system is implemented and paid hourly. Labor voucher can be used to buy final consumer products. Wages are a product of a set of democratically-decided attributes which are assigned for each occupation (skill, need, stress, danger, etc).
-- All participation in the system is voluntary, and all members of the system must be workers in a participating company. All participating companies *must be worker-owned co-ops* and *cannot* have any non-member employees.
+- People are paid the full value of their labor as valued by society. A labor voucher system is implemented and paid hourly. Labor vouchers can be used to buy final consumer products. Wages are a product of a set of democratically-decided attributes which are assigned for each occupation (skill, need, stress, danger, etc).
+- All participation in the system is voluntary, and all members of the system must be workers in a participating company (or must be nuclear family of members: spouse or children). All participating companies *must be worker-owned co-ops* and *cannot* have any non-member employees. In other words, all companies must be 100% employee-owned.
 - If a company no longer wishes to be a member of the system, they are free to leave. However, the means of production they use will immediately start to be charged at market rate, and any housing any of the workers use (along with any other subsidized services) will also be charged at market rate. This creates incentives for membership in the system.
 
 ## Pricing, products, and services
 
+- Product pricing is based off of *in-kind* (more on this in the Pricing chapter).
 - Products cost *exactly* the costs of the labor and raw materials (and ecology thereof) to produce them. All pricing is automated based on the inputs and outputs of each company.
 - All production is transparent: given any product, anyone can see what companies were involved in its building, from raw material to distributor, what each employee at each of the companies is paid, what orders were fulfilled to bring the product to completion, etc. All economic data is available to every member in the system.
 - All purchases by consumers are encrypted and obscured such that nobody, including the people maintaining the system, knows what purchases occur (other than to know that *a purchase occurred*). All information about the purchaser, purchasee, and value exchanged is available only to the parties directly involved.
