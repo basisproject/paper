@@ -1,4 +1,4 @@
-# Chapter 1: Defining Basis's goals
+# Chapter 1: Defining Basis' goals
 
 Basis is a foundation for automation and democratization of economic-related processes (and the governance thereof) within the framework of a socialist mode of production. The ultimate goal is to replace as much governance as possible with automation and to enable self-governance by members where automation is infeasible.
 
