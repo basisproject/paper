@@ -2,9 +2,9 @@
 
 Basis is a foundation for automation and democratization of economic-related processes (and the governance thereof) within the framework of a socialist mode of production. The ultimate goal is to replace as much governance as possible with automation and to enable self-governance by members where automation is infeasible.
 
-In other words, Basis is the basis for a collectivist-anarchist system (using socially-owned means of production and a calculation-in-kind pricing system) with the eventual goal of evolving into anarcho-communism: no wages, no money, no government.
+In other words, Basis lays the groundwork for a collectivist-anarchist system (using socially-owned means of production and a calculation in-kind pricing system) with the eventual goal of evolving into anarcho-communism: no wages, no money, no government.
 
-Another primary goal of Basis is to be deployed inside of a capitalist market system and grow from there. No violent revolution, no killing, no massive systemic upset that often results in authoritarianism. Its growth is achieved by using the concept of duality: all housing, productive instruments, services, and products are provided to members at-cost, and are also provided to non-members at market rate. Fixed costs of housing (and of economic assets such as office buildings or warehouses) over time creates a large economic incentive for membership: why pay $3000/mo in rent when you can pay $500? As the market continues to price these assets at an ever-growing rate, members will enjoy only paying the costs of local property taxes and average ongoing costs of maintenance. This puts downward pressure on costs of living and costs of doing business, creating a system that can out-compete the market system over time.
+Another primary goal of Basis is to be deployed inside of a capitalist market system and grow from there. No violent revolution, no killing, no massive systemic upset that often results in authoritarianism. Its growth is achieved by using the concept of duality: all housing, productive instruments, services, and products are provided to members at-cost, but are also provided to non-members *at market rate.* Fixed costs of housing (and of economic assets such as office buildings or warehouses) over time creates a large economic incentive for membership: why pay $3000/mo in rent when you can pay $500? As the market continues to price these assets at an ever-growing rate, members will enjoy paying only the costs of local property taxes and average ongoing costs of maintenance. This puts downward pressure on costs of living and costs of doing business *for members*, creating a system that can out-compete the market system over time.
 
 Let's go over some of the key points of Basis.
 
@@ -36,9 +36,10 @@ Let's go over some of the key points of Basis.
 
 ## Currency
 
+- Members are paid in labor vouchers.
 - Labor vouchers are destroyed when buying final consumables.
 - Labor vouchers do not expire, and are freely exchangeable between individuals. This allows secondary markets (like garage sales) and reduces waste by allowing second-hand items to be sold between individuals at prices negotiated freely between themselves.
-- Labor voucher are freely exchangeable with the outside market system's currency based on a simple equation of `total_tokens_issued / bank_liquid_assets`. This allows members to purchase items that are not readily available in the internal economy, and also allows them freedom to not be shackled to the "company store." It also allows members to strike a balance between non-subsidized profitable companies and non-profitable subsidized companies, such that the more subsidies exist, the lower the value of the internal labor voucher exchange rate.
+- Labor voucher are freely exchangeable with the outside market system's currency based on a simple equation of `total_vouchers_issued / bank_liquid_assets`. This allows members to purchase items that are not readily available in the internal economy, and also allows them freedom to not be shackled to the "company store." It also allows members to strike a balance between non-subsidized profitable companies and non-profitable subsidized companies, such that the more subsidies exist, the lower the value of the internal labor voucher exchange rate.
 
 ## Housing
 
