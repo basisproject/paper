@@ -15,7 +15,7 @@ Basis manages a number of things:
 - Cost tracking
 - Use of means of production
 - Use of housing
-- Collaborative management of social investment (such as building a bridge or hospital)
+- Collaborative management of social investment (such as building a bridge or hospital, or investing in ongoing automation research)
 
 This paper will describe the system itself, how it can be used, and the vision and goals behind it. It will do its best to avoid micromanaging what society should look like, instead seeking to become a foundation to build on top of.
 
