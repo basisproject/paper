@@ -1,6 +1,6 @@
 # Basis paper
 
-This is a huge work in progress. The original version of this project was built on top of a market system and called "regional socialism." It has close ties to mutualism and/or libertarian market socialism (probably). It can be found on [this git branch](https://gitlab.com/basis-/whitepaper/tree/regional-socialism.market-model.v1) for those curious.
+This is a huge work in progress. The original version of this project was built on top of a market system and called "regional socialism." It has close ties to mutualism and/or libertarian market socialism (probably). It can be found on [this git branch](https://gitlab.com/basisproject/whitepaper/tree/regional-socialism.market-model.v1) for those curious.
 
 The current, in-progress version describes a system that provides the foundations of an economy based on the principles of the [free association of producers](https://en.wikipedia.org/wiki/Free_association_(Marxism_and_anarchism)) using an in-kind cost tracking system.
 
