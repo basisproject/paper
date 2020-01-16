@@ -2,57 +2,62 @@
 
 Basis is a foundation for automation and democratization of economic-related processes (and the governance thereof) within the framework of a socialist mode of production. The ultimate goal is to replace as much governance as possible with automation and to enable self-governance by members where automation is infeasible.
 
-In other words, Basis lays the groundwork for a collectivist-anarchist system (using socially-owned means of production and a calculation in-kind pricing system) with the eventual goal of evolving into anarcho-communism: no wages, no money, no government.
+Let's go over some of the key goals of Basis.
 
-Another primary goal of Basis is to be deployed inside of a capitalist market system and grow from there. No violent revolution, no killing, no massive systemic upset that often results in authoritarianism. Its growth is achieved by using the concept of duality: all housing, productive instruments, services, and products are provided to members at-cost, but are also provided to non-members *at market rate.* Fixed costs of housing (and of economic assets such as office buildings or warehouses) over time creates a large economic incentive for membership: why pay $3000/mo in rent when you can pay $500? As the market continues to price these assets at an ever-growing rate, members will enjoy paying only the costs of local property taxes and average ongoing costs of maintenance. This puts downward pressure on costs of living and costs of doing business *for members*, creating a system that can out-compete the market system over time.
+## Membership
 
-Let's go over some of the key points of Basis.
+Membership of the system is controlled by policies set by current members. In general, a member of the system is a person who works at a member company, and member companies generally can join (or be created) under the conditions that they:
 
-## Governance
+- Are a worker-owned company or multi-stakeholder company where the workers have significant representation
+- Use Basis for their transactional system and labor time tracking
 
-- Management of the system is done democratically by members. This includes setting wage parameters, investment plans, subsidies, etc.
-- Larger tasks that require more coordination or planning may be delegated to various councils. For instance, a housing council might buy housing (and set the market rates for rent) depending on housing wait lists for a region. A production council might handle buying productive assets such as factories, warehouses, office space, and large equipment depending on regional need as well as scheduling maintenance. Council members will be democratically elected and immediately recallable.
-- All parameters of the system are regional, allowing different areas to set different parameters depending on the residents of that region. In other words, this project is made to set up a federation of local economies (although it can be used at a higher level if desired).
+Usage of the system is open to any non-member company (as a platform to sell their products and services for money/profit) for a monthly fee.
 
-## Productive instruments
+## Regionality
 
-- The means of production are socialized, with the end goal of making starting and running a company much easier so that production can be spun up and down based on societal need as opposed to driven by the whims of profit and the interests of capital holders.
-- Maintenance and purchasing of means of production are handled by a production council, tasked with coordinating with the region's members to make decisions based on needs (and wait listing).
+While Basis aims to be a federated network of groups of producers all working together to meet each others' needs, there still needs to be some level of local control. Nobody wants someone 1000 miles away telling them how to do things.
 
-## Companies
+Communal assets would fall under regional control. The idea is that someone in New York shouldn't have any say over what happens to a tractor in Minnesota. Regions are groups of assets and economic parameters that are controlled by the members in that region.
 
-- Anybody can start a company, and any company can hire anybody they want. People are free to move and create as they see fit, and as long as they are meeting some societal need (as in, fulfilling orders from other companies or consumers) they are paid for their labor.
-- People are paid the full value of their labor as valued by society. A labor voucher system is implemented and paid hourly. Labor vouchers can be used to buy final consumer products. Wages are a product of a set of democratically-decided attributes which are assigned for each occupation (skill, need, stress, danger, etc).
-- All participation in the system is voluntary, and all members of the system must be workers in a participating company (or must be nuclear family of members: spouse or children). All participating companies *must be worker-owned co-ops* and *cannot* have any non-member employees. In other words, all companies must be 100% employee-owned.
-- If a company no longer wishes to be a member of the system, they are free to leave. However, the means of production they use will immediately start to be charged at market rate, and any housing any of the workers use (along with any other subsidized services) will also be charged at market rate. This creates incentives for membership in the system.
+## Cost tracking
 
-## Pricing, products, and services
+Basis tracks disaggregate costs of products and services in terms of labor and resources. What does this mean? It means that a chair no longer costs $30, but rather 1.8 hours of labor, 12 kg wood, 3g steel, and 0.4l diesel fuel.
 
-- Product pricing is based off of *in-kind* (more on this in the Pricing chapter).
-- Products cost *exactly* the costs of the labor and raw materials (and ecology thereof) to produce them. All pricing is automated based on the inputs and outputs of each company.
-- All production is transparent: given any product, anyone can see what companies were involved in its building, from raw material to distributor, what each employee at each of the companies is paid, what orders were fulfilled to bring the product to completion, etc. All economic data is available to every member in the system.
-- All purchases by consumers are encrypted and obscured such that nobody, including the people maintaining the system, knows what purchases occur (other than to know that *a purchase occurred*). All information about the purchaser, purchasee, and value exchanged is available only to the parties directly involved.
-- There is no system of accounting between producing entities. In other words, if my company needs to make a chair, and to do so requires three widgets, we do not *pay* the widget maker, but instead just order the widgets. The widget maker is responsible for deciding whether I am using the widgets for a productive purpose or not (and because they will be able to see what orders I am fulfilling that require their widgets, this will be an easy task for them). However, the chairs, if sold directly to consumers, will be sold at the cost of the labor to make the chairs in addition to *the cost of the labor and materials used to make the widgets and any other productive inputs required to make the chairs*.
+Why do things this way? Why not just tally up the costs of everything and give a final number? Because the final number will have erased all of the costs involved in production.
 
-## Currency
+When we have a disaggregate list of costs for each product, producers, consumers, and governments can know the *exact* costs of something, as opposed to just *the market cost*. Fans of capitalism say that pricing allows you to compare the cost of two different things. They're right in that prices as aggregate values allow easy comparison, but they're also wrong because *prices don't reflect costs*. Prices are arbitrary and meaningless, whereas costs are absolute.
 
-- Members are paid in labor vouchers.
-- Labor vouchers are destroyed when buying final consumables.
-- Labor vouchers do not expire, and are freely exchangeable between individuals. This allows secondary markets (like garage sales) and reduces waste by allowing second-hand items to be sold between individuals at prices negotiated freely between themselves.
-- Labor voucher are freely exchangeable with the outside market system's currency based on a simple equation of `total_vouchers_issued / bank_liquid_assets`. This allows members to purchase items that are not readily available in the internal economy, and also allows them freedom to not be shackled to the "company store." It also allows members to strike a balance between non-subsidized profitable companies and non-profitable subsidized companies, such that the more subsidies exist, the lower the value of the internal labor voucher exchange rate.
+Basis allows tracking of *costs* of production, which retains information about the labor, resources, and to some extent the externalities it takes to make something.
 
-## Housing
+## Public market and ordering system
 
-- Housing is purchased from the outside market system and provided to members of the system at-cost, such that they only pay any final fees (property taxes and maintenance). Each housing unit (whether a single family home, duplex, or apartment building) will be self-managed by those living in it.
-- There will be no landlords or HOAs, only commonly-owned property under the management of those who use it.
+A company can publish the products and services they provide, and Basis will let other companies (or consumers) order them.
 
-## Banking
+In a sense, Basis is like Amazon for companies: use it to order the things you need to run your company from other companies, and it will track the costs of production along the way.
 
-- A public bank is used to interface with outside market systems. This allows small or large pockets of socialism within a much larger capitalist system to exist and grow. For participants, products and services are priced at-cost, and to anyone outside the system, the products and services are priced at market value. The difference in base cost and market value (the profit) is socialized, and is used to fund some mix of:
-  - Subsidies for schools, health care, and any other desired public services
-  - Buying more housing or means of production
-  - A social dividend where all participants within a region are given a monthly stipend based on a percentage of that month's profits
-- A system of social investment is defined such that if a project is deemed socially necessary on a one-time basis (such as building a bridge) or an ongoing basis (such as funding cancer research), the members working on those projects are paid their share of labor voucher, entitling them to some share of the final social productive pool. These projects use the same duality pricing system as every other company in the system: members pay the subsidized rate, non-members pay the full market value, and the difference is socialized.
+For members ordering from other members, no money is involved in the transaction. This means that that the larger the netowrk of member companies grows, the easier it is to produce.
 
-It's very important to note that while this paper serves as the initial blueprint, it is nothing more than a set of ideas. When Basis is deployed in the real world, the ideas and needs of the system may evolve suddenly and rapidly.
+## Credit system
+
+Basis allows a number of credit systems to be used. Credits are somewhat different than money because they don't circulate the primary economy and they are destroyed when spent. For instance, if you have 10 labor credits, and you buy an apple for 3 credits, you now have 7 credits left and the 3 you spent on the apple are destroyed and removed from the economy.
+
+A few options for credits are used:
+
+- Labor credits. These are essentially printed when labor is completed, with a multiplier set by the company the member works for. Upper limits on multipliers might be set regionally, such that the highest-paid member can only get 10x the lowest-paid member. This is really up to the region, the companies, and the members to decide. Labor credits could then be spent such that if I have 500 credits, I can purchase a product or service that took 500 hours (or less) to produce.
+- Resource credits. Instead of getting credits that allow for spending on the labor content of products and services, members might receive resource credits for their labor. This would allow purchasing based on the resource content of products. This model would drive down resource usage of the economy.
+- Hybrid credits. Perhaps members are paid in labor credits, but also have a carbon spending credit to lower use of fossil fuels.
+
+## Asset tracker
+
+Let's say we communally own some houses, some office buildings, a few tractors...great! Who is in stewardship of them? Is there an end date to their use of that asset that we can use to determine if we need to acquire more? Are there specific terms for the use of it?
+
+Basis allows us to track these assets, who has them, how old they are, the costs of their maintenance, and so on. This data is transparent to members so communal decisions can be made in confidence.
+
+## Voting
+
+What good is the communal ownership of assets if you cannot exercise any sort of control over them? Basis allows various types of elections so members of the system can have a say over their shared property.
+
+This ranges from voting for people for specific permissions and positions in the system to voting for changing economic parameters.
+
+The idea is to allow self-governance in many forms, and not to force a particular setup on people.
 

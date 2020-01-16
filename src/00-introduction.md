@@ -1,24 +1,18 @@
 ---
 title: "Basis: a blockchain implementation of a socialist mode of production"
-subtitle: "Or, how to save the world by getting rid of capital and profits"
+subtitle: "Or, I learned to stop worrying and produce without profits"
 author:
   - "Andrew M. Lyon"
-keywords: "distributed, socialism, anarchism, economics, software, blockchain"
+keywords: "distributed, socialism, economics, software, blockchain"
 ---
 
 # Introduction
 
-Capitalism is destroying us. It relies on markets to price things, but it is terrible at setting prices *to their actual cost*. If you buy a phone, the phone has a price, and that price reflects the market value of the phone (which in a perfectly competitive system is the cost of materials + labor + a slim margin of profit). However, if the phone was built in a factory using caustic chemicals that should be disposed of properly (but are likely dumped in a river), that's not included in the price. If the phone is transported across the globe, the carbon being blasted into the atmosphere by the trucks and boats shipping it is not included in the price. When I throw the phone away six months after buying it to get a slightly updated model, the phone sits in a landfill, and the cost to actually deconstruct and recycle the parts it contains *is not included in the price*.
+Let's start with a premise: we can make all the things we want and need without bowing to profit as our lord and without ceding control of our productive intruments to private owners (and we can do these things without an authoritarian government).
 
-Markets are very good at pricing things based on supply and demand, but are incapable of accurately pricing things based on ecology. On top of this, moneyed interests spend large sums of their profits convincing governments to *not* force them to price in the externalities of their products through taxation and regulation. The end result is we're poisoning ourselves in the long term to give a select few in the short term more wealth than anyone could ever want. Profits now have a life of their own, using humans as a conduit to justify their continued existence.
+Basis is a framework for achieving this goal. It allows companies to publish their products and services to an open network. It allows companies to order those products and services from other companies. It tracks the costs of production as products move through the economy. It allows transparent management of community assets. It allows purchases and elections that respect the privacy of individual users.
 
-On top of this, capitalism doesn't just commodify products and services. It also commodifies things like debt as well. But why stop there? It builds entire financial empires on debt and uses it as a printing press to make more wealth. It commodifies our emotions and personal connections through social media. It commodifies our free time with pocket distraction devices that have been successfully engineered to steal our attention every few moments. It commodifies our housing: the more productivity increases, *the more the market value of housing goes up*! How convenient for the mortgage lenders, banks, and landlords.
-
-While all this is happening, wealth is becoming more and more concentrated in the hands of the few. We're told that wealth is not zero-sum, meaning *everyone* could be a billionaire if only they would just stop being lazy. Band-aid fixes are proposed: basic income, wealth tax, inheritance tax. Yet the system perpetuates, and the wealthy feed off the productive like a tick that has become larger than its host.
-
-So what's the alternative? Central planning? Stalinism? Maoism? Gulags? Famine? People will tell you there are no real alternatives to capitalism. Markets are the only way to produce things, and the means of production cannot *possibly* be socialized!
-
-Let's break down this notion of impossibility, though.
+Basis is a rewrite of our system of governance, with a focus on self-determination, limiting corruption, and creating equality of opportunity.
 
 ## The economics of socialism
 
@@ -33,21 +27,21 @@ Given this, let's start from scratch and discuss some possible ideas:
 
 Our real problem here is supply and demand. A market is essentially a distributed algorithm which finds a value that solves for the current supply and demand of a particular commodity. Price is that value. In essence, given supply and demand, find price. This is an oversimplification, but for our purposes this is fine.
 
-Given the above, what if given demand and price, we solve for supply? The solution is a bit more temporal...supply must be adjusted over time. But then again, if you think of supply not as "the current supply" but instead "the rate at which supply is replenished" (and similarly with demand) then supply *can* be adjusted almost as instantaneously as price. This can also be done in a distributed way. How?
+Given the above, what if instead of given supply and demand and solving for price, we start with demand and cost, we solve for supply? The solution is a bit more temporal...supply must be adjusted over time. But then again, if you think of supply not as "the current supply" but instead "the rate at which supply is replenished" (and similarly with demand) then supply *can* be adjusted almost as instantaneously as price. This can also be done in a distributed way. How?
 
-By measuring orders. Orders are the precursor to the transaction. They are a marker of economic intent. "I want this." If you have a system where orders for widgets (and other products) are publicly available, it's would be very easy to measure how many orders for widgets there are and how backlogged those orders are in aggregate. If there is a backlog of two weeks, perhaps then it makes sense to open a new widget factory.
+By measuring orders. Orders are the precursor to the transaction. They are a marker of economic intent. "I want this." If you have a system where orders for widgets (and other products) are publicly available, it would be very easy to measure how many orders for widgets there are and how backlogged those orders are in aggregate. If there is a backlog of two weeks, perhaps then it makes sense to open a new widget factory.
 
 So in this system of transparency, orders become the signals of demand. In fact, demand becomes much easier to measure, and given demand, and a system of fixed (or at least not rapidly fluctuating) pricing, supply can be adjusted to meet demand. Thus, we do not need a market system of arbitrary prices to facilitate a system of primary production.
 
-Why bother with this, though? Because if you have consensus on setting prices in terms of *costs to society* (labor, resources, externalities), then it becomes much easier to measure the actual costs of things. Markets abstract and obfuscate the costs. If a TV costs $100, I don't know how much of that paid laborers, how much went into machine maintentance, how much into regulatory compliance, how much in profit, marketing, advertising, and so on and so forth. Not only this, but if you can measure all the inputs to production back to the raw materials, you can know which products used more fossil fuels. Which products used chemicals that are known pollutants. Suddenly a TV isn't $100 anymore, but a few grams of silicone, 32 labor hours, 800 miles in shipping, 10 kilos of CO2, etc. How would our purchases change if we knew exactly what went into our products, and what byproducts they had?
+Why bother with this, though? Because if you have consensus on setting "price" in terms of *costs to society* (labor, resources, externalities), then it becomes much easier to measure the actual costs of things. Markets abstract and obfuscate the costs. If a TV costs $100, I don't know how much of that paid laborers, how much went into machine maintentance, how much into regulatory compliance, how much in profit, marketing, advertising, and so on and so forth. Not only this, but if you can measure all the inputs to production back to the raw materials, you can know which products used more fossil fuels. Which products used chemicals that are known pollutants. Suddenly a TV isn't $100 anymore, but a few grams of silicone, 32 labor hours, 800 miles in shipping, 1.5 kilos of CO2, etc. How would our purchases change if we knew exactly what went into our products, and what byproducts they had? Whether we like it or not, the things we do affect those around us and it's time to stop pretending they don't.
 
-This method of measuring orders via a transparent network requires no central bureaucracy, meaning you can sidestep dreadful things like a command economy. In the end, prices would be no more, and instead production would be measured based not on some obscured market process, but the actual costs to society.
+This method of measuring orders via a transparent network requires no central bureaucracy, meaning you can sidestep dreadful things like a command economy. Production would be measured based not on some obscured market process, but the actual costs to society.
 
 ## The system of ownership exercised over the productive instruments
 
 Capitalism is a market system with privatized ownership of the means of production. Socialism necessitates the commonly-owned means of production.
 
-How is this ownership exercised? What things are owned, in particular? Is my toothbrush really mine? If I lend my hammer to a friend, and she uses it at work, is my hammer then socialized?
+How is this common ownership exercised? What things are owned, in particular? Is my toothbrush really mine? If I lend my hammer to a friend, and she uses it at work, is my hammer then socialized?
 
 Let's talk about two things: effectiveness and intent.
 
@@ -66,12 +60,4 @@ Along the lines of intent, things do not automatically *become* socialized just 
 The reason why capitalism seems a much better solution than any form of socialism is because capitalism is *simple*. The pricing mechanism is simple. The ownership mechanism is simple. Anyone can price anything however they want. Anyone can own just about anything they want. Socializing the means of production, as well as using a non-market pricing system, takes more effort. It raises more questions. It changes our relationships to things. However, the simplicity of capitalism is not worth the problems that come with it.
 
 This paper will define a system that makes implementing and maintaining a socialist mode of production as simple as possible. Its goals are to use incentives, as opposed to coercion or force, to grow naturally and eat capitalism slowly over time, replacing it with a system that pays people the full value of their labor, distributes based on contribution, and accounts for the costs that capitalism externalizes. It will do this without sacrificing autonomy or individual choice, with the ultimate goal of providing for everyone: not just consumers, but workers as well, eliminating the jobs nobody wants to do, and eliminating the need for a market do exist just to do something meaningful.
-
-## What is Basis?
-
-Basis is a software implementation of the system described above. It facilitates orders and transactions between companies, allows for the managing of housing and means of production, facilitates democratic participation, and defines a currency that can be used by members.
-
-It will be built on top of a blockchain system which will make it resilient against both tampering and corruption. The nature of this blockchain will also make all economic and civic operations transparent, while preserving privacy of individual purchases and votes.
-
-The goal of Basis, beyond providing economic structure, is to be so good at what it does that not using it isn't just inconvenient, it's expensive.
 
