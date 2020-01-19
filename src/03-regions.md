@@ -14,6 +14,7 @@ Regions don't just own things. They also have a set of member-decided parameters
 
 - Hourly cap on voting rights (after working a certain amount of hours, no additional voting rights are granted)
 - Worker minimum average weekly hours to be given at-cost use of assets
+- Worker credit multiplier cap
 - Distribution plans for regional profits
 - Budgets for regional projects and services (hospitals, schools, etc)
 

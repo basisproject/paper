@@ -18,6 +18,12 @@ Members have voting rights in the system proportional to their contribution in h
 
 A cap may be set on the upper limit of hours needed to have full represenation, meaning that if the cap is set at 40 hours a week, someone who works 50 hours a week has as much voting rights as someone who works 40 hours a week. The purpose of this would be to encourage work-life balance and this cap is decided regionally.
 
+## Member wallets
+
+Members will have a "wallet" that stores their credits (more about this in chapter 6) which they can use to spend on goods and services in the Basis economy.
+
+Both members and non-members can have any number of currency wallets which hold national currencies such as USD.
+
 ## Non-member users
 
 Companies that are not members are free to use the system. They would be able to buy and sell products and services through the Basis network to both member and non-member companies. They may be charged a monthly fee for use of the service, and/or charged a per-transaction fee.

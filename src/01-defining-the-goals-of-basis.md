@@ -13,7 +13,7 @@ Membership of the system is controlled by policies set by current members. In ge
 
 Usage of the system is open to any non-member company (as a platform to sell their products and services for money/profit) for a monthly fee.
 
-## Regionality
+## Regions and locality
 
 While Basis aims to be a federated network of groups of producers all working together to meet each others' needs, there still needs to be some level of local control. Nobody wants someone 1000 miles away telling them how to do things.
 
@@ -29,13 +29,13 @@ When we have a disaggregate list of costs for each product, producers, consumers
 
 Basis allows tracking of *costs* of production, which retains information about the labor, resources, and to some extent the externalities it takes to make something.
 
-## Public market and ordering system
+## Public market
 
-A company can publish the products and services they provide, and Basis will let other companies (or consumers) order them.
+A company can publish the products and services they provide, and Basis lets other companies (or consumers) order them.
 
 In a sense, Basis is like Amazon for companies: use it to order the things you need to run your company from other companies, and it will track the costs of production along the way.
 
-For members ordering from other members, no money is involved in the transaction. This means that that the larger the netowrk of member companies grows, the easier it is to produce.
+For members ordering from other members, no money is involved in the transaction. This means that that the larger the network of member companies grows, the easier it is to produce.
 
 ## Credit system
 
@@ -60,4 +60,10 @@ What good is the communal ownership of assets if you cannot exercise any sort of
 This ranges from voting for people for specific permissions and positions in the system to voting for changing economic parameters.
 
 The idea is to allow self-governance in many forms, and not to force a particular setup on people.
+
+## Public services
+
+At some point, it's conceivable that this system might grow to large numbers of members. At some point, these members might want to have public services and infrastructure. It makes sense to define the ability to create regional (or extra-regional) projects or services that have member-decided budgets or recurring costs.
+
+Examples might be hospitals, schools, bridges, pharmaceutical research, space exploration, etc.
 
