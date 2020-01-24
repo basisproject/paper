@@ -12,6 +12,10 @@ What does this mean? If a region owns an apartment building, members can use it 
 
 Members are given use of these assets, and while they are in use, are given control. So in our apartment example, if ten members share an apartment building, there is no landlord...those ten members *are* their own landlord and must set their own building rules, organize repairs, decide what portion of the expenses each of them pay (perhaps by number of bedrooms or square footage), and/or elect one of them to fulfill these duties. It's important to note that performing maintenance and repairs of these buildings *would constitute labor* and they would receive their share of credits for performing these tasks (which would be incorporated into the cost of the building rent).
 
+## Key management
+
+TODO
+
 ## Voting rights
 
 Members have voting rights in the system proportional to their contribution in hours of labor. A person who works 30 hours a week has twice as much voting power as someone who works 15 hours a week. 

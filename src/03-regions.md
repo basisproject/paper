@@ -12,7 +12,7 @@ All communal assets are assigned to a particular region, and the members of that
 
 Regions don't just own things. They also have a set of member-decided parameters such as:
 
-- Hourly cap on voting rights (after working a certain amount of hours, no additional voting rights are granted)
+- Per-week hourly ceiling on voting rights (after working a certain amount of hours, no additional voting rights are granted)
 - Worker minimum average weekly hours to be given at-cost use of assets
 - Worker credit multiplier cap
 - Distribution plans for regional profits

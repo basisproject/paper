@@ -37,6 +37,10 @@ In a sense, Basis is like Amazon for companies: use it to order the things you n
 
 For members ordering from other members, no money is involved in the transaction. This means that that the larger the network of member companies grows, the easier it is to produce.
 
+## Banking
+
+Because regions interface with the market system, they need some form of translation between credits earned from labor and the market currency. This is where the regional bank comes in. It acts as a holder for local currency and determines the exchange rate going from internal credits to external currency. The bank also enacts policies and criteria about the cost structure of companies. For instance, the bank determines the conditions under which a company is considered bankrupt (not providing enough value either to members or non-members to justify its existence).
+
 ## Credit system
 
 Basis allows a number of credit systems to be used. Credits are somewhat different than money because they don't circulate the primary economy and they are destroyed when spent. For instance, if you have 10 labor credits, and you buy an apple for 3 credits, you now have 7 credits left and the 3 you spent on the apple are destroyed and removed from the economy.
@@ -61,7 +65,7 @@ This ranges from voting for people for specific permissions and positions in the
 
 The idea is to allow self-governance in many forms, and not to force a particular setup on people.
 
-## Public services
+## Public companies/projects
 
 At some point, it's conceivable that this system might grow to large numbers of members. At some point, these members might want to have public services and infrastructure. It makes sense to define the ability to create regional (or extra-regional) projects or services that have member-decided budgets or recurring costs.
 

@@ -1,4 +1,4 @@
-# Chapter 6: Credit system
+# Chapter 7: Credit system
 
 Workers, in exchange for their labor, receive credits. After a labor record has been closed for a seven-day period, credits are added to that worker's Basis account balance.
 
