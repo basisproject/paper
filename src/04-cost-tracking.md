@@ -2,6 +2,10 @@
 
 Cost tracking is a very important concept in a socialist economy, especially absent the exchange of money between producing entities. Basis tracks costs on a per-company level over a certain period of time, and gives companies the freedom to assign their costs to their products proportionally. This is based on the inputs and outputs of the company, and costs are recalculated whenever any action in the company changes costs (a worker clocking out, a new order coming in, etc).
 
+Breaking things down a bit, companies have inputs and outputs. To put it simply in current terms: inputs are labor and purchases, outputs are sales. How do we measure these? Do we force companies to report all their data to a central agency? No! We use their labor tracking and their incoming and outgoing order list. Because labor and orders all go through Basis, we can track all the costs of production, per-company, given their inputs and outputs.
+
+It's important to note that for cost tracking to be effective, a critical mass of production needs to be using Basis: the more the economic network participates, the more accurate the costs will be.
+
 ## Labor costs
 
 All things take labor to make or use. Apples must be picked. Iron must be mined. Chairs must be crafted.
@@ -10,7 +14,7 @@ Basis tracks labor costs of companies. So if a worker clocks in, fills an order 
 
 ## Resource costs and resource tags
 
-By default, Basis only tracks labor costs. However, it has the ability to track resources using the concept of "resource tags" which are attached to a particular product produced by a company. Resource tags tell the costing system to track that product not just as labor, but also as a resource.
+By default, Basis only tracks costs in terms of labor. However, it has the ability to track resources using the concept of "resource tags" which are attached to a particular product produced by a company. Resource tags tell the costing system to track that product not just as labor, but also as a resource.
 
 For instance, one might assign a resource tag to the iron that comes out of an iron mine. Then when the chair maker orders iron screws for the chairs she makes, the labor cost of the screws is added to the cost of the chairs, but so is the resource cost of the iron.
 
@@ -55,21 +59,27 @@ How do we assign our costs accordingly to our products? Since the basic chair us
 Now it's time to determine our costs:
 
 - Basic:
-  - `((OperatingCost * (1 / (1 + 1))) + (InventoryCost * (2 / (2 + 8)))) / 10`
+  - `((OperatingCost * (1 / (1 + 1))) + (InventoryCost * (2 / (2 + 8)))) / NumOrdered`
   - `((12 * (1 / (1 + 1))) + (25 * (2 / (2 + 8)))) / 10`
   - `1.1 labor hours each`
 - Advanced:
-  - `((OperatingCost * (1 / (1 + 1))) + (InventoryCost * (8 / (2 + 8)))) / 5`
+  - `((OperatingCost * (1 / (1 + 1))) + (InventoryCost * (8 / (2 + 8)))) / NumOrdered`
   - `((12 * (1 / (1 + 1))) + (25 * (8 / (2 + 8)))) / 5`
   - `5.2 labor hours each`
 
 It's important to note that because the costs are a function of `costs over time / outputs over time` that costs will fluctuate more in the beginning of a company's operation and smooth our over time. This can be mitigated to some extent by using amortization pools.
 
+Also note that when the company made lumber order, if they were going to use 5% of that lumber for an internal project, then they can assign two cost tags to the order: `Operating = 5` and `Inventory = 95` which would assign 5% of the order to the Operating costs bucket and would change the resulting prices. In other words, orders can have any number of cost tags assigned to them, which assign that order's costs to the tags proportionally.
+
+## Time frame
+
+Costs are tracked over time, and end up being average costs of production over a certain time frame. How long of a time frame? It likely depends on the company's production cycle and would likely be managed by the company, although this might also be a case where the bank sets a regional default (for instance a one year time frame) and companies can petition to have this changed if needed.
+
 ## Amortization pools
 
 A company that makes chairs might need to invest up front in a chair-making machine. If this machine costs 100 labor hours, then the first order the company gets will be astronomically costly, and the first order likely won't ever come.
 
-It's important that companies be able to spread the cost of large purchases or lulls in production over a long period of time. This is where amortization pools come in.
+It's important that companies be able to spread startup costs, the cost of large purchases, or lulls in production over a long period of time. This is where amortization pools come in.
 
 A company can open an amortization pool, which has a spending limit and a term (end date). Once opened, the pool will add to the company's costs *hourly* as such:
 

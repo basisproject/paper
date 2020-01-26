@@ -43,13 +43,11 @@ Because regions interface with the market system, they need some form of transla
 
 ## Credit system
 
-Basis allows a number of credit systems to be used. Credits are somewhat different than money because they don't circulate the primary economy and they are destroyed when spent. For instance, if you have 10 labor credits, and you buy an apple for 3 credits, you now have 7 credits left and the 3 you spent on the apple are destroyed and removed from the economy.
+In exchange for labor, credits are given to workers. Workers can have a wage multiplier that magnifies the number of credits they get for each hour worked. For instance, working eight hours with a wage multiplier of three means 24 credits would be given. The wage multiplier, like a wage, is decided beforehand by the worker and the company.
 
-A few options for credits are used:
+When credits are spent (exchanged for products or services), they are destroyed. This way, they do not enter the productive economy but rather only serve as a means to track any member's contribution.
 
-- Labor credits. These are essentially printed when labor is completed, with a multiplier set by the company the member works for. Upper limits on multipliers might be set regionally, such that the highest-paid member can only get 10x the lowest-paid member. This is really up to the region, the companies, and the members to decide. Labor credits could then be spent such that if I have 500 credits, I can purchase a product or service that took 500 hours (or less) to produce.
-- Resource credits. Instead of getting credits that allow for spending on the labor content of products and services, members might receive resource credits for their labor. This would allow purchasing based on the resource content of products. This model would drive down resource usage of the economy.
-- Hybrid credits. Perhaps members are paid in labor credits, but also have a carbon spending credit to lower use of fossil fuels.
+Each credit can also have a variable resource set of resources associated with it that allow spending on items that contain those resources.
 
 ## Asset tracker
 
