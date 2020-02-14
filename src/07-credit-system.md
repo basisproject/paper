@@ -1,6 +1,6 @@
 # Chapter 7: Credit system
 
-Workers, in exchange for their labor, receive credits. After a labor record has been closed for a seven-day period, credits are added to that worker's Basis account balance.
+Workers, in exchange for their labor, receive credits. After a labor record has been finalized by the company, credits are added to that worker's Basis account balance.
 
 Credits can be spent on goods and services provided by companies in the Basis system, and are destroyed on spending. Credits do not expire, and are transferable to other members freely.
 
@@ -14,5 +14,5 @@ The labor content of credits will always be based on hours of work completed. Th
 
 ## Currency exchange
 
-Exchange between credits and national currency will be possible through a member-owned bank. This bank will have a pool of capital specifically used to back the value of the credits. Members can convert their credits into currency (say, USD), however *credits will never be issued in exchange for currency*. The only way for new credits to be issued is to perform labor in the system!
+Exchange between credits and national currency will be possible through the regional bank. This bank will have a pool of capital specifically used to back the value of the credits. Members can convert their credits into currency (say, USD), however credit exchange is one-way: *credits will never be issued in exchange for currency*. The only way for new credits to be issued is to perform labor in the system! This prevents speculation on the market value of labor credits and protects members from sudden changes in value caused by external forces.
 

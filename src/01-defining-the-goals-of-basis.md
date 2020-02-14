@@ -11,7 +11,9 @@ Membership of the system is controlled by policies set by current members. In ge
 - Are a worker-owned company or multi-stakeholder company where the workers have significant representation
 - Use Basis for their transactional system and labor time tracking
 
-Usage of the system is open to any non-member company (as a platform to sell their products and services for money/profit) for a monthly fee.
+Membership is not binary, but rather is a sliding scale decided by the number of hours worked at a member company. With more participation comes higher voting rights and more use of shared assets, such as housing.
+
+Usage of the system is open to any non-member company (as a platform to sell their products and services for money/profit) for a monthly fee or per-transaction fee.
 
 ## Regions and locality
 
@@ -27,7 +29,7 @@ Why do things this way? Why not just tally up the costs of everything and give a
 
 When we have a disaggregate list of costs for each product, producers, consumers, and governments can know the *exact* costs of something, as opposed to just *the market cost*. Fans of capitalism say that pricing allows you to compare the cost of two different things. They're right in that prices as aggregate values allow easy comparison, but they're also wrong because *prices don't reflect costs*. Prices are arbitrary and meaningless, whereas costs are absolute.
 
-Basis allows tracking of *costs* of production, which retains information about the labor, resources, and to some extent the externalities it takes to make something.
+Basis allows tracking of *costs* of production, retaining information about the labor, resources, and to some extent the externalities it takes to make something.
 
 ## Public market
 

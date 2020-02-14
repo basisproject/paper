@@ -12,14 +12,18 @@ All communal assets are assigned to a particular region, and the members of that
 
 Regions don't just own things. They also have a set of member-decided parameters such as:
 
-- Per-week hourly ceiling on voting rights (after working a certain amount of hours, no additional voting rights are granted)
-- Worker minimum average weekly hours to be given at-cost use of assets
+- Number of average weekly hours worked required to be considered a member
+- Number of average weekly hours worked above which someone is considered a full member
 - Worker credit multiplier cap
 - Distribution plans for regional profits
 - Budgets for regional projects and services (hospitals, schools, etc)
 
 ## Governance
 
-Regions are self-governing, and therefor are free to choose whatever structure they see fit. For instance, how is it decided to buy a new asset? If there is a regionally-owned bank, what is its investment strategy? Are these decided via direct election or does the region elect a minister handles these decisions?
+Regions are self-governing, and therefor are free to choose whatever structure they see fit. For instance, how is it decided to buy a new asset? If there is a regionally-owned bank, what is its investment strategy? Are these decided via direct election or does the region elect a minister or council to handle these decisions?
 
-Basis gives members the tools to create these structures and make these decisions without imposing any pre-determined bluebprint. Regions are free to self-govern as they see fit.
+Governance in the Basis system is done using a system of permissions that apply either to a member or a group of members (a council). Permissions can be region-wide or only pertain to a specific class of regional assets. No matter the permissions given or how they apply, permissions are given by members and can be revoked by members.
+
+Basis gives members the tools to create their own governance structures and make these decisions without imposing any pre-determined blueprint. Regions are free to self-govern as they see fit.
+
+

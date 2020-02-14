@@ -69,7 +69,7 @@ Now it's time to determine our costs:
 
 It's important to note that because the costs are a function of `costs over time / outputs over time` that costs will fluctuate more in the beginning of a company's operation and smooth our over time. This can be mitigated to some extent by using amortization pools.
 
-Also note that when the company made lumber order, if they were going to use 5% of that lumber for an internal project, then they can assign two cost tags to the order: `Operating = 5` and `Inventory = 95` which would assign 5% of the order to the Operating costs bucket and would change the resulting prices. In other words, orders can have any number of cost tags assigned to them, which assign that order's costs to the tags proportionally.
+Also note that when the company made the lumber order, if they were going to use 5% of that lumber for an internal project, then they can assign two cost tags to the order: `Operating = 5` and `Inventory = 95` which would assign 5% of the order to the Operating costs bucket and would change the resulting prices. In other words, orders can have any number of cost tags assigned to them, which assign that order's costs to the tags proportionally.
 
 ## Time frame
 
