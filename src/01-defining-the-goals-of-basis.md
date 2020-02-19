@@ -49,7 +49,7 @@ In exchange for labor, credits are given to workers. Workers can have a wage mul
 
 When credits are spent (exchanged for products or services), they are destroyed. This way, they do not enter the productive economy but rather only serve as a means to track any member's contribution.
 
-Each credit can also have a variable resource set of resources associated with it that allow spending on items that contain those resources.
+Each credit can also have a variable set of resources associated with it that allow spending on items that contain those resources.
 
 ## Asset tracker
 
