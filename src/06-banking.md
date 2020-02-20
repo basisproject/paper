@@ -10,17 +10,15 @@ When a member company interacts with the outside market, it necessarily needs ca
 
 Rather than the bank giving the company the money and letting them do what they will (while charging interest), the bank will rather *keep* the money and authorize the company to spend up to the loan amount on the bank's behalf (without charging interest). All purchases made into the outside market will come from this account, and any incoming orders, whether from the market or from other member companies, will replenish the account.
 
-This real difference here is the bank is sectioning off a portion of its capital (which is owned by all regional members) that the company is allowed to spend out of in order to provide their products and services.
+The real difference here is the bank is sectioning off a portion of its capital (which is owned by all regional members) such that the company is allowed to spend out of in order to provide their products and services.
 
 ## Currency tracking
 
-Here's where things get more interesting. As mentioned when talking about the loans, if a company gets an incoming order, that order replenishes the capital account the company spends from. This is easy to imagine if selling into the market, but what about if another member company orders the products? Since no money changes hands, how is the account replenished?
+Here's where things get more interesting. As mentioned when talking about the loans, if a company gets an incoming order, that order replenishes the capital account the company spends from. This is easy to imagine if selling into the market (the revenue from the sale goes back into the account), but what about if another member company orders the products? Since no money changes hands, how is the account replenished?
 
-The answer is with currency tracking. Just as products and services can track labor content and resource content, they can also track currency content.
+The answer is with currency tracking. Just as products and services can track labor content and resource content, they can also track currency content. So when a member company orders a product that requires spending of capital, that order replenishes the producing company's capital account, but the products that were ordered now have that currency value tracked with them.
 
-Let's say a widget company buys steel for their widgets from the market. They can make ten widgets for every $5 they spend on market steel, and each widget takes 15 minutes to make. So we know the cost of each widget is 0.25L + $0.50.
-
-When a member company orders a widget, they don't just get the costs of the labor (0.25L)...they also take on the currency cost. So the amount of currency imbued in each product moves through the economy just like the cost of labor does.
+Let's say a widget company buys steel for their widgets from the market. They can make ten widgets for every $5 they spend on market steel, and each widget takes 15 minutes to make. So we know the cost of each widget is 0.25L + $0.50. When a member company orders a widget, they don't just get the costs of the labor (0.25L)...they also take on the currency cost. So the amount of currency imbued in each product moves through the economy just like the cost of labor does.
 
 Eventually, either the product is consumed by a member, or sold back into the market.
 

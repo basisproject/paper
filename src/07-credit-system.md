@@ -16,3 +16,5 @@ The labor content of credits will always be based on hours of work completed. Th
 
 Exchange between credits and national currency will be possible through the regional bank. This bank will have a pool of capital specifically used to back the value of the credits. Members can convert their credits into currency (say, USD), however credit exchange is one-way: *credits will never be issued in exchange for currency*. The only way for new credits to be issued is to perform labor in the system! This prevents speculation on the market value of labor credits and protects members from sudden changes in value caused by external forces.
 
+Currency exchange happens at a rate of `total regional credit fund / total active regional credits`. If the region has $1M in funds and has 100K active credits, then each credit exchanges for exactly $10. It's important to note that the credit fund can be managed such that the amount of funds closely or exactly matches the nuber of active credits, creating a 1:1 peg on the local currency. This is up to the region and its banking policies to decide if this is desired.
+
