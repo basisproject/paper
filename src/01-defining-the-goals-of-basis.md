@@ -51,7 +51,7 @@ When credits are spent (exchanged for products or services), they are destroyed.
 
 Each credit can also have a variable set of resources associated with it that allow spending on items that contain those resources.
 
-## Shared asset management
+## Asset management
 
 Let's say we communally own some houses, some office buildings, a few tractors...great! Who is in stewardship of them? Is there an end date to their use of that asset that we can use to determine if we need to acquire more? Are there specific terms for the use of it?
 
