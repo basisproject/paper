@@ -14,7 +14,7 @@ Regions don't just own things. They also have a set of member-decided parameters
 
 - Number of average weekly hours worked required to be considered a member
 - Number of average weekly hours worked above which someone is considered a full member
-- Worker credit multiplier cap
+- Worker credit wage cap
 - Distribution plans for regional profits
 - Budgets for regional projects and services (hospitals, schools, etc)
 

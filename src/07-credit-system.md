@@ -6,11 +6,18 @@ Credits can be spent on goods and services provided by companies in the Basis sy
 
 ## Labor and resources
 
-Because Basis tracks costs of products and services in terms of labor and resources, it makes sense that the credits people can spend in exchange for those products and services would be denominated in labor and resources.
+In exchange for labor that meets social needs, workers get paid in credits. The amount they get paid or the particular arrangement they set up is between them and the company they are working with. Wages are completely negotiable (although a minimum/maximum wage can be set by each region if desired), and can be based off of hourly work or some form of ongoing salary.
 
-Credits will have a negotiable multiplier. For instance, if a doctor has a multiplier of 9 and she works 5 hours, she will get 45 credits.
+Credits are used to make purchases by members. How many credits something costs is a function of.
 
-The labor content of credits will always be based on hours of work completed. The resource content of resources will be a globally-decided (democratically) set of resources that reflect the resource usage plan of the system. For instance, if the world's iron reserves are estimated to be depleted in 10 years, the members of the system might vote to reduce the iron content of the resource credits, thus slowly weening off iron usage. Or if, hypothetically, some sort of climate disaster caused by unearthing some resource and burning it in excess runs rampant, the members of the system might vote to limit the resources responsible for that hypothetical climate problem.
+1. How much labor went into producing it.
+1. How much resources were used in its production.
+
+The cost of various resources will be decided both *regionally* and *systemwide* via democratic process. Participants are able to set costs on resources globally, and in addition to global costs, can set additional regional costs on resources. This allows implementing things like carbon taxes, but also local rations on certain local resources (for instance, water might be rationed in a region if it experiences a drought). The credit value for each resource might be based on resource consumption rates, renewal rates, and known supply.
+
+So if a chair took 5 hours to make, and is comprised of 3kg wood, and wood costs 0.4 credits/kg, then the total cost of the chair would be `5 + (3 * 0.4) = 6.2` credits.
+
+Thus, the cost of a final product can fluctuate somewhat depending on what the resource content of that product is. This allows fairly direct and simple implementations of things like carbon taxes or rations on certain resources in low supply.
 
 ## Currency exchange
 

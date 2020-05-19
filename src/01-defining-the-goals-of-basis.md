@@ -45,11 +45,11 @@ Because regions interface with the market system, they need some form of transla
 
 ## Credit system
 
-In exchange for labor, credits are given to workers. Workers can have a wage multiplier that magnifies the number of credits they get for each hour worked. For instance, working eight hours with a wage multiplier of three means 24 credits would be given. The wage multiplier, like a wage, is decided beforehand by the worker and the company.
+In exchange for labor, credits are transferred to workers. How many credits per-hour or per-year is a decision made between the worker and the company, and is effectively the same as a wage in a market system.
 
 When credits are spent (exchanged for products or services), they are destroyed. This way, they do not enter the productive economy but rather only serve as a means to track any member's contribution.
 
-Each credit can also have a variable set of resources associated with it that allow spending on items that contain those resources.
+The *price* of products (how many credits are used to purchase items) is a function of not just how much labor went into creating that product, but the resources (such as raw materials) and the socially-decided credit value for each of those resources.
 
 ## Asset management
 
