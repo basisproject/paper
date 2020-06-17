@@ -1,6 +1,6 @@
 ---
 title: "Basis: a blockchain implementation of a socialist mode of production"
-subtitle: "Or: How I learned to stop worrying and produce without profits"
+subtitle: "Or: How I learned to stop worrying and produce without profits (Note: this paper is a draft, [see the pending list of updates](https://gitlab.com/basisproject/tracker/-/issues?label_name%5B%5D=project%3Apaper))"
 author:
   - "Andrew M. Lyon"
 keywords: "distributed, socialism, economics, software, blockchain"
