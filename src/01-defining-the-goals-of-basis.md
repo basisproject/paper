@@ -1,6 +1,6 @@
 # Chapter 1: Defining the goals of Basis
 
-Basis is a foundation for automation and democratization of economic-related processes (and the governance thereof) within the framework of a socialist mode of production. The ultimate goal is to replace as much governance as possible with automation and to enable self-governance by members where automation is infeasible.
+Basis is at its core a cost-tracking economic networking system that seeks to socialize property and empower its members with self-determination. It strives to strike a balance between being specific enough to support a socialist mode of production and the welfare of its members, while being general enough to model a large number of social and economic arrangements. It's not a detailed blueprint for society but rather a set of tools by which society might organize itself around.
 
 Let's go over some of the key goals of Basis.
 
@@ -11,9 +11,7 @@ Membership of the system is controlled by policies set by current members. In ge
 - Are a worker-owned company or multi-stakeholder company where the workers have significant representation
 - Use Basis for their transactional system and labor time tracking
 
-Membership is not binary, but rather is a sliding scale decided by the number of hours worked at a member company. With more participation comes higher voting rights and more use of shared assets, such as housing.
-
-Usage of the system is open to any non-member company (as a platform to sell their products and services for money/profit) for a monthly fee or per-transaction fee.
+Membership is not binary, but rather is a sliding scale decided by the number of hours worked at a member company. With more participation comes higher voting rights and more use of shared resources, such as housing.
 
 ## Companies
 
@@ -39,7 +37,7 @@ Basis allows tracking of *costs* of production, retaining information about the 
 
 ### Raw material tracking and costing
 
-Cost tracking for labor is somewhat straightforward: members track their wage-hours when engaging in production, and are compensated the credit amount for their labor, and that credit amount is then added to the cost of the product they made. This is very similar to money. Things get interesting when we start talking about costs of resources.
+Cost tracking for labor is somewhat straightforward: members track their labor when engaging in production, and are then compensated for their labor in credits. That credit amount is then added to the costs of the company they work for and ultimately assigned to products they make. This is similar to money. Things get interesting when we start talking about costs of resources.
 
 First of all, which resources? Iron? Steel? Oil? Jet fuel? These might be obvious. What about chairs or widgets? Ultimately *which* resources are tracked is a globally-democratic decision, decided by the members.
 
@@ -49,17 +47,17 @@ Secondly, how much are these resources valued? In order for members to exchange 
 
 The *total cost* of a product, in credits (₡), is a function of not just how much labor went into creating that product, but the resources (such as raw materials) and the socially-decided credit value per-unit for each of those resources. In other words, if it cost the network 15 credits to build a chair, the base cost would be 15 credits, but if it has 2kg wood and wood is systemically valued at 0.003₡/g, then the final credit-cost of the chair might be `15 + (2000 * 0.0003)`, or 21₡.
 
-Now, while the system incentivizes setting the price of products at-cost (via cybernetics), pricing for consumers is somewhat fluid: a product might *cost* 10 credits to produce, but the final price might be set lower or higher to clear inventory (if its cost is too high) or to control inventory (if demand is much higher than supply). It's important to note that the company the product is purchased from *does not realize any losses or gains from price fluctuations* and instead the deltas between cost and price are simply used as productive signals (ie, "produce less" or "produce more") which are enforced by the cybernetics system.
+Now, while the system incentivizes (via cybernetics) setting the price of products at-cost, pricing for consumers is somewhat fluid: a product might *cost* 10₡ to produce, but the final price might be set lower or higher to clear inventory (if its cost is too high) or to control inventory (if demand is much higher than supply). It's important to note that the company the product is purchased from *does not realize any losses or gains from price fluctuations* and instead the delta between cost and price is used as a productive signal (ie, "produce less" or "produce more") which is enforced by the cybernetics system.
 
 ### Cybernetics
 
-Given that productive companies don't use prices and profits to determine their existence, it follows that some other system comes into play that can make this determination. This is the role of cybernetics: each company has a cost ceiling above which they cannot take on more costs (without transferring them to another entity) and this cost ceiling is adjusted by a self-correcting process that works to optimize the *overall network health*.
+Given that productive companies don't use prices and profits to determine their existence, it follows that some other system comes into play that can make this determination. This is the role of cybernetics: each company has a cost ceiling above which they cannot take on more costs (without transferring them to another entity) and this cost ceiling is adjusted by an ongoing systemic process that works to optimize the *overall network health*.
 
 The idea here is that companies that operate in the best interests of the network are rewarded by commanding higher amounts of costs (which might be thought of as purchasing power in capitalism), and companies acting against the interests of the network get a lower cost ceiling, and thus have less social investment.
 
 ### Public market
 
-The public market is a place where members (both companies and individuals) can publish and order each others products and services. In a sense, the public market is like a big socialist Amazon that uses your incoming and outgoing orders to determine your costs of production.
+The public market is a place where members (both companies and individuals) can publish and order each others products and services. In a sense, the public market is like a big worker-owned Amazon.com that uses your incoming and outgoing orders to determine your costs of production.
 
 When member companies order from each other, no money is involved in the transaction. Rather, costs flow from one company to the other. This means that that the larger the network of member companies grows, the easier it is to produce *without relying on traditional capital*.
 
@@ -69,7 +67,7 @@ When individual members (consumers) order something, the transaction is obfuscat
 
 Banking forms the translation layer between the network's socialist mode of production and the outside capitalist markets. It allows member companies to buy inputs to production that are not available in-network, but also allows individual members to exchange their internal currency (credits) for market currency (such as USD).
 
-This translation layer is arguably *the* most important aspect of Basis. It forms a protective barrier around the network that shields it from the relations of capitalism, and also works together with the cost tracking system to optimize for profit when conducting transactions in capitalist markets.
+This translation layer is absolutely essential to Basis. It forms a protective barrier around the network that shields it from the relations of capitalism, and also works together with the cost tracking system to optimize for profit when conducting transactions in capitalist markets.
 
 It's important to note that banking is somewhat transitional: when the network grows large enough that most of the products and services desired by members can be produced in-network, banking becomes less and less important.
 
@@ -81,8 +79,7 @@ When credits are spent (exchanged for products or services), they are destroyed.
 
 ### Universal Basic Income
 
-All members receive a periodic payment, printed by the system, into a special account they own. This "basic income" can be used to pay for any in-network expenses, such as housing, food, or anything else 
-
+All members receive a periodic payment, printed by the system, into a special account they own. This "basic income" can be used to pay for any in-network expenses, such as housing, food, or any other in-network product.
 
 ## Shared resource management
 
@@ -90,13 +87,13 @@ All resources in the network are owned by the network as a whole (and thus, by a
 
 ## Governance
 
-What good is the communal ownership of assets or worker-controlled production if you cannot exercise any sort of control? Basis allows various types of elections or consensus-based processes so members can define their own systems of governance.
+What good is the communal ownership of resources or worker-controlled production if you cannot exercise any sort of control? Basis allows various types of elections or consensus-based processes so members can define their own systems of governance.
 
 This ranges from voting for people for specific permissions and positions in the system to voting for changing economic parameters.
 
 ## Public companies/projects
 
-At some point, it's conceivable that this system might grow to large numbers of members. At some point, these members might want to have public services and infrastructure. It makes sense to define the ability to create regional (or extra-regional) projects or services that have member-decided budgets or recurring costs.
+At some point, it's conceivable that this system might grow to large numbers of members. These members might want to have public services and infrastructure. It makes sense to define the ability to create companies that have some amount of their costs subsidized by taxes.
 
 Examples might be hospitals, schools, bridges, pharmaceutical research, space exploration, etc.
 

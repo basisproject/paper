@@ -8,7 +8,7 @@ It's worth mentioning that Basis uses the [ValueFlows vocabulary](https://valuef
 
 Cost tracking is a very important concept in a socialist economy, especially absent the exchange of money between producing entities. Basis tracks costs on a per-company level based on that company's incoming and outgoing orders (what would be "sales" and "purchases" in capitalism). Incoming and outgoing orders are *known* because they either go through the [public market](#public-market-1) or through the [banking system](#chapter-5-banking), and thus we can easily determine a company's total costs.
 
-Each company has a set of costs and cost ceiling. The system uses the cost ceiling to determine how many costs it can take on before it needs to transfer to another company (via orders). The cost ceiling ensures that costs keep flowing and do not accumulate or stagnate too much. For instance, if a company's cost ceiling is 1000₡ and their current total costs are 990₡, they might want to seriously consider trying to get some other companies or consumers to order their products, otherwise they won't be able to pay themselves or order more inputs to production.
+Each company has a set of costs and a cost ceiling. If a company's total costs reach their cost ceiling, that company will be unable to take on any more costs (such as ordering new inputs to production or paying members their wages) until they transfer some of them out, which generally happens when someone orders their products. The cost ceiling ensures that costs keep flowing and do not accumulate or stagnate too much. For instance, if a company's cost ceiling is 1000₡ and their current total costs are 990₡, they might want to seriously consider trying to get some other companies or consumers to order their products, otherwise they won't be able to pay themselves or order more inputs to production.
 
 It's worth mentioning that cost tracking is more effective as the network grows: more participants transacting in-network means more accurate cost tracking. Remember, market prices obscure costs, so every time a company has to order out-of-network that's a cost we can't disaggregate, and every time a member company sells into the market, those costs are destroyed. The more participants, the more accurate, and ultimately useful, cost tracking will be.
 
@@ -73,7 +73,9 @@ Now if I price my four chairs equally, the cost of each chair would be:
 }
 ```
 
-This is a contrived example that ignores things like shipping, amortized costs of machinery, costs of property usage, etc. However, we can see how resource and labor costs accumulate, divide, and flow within and between companies.
+If a company were to order one of my chairs, the above cost would be subtracted from my company's costs and added to their costs. If a consumer were to order one of my chairs, the costs are subtracted from my company and both the chair and the costs are marked as *consumed* and disappear from the system.
+
+The above is a contrived example that ignores things like shipping, amortized costs of machinery, costs of property usage, etc. However, we can see how resource and labor costs accumulate, divide, and flow within and between companies.
 
 ### Currency tracking
 
@@ -81,7 +83,7 @@ When a company needs to buy something from capitalist markets, it spends currenc
 
 ### Flows of costs
 
-While this has been touched on already, it's important to note that costs can be created (via labor and resources) but that costs can only ever be destroyed by three processes: consumption, taxation, and market sales. Consumption means a consumer covers the cost personally, using credits they have earned via labor. Taxation is the process of spreading a company's costs equally among its members over time such that they use their credits to pay the cost. Lastly is market sales, where a company sells a product into the market system at which point the costs are wiped out of the system.
+While this has been touched on already, it's important to note that costs can be created (via labor and resources) but that costs can only ever be destroyed by three processes: consumption, taxation, and market sales. Consumption means a consumer covers the cost personally, using credits they have earned via labor. Taxation is the process of spreading a company's costs equally among its members over time such that they use their personal credits to pay the cost. Lastly is market sales, where a company sells a product into the market system at which point the costs are wiped out of the system.
 
 Within the productive network, costs are accumulated, divided, and transferred but are never destroyed.
 
@@ -105,11 +107,11 @@ TODO:
 
 So far we've talked a lot about costs. Does this mean that every product purchased by a consumer will be provided at-cost? No, and there two facets to this.
 
-First, for members, the system will *optimize for* providing products at-cost. In other words, companies that do sell products for exactly their cost will be rewarded (more on this in the [cybernetics section](#cybernetics). That said, companies can set whatever prices above or below cost they want. The difference from a capitalist market however is that when a company sells a widget for 10₡ that only cost 8₡ to produce, it doesn't realize the extra 2₡: the credits are still burned on purchase.
+First, for members, the system will *optimize for* providing products at-cost. In other words, companies that do sell products for exactly their cost will be rewarded (more on this in the [cybernetics section](#cybernetics)). That said, companies can set whatever prices above or below cost they want. The difference from a capitalist market however is that when a company sells a widget for 10₡ that only cost 8₡ to produce, it doesn't realize the extra 2₡: the credits are still burned on purchase.
 
 Secondly, for non-members, companies are incentivized to sell at the highest price they can. So each product that is available for public consumption will have at least two prices: the in-network price and the market price.
 
-So why let companies set arbitrary prices at all? It enables things like clearing inventory for products that didn't sell well, and also it enables inventory control for higher-value items. Member companies don't realize the delta between cost and price as a gain or loss, but rather they are used as signals to determine if the production of that particular product should be expanded or contracted. In other words, we retain the *signal mechanism* from pricing *without using it as a distribution mechanism*.
+So why let companies set arbitrary prices at all? It enables things like clearing inventory for products that didn't sell well, and also it enables inventory control for higher-value items. Member companies don't realize the delta between cost and price as a gain or loss, but rather it is used as a signal to determine if the production of that particular product should be expanded or contracted. In other words, we retain the *signal mechanism* from pricing *without using it as a distribution mechanism*.
 
 This system of pricing is described in "Towards a New Socialism" (Cockshott & Cottrell, 1993).
 
@@ -123,7 +125,7 @@ TODO:
 
 ## Public market
 
-The public market is where members (and consumers and producers) find each other's products and services. It is also the medium by which orders are processed.
+The public market is where members advertise and consume each other's products and services. It is also the medium by which orders are processed.
 
 Non-member companies and users are free to use the public market for buying or selling, but may have to pay a monthly service fee and/or per-transaction fee. Thus, the public market is not just a system for discovery and economic processing inside the network, but also a vector for growth of network capital and resources.
 
@@ -133,7 +135,7 @@ It should be noted that the definitions, processes, and interfaces of the public
 
 While the transactions between member companies are transparent and freely observable by any member of the network, there are a few cases where privacy is offered:
 
-- Consumer purchases. Whether a member or a non-member, purchasing goods from a member company is anonymous. The order is still be viewable by members, but looks like it came from the Basis system directly and is not tied back to the user in any way. Only the user and the company have the full information on the order.
+- Consumer purchases. Whether a member or a non-member, purchasing goods from a member company is anonymous. The order is viewable by members, but looks like it came from the Basis system directly and is not tied back to the originator in any way. Only the user and the company have the full information on the order.
 - Non-member orders. Any time a non-member is involved in an order, the order details will be available, but the non-member company will be anonymized. This is to protect the privacy of companies who do not wish for their purchasing to be transparent. Like consumer purchases, the order will look like it came from the Basis system directly, and the non-member company's identity will be anonymized.
 
 TODO:

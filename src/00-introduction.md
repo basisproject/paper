@@ -8,7 +8,7 @@ keywords: "distributed, socialism, communism, economics, software, blockchain, d
 
 # Introduction
 
-Let's start with a premise: we can make all the things we want and need without bowing to profit as our lord and without ceding control of our productive instruments to private owners (and we can do these things without an authoritarian government).
+Let's start with a premise: we can make all the things we want and need without bowing to profit as our king and without ceding control of our productive instruments to private owners (and we can do these things without an authoritarian government).
 
 If socialism and capitalism are languages, Basis is a translator that speaks both and allows members to exit the relations of capitalism without being subject to a life of puritanical simplicity.
 
@@ -27,9 +27,9 @@ Given this, let's start from scratch and discuss some possible ideas:
 
 ## The system of exchange used to facilitate transactions
 
-Our real problem here is supply and demand. A market is essentially a distributed algorithm which finds a value that solves for the current supply and demand of a particular commodity. Price is that value. In essence, given supply and demand, find price. This is an oversimplification, but for our purposes this is fine.
+The biggest question here is supply and demand. Many believe that socialism operates outside the bounds of supply and demand, but this is ridiculous: why would anybody make things that there is no need (demand) for? A market is essentially a distributed algorithm which finds a value that solves for the current supply and demand of a particular commodity. Price is that value. In essence, given supply and demand, find price. This is an oversimplification, but for our purposes this is fine.
 
-Given the above, what if instead of given supply and demand and solving for price, we start with demand and cost and we solve for supply? The solution is a bit more temporal...supply must be adjusted over time. But then again, if you think of supply not as "the current supply" but instead "the rate at which supply is replenished" (and similarly with demand) then supply *can* be adjusted almost as instantaneously as price. This can also be done in a distributed way. How?
+What if instead of given supply and demand and finding a price, we start with demand and cost and we solve for supply? The solution is a bit more temporal...supply must be adjusted over time. But then again, if you think of supply not as "the current supply" but instead "the rate at which supply is replenished" (and similarly with demand) then supply *can* be adjusted almost as instantaneously as price. This can also be done in a distributed way. How?
 
 By measuring orders. Orders are the precursor to the transaction. They are a marker of economic intent. "I want this." If you have a system where orders for widgets (and other products) are publicly available, it would be very easy to measure how many orders for widgets there are and how backlogged those orders are in aggregate. If there is a backlog of two months, perhaps then it makes sense to open a new widget factory.
 
@@ -39,7 +39,7 @@ Why bother with this, though? Because if you have consensus on setting "price" i
 
 This method of measuring orders via a transparent network requires no central bureaucracy, meaning you can sidestep things like a command economy (although Basis does not preclude economic planning). Production would be measured based not on some obscured market process, but the actual costs to society.
 
-In this sense Basis is neither a capitalist market nor a centrally-planned system: it lies somewhere in-between. It allows for distributed production like a market, but without the pricing and relations of a market.
+In this sense Basis is neither a capitalist market nor a centrally-planned system: it lies somewhere in-between. It allows for distributed production like a market, but without the pricing and relations of a market. It's what a market looks like if you take away money, profit, and private ownership.
 
 ## The system of ownership exercised over the productive instruments
 
@@ -47,7 +47,7 @@ Capitalism is a market system with privatized ownership of the means of producti
 
 How is this common ownership exercised? What things are owned, in particular? Is my toothbrush really mine? If I lend my hammer to a friend, and she uses it at work, is my hammer then socialized?
 
-Let's talk about two things: effectiveness and intent.
+Let's talk about two things: *effectiveness* and *intent*.
 
 Effectiveness in this case simply means "is it effective to socialize this?" Would socializing a toothbrush make sense? Would it make sense to track who is using it, schedule its repair and maintenance, arrange for its storage when not in use? By socializing something, there is necessarily some level of process and overhead it goes through...a cost to society. On top of this, if we were to socialize toothbrushes, and I order 100 of them for my toilet-bowl-cleaning-using-only-toothbrushes company, I might realize that there are only *soft* bristled toothbrushes available. I want *firm* bristles, or my fellow workers and I will have to scrub *twice as hard*. Do we socialize every form of toothbrush now? Or does it maybe make sense for our company to simply order the toothbrushes it needs, and for those toothbrushes be owned by our company, and accounted for in the costs of our services?
 
@@ -55,13 +55,13 @@ Now, contrast that with a factory, warehouse, or office building. Whatever overh
 
 Secondly, intent. There are things that *can* be used in the productive process, and there are things that are *made* to be used in a productive capacity. Do people buy semi trucks for a hobby? Or are they almost exclusively used in production? What about factories? Now, what about our toothbrush from earlier? It's not made for a productive use, but rather personal. It *can* be used in a productive capacity, but it's not *made* for that.
 
-The point being, there is a clear divide between things that are made for the productive process, and things that are more general. Socialization, at least for the purposes of this system, concerns itself with those things that are *intended* solely for production.
+The point being, there is a clear divide between things that are made for the productive process, and things that are more general. Socialization, at least for the purposes of this system, concerns itself with those things that are *intended* mainly for productive use.
 
 Along the lines of intent, things do not automatically *become* socialized just because they were used in a productive capacity. Instead, there must be a clear intent and effort to socialize it in the first place.
 
 ## Why socialism seems difficult
 
-The reason why capitalism seems a much better solution than any form of socialism is because capitalism appears *simple*. The pricing mechanism is simple. The ownership mechanism is simple. Anyone can price anything however they want. Anyone can own just about anything they want. Socializing the means of production, as well as using a non-market costing system, takes more effort. It raises more questions. It changes our relationships to things. However, the simplicity surrounding capitalism is precisely because of the one thing capitalism does best: externalize. Capitalism *appears* simple, but only because the complexity required to manage it is forced onto communities, governments, and the environment.
+The reason why capitalism often seems a much better solution than any form of socialism is because capitalism appears *simple*. The pricing mechanism is simple. The ownership mechanism is simple. Anyone can price anything however they want. Anyone can own just about anything they want. Socializing the means of production, as well employing profitless production, takes more effort. It raises more questions. It changes our relationships to things. However, the simplicity surrounding capitalism is precisely because of the one thing capitalism does best: externalize. Capitalism *appears* simple, but only because the complexity required to manage it is forced onto communities, governments, and the environment.
 
-This paper will define a system that makes implementing and maintaining a socialist mode of production as simple as possible. Its goals are to use incentives, as opposed to coercion or force, to naturally grow a system that pays people the full value of their labor, distributes based on contribution, and accounts for the costs that capitalism externalizes. It will organize production around social usefulness instead of individual profit, and do so without sacrificing autonomy or individual choice.
+This paper will define a system that makes implementing and maintaining a socialist mode of production as simple as possible. Its goals are to use incentives, as opposed to coercion or force, to naturally grow a system that pays people the full value of their labor, distributes based on contribution, allows unrestricted access to the means of production, and accounts for the costs that capitalism externalizes. It will organize production around social usefulness instead of individual profit, and do so without sacrificing autonomy or individual choice.
 
