@@ -1,18 +1,20 @@
 ---
-title: "Basis: a blockchain implementation of a socialist mode of production"
-subtitle: "Or: How I learned to stop worrying and produce without profits (Note: this paper is a draft, [see the pending list of updates](https://gitlab.com/basisproject/tracker/-/issues?label_name%5B%5D=project%3Apaper))"
+title: "Basis: a distributed-ledger implementation of a socialist mode of production"
+subtitle: "Or: How I learned to stop worrying and produce without profits<br><br>**(Last update: Aug 6, 2020)**"
 author:
   - "Andrew M. Lyon"
-keywords: "distributed, socialism, economics, software, blockchain"
+keywords: "distributed, socialism, communism, economics, software, blockchain, dlt, cybernetics"
 ---
 
 # Introduction
 
-Let's start with a premise: we can make all the things we want and need without bowing to profit as our lord and without ceding control of our productive intruments to private owners (and we can do these things without an authoritarian government).
+Let's start with a premise: we can make all the things we want and need without bowing to profit as our lord and without ceding control of our productive instruments to private owners (and we can do these things without an authoritarian government).
 
-Basis is a framework for achieving this goal. It allows companies to publish their products and services to an open network. It allows companies to order those products and services from other companies. It tracks the costs of production as products move through the economy. It allows transparent management of community assets. It allows purchases and elections that respect the privacy of individual users.
+If socialism and capitalism are languages, Basis is a translator that speaks both and allows members to exit the relations of capitalism without being subject to a life of puritanical simplicity.
 
-Basis is a rewrite of our system of governance, with a focus on self-determination, limiting corruption, and creating equality of opportunity.
+Basis defines a distributed network of co-ops that produce things for use (as opposed to for-profit). This network eats capitalism over time, business by business, property by property, becoming more and more capable of producing the needs of its members internally.
+
+Often socialists are asked "Why not just start a commune?" This is our commune. It has banking, it has housing, it has farm land, factories, and warehouses, and it has a militant business plan.
 
 ## The economics of socialism
 
@@ -29,13 +31,15 @@ Our real problem here is supply and demand. A market is essentially a distribute
 
 Given the above, what if instead of given supply and demand and solving for price, we start with demand and cost and we solve for supply? The solution is a bit more temporal...supply must be adjusted over time. But then again, if you think of supply not as "the current supply" but instead "the rate at which supply is replenished" (and similarly with demand) then supply *can* be adjusted almost as instantaneously as price. This can also be done in a distributed way. How?
 
-By measuring orders. Orders are the precursor to the transaction. They are a marker of economic intent. "I want this." If you have a system where orders for widgets (and other products) are publicly available, it would be very easy to measure how many orders for widgets there are and how backlogged those orders are in aggregate. If there is a backlog of two weeks, perhaps then it makes sense to open a new widget factory.
+By measuring orders. Orders are the precursor to the transaction. They are a marker of economic intent. "I want this." If you have a system where orders for widgets (and other products) are publicly available, it would be very easy to measure how many orders for widgets there are and how backlogged those orders are in aggregate. If there is a backlog of two months, perhaps then it makes sense to open a new widget factory.
 
 So in this system of transparency, orders become the signals of demand. In fact, demand becomes much easier to measure, and given demand, and a system of fixed (or at least not rapidly fluctuating) pricing, supply can be adjusted to meet demand. Thus, we do not need a market system of arbitrary prices to facilitate a system of primary production.
 
-Why bother with this, though? Because if you have consensus on setting "price" in terms of *costs to society* (labor, resources, externalities), then it becomes much easier to measure the actual costs of things. Prices abstract and obfuscate the costs. If a TV costs $100, I don't know how much of that paid laborers, how much went into machine maintentance, how much into regulatory compliance, how much in profit, marketing, advertising, and so on and so forth. Not only this, but if you can measure all the inputs to production back to the raw materials, you can know which products used more fossil fuels. Which products used chemicals that are known pollutants. Suddenly a TV isn't $100 anymore, but a few grams of silicone, 32 labor hours, 800 miles in shipping, 1.5 kilos of CO2, etc. How would our purchases change if we knew exactly what went into our products, and what byproducts they had? Whether we like it or not, the things we do affect those around us and it's time to stop pretending they don't.
+Why bother with this, though? Because if you have consensus on setting "price" in terms of *costs to society* (labor, resources, externalities), then it becomes much easier to measure the actual costs of things. Prices abstract and obfuscate the costs. If a TV costs $100, I don't know how much of that paid laborers, how much went into machine maintenance, how much into regulatory compliance, how much in profit, marketing, advertising, and so on and so forth. Not only this, but if you can measure all the inputs to production back to the raw materials, you can know which products used more fossil fuels. Which products used chemicals that are known pollutants. Suddenly a TV isn't $100 anymore, but a few grams of silicone, 32 labor hours, 800 miles in shipping, 1.5 kilos of CO2, etc. How would our purchases change if we knew exactly what went into our products, and what byproducts they had? Whether we like it or not, the things we do affect those around us and it's time to stop pretending they don't.
 
 This method of measuring orders via a transparent network requires no central bureaucracy, meaning you can sidestep things like a command economy (although Basis does not preclude economic planning). Production would be measured based not on some obscured market process, but the actual costs to society.
+
+In this sense Basis is neither a capitalist market nor a centrally-planned system: it lies somewhere in-between. It allows for distributed production like a market, but without the pricing and relations of a market.
 
 ## The system of ownership exercised over the productive instruments
 
