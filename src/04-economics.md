@@ -2,7 +2,7 @@
 
 Basis defines a system of economics with the end goal of eliminating production for profit and for compensating members based on their contribution.
 
-It's worth mentioning that Basis uses the [ValueFlows vocabulary](https://valueflo.ws) for much of its economic system, which provides a general set of operations that can describe and model an incredibly diverse set of economic scenarios. It should be noted that while Basis does use ValueFlows for whatever it can, it also layers some other things on top of it (like disaggregate cost tracking).
+Basis uses the [ValueFlows vocabulary](https://valueflo.ws) for much of its economic system, which provides a general set of operations that can describe and model an incredibly diverse set of economic scenarios. It should be noted that while Basis does use ValueFlows for whatever it can, it also layers some other things on top of it (like disaggregate cost tracking).
 
 ## Cost tracking
 

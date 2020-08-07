@@ -1,3 +1,5 @@
 # Chapter 8: Governance
 
-TODO
+TODO:
+
+- [#60 - Voting](https://github.com/basisproject/tracker/issues/60)
