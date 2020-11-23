@@ -4,6 +4,12 @@ Banking acts as the membrane between the network and the capitalist markets. It 
 
 Banking also allows simple conversion of credits to local currency so individual members can purchase things from the market that are not available in-network.
 
+## Investment
+
+TODO:
+
+- [#124 - Investment system](https://github.com/basisproject/tracker/issues/124)
+
 ## Currency tracking
 
 When a company needs inputs to production that are not produced in-network, they need to interact with the market. The banking system allows a company to spend out of a [capital pool](#capital-pools) to buy these inputs. When this purchase happens, the cost of that purchase is added to the company's costs in the form of tracked currency.
