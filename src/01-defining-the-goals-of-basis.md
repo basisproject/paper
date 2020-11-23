@@ -81,9 +81,9 @@ When credits are spent (exchanged for products or services), they are destroyed.
 
 All members receive a periodic payment, printed by the system, into a special account they own. This "basic income" can be used to pay for any in-network expenses, such as housing, food, or any other in-network product.
 
-## Shared resource management
+## Management of property and resources
 
-All resources in the network are owned by the network as a whole (and thus, by all members equally). However, it doesn't make sense for every single member to be involved in every single decision about property and resource management. Basis provides a framework for determining the stewardship and use of these resources in ways that work for the local participants. In other words, we don't force a one-size-fits-all approach to resource management, but rather give tools for people to figure it out themselves in a transparent and self-determined manner.
+All property and resources in the network are owned by the network as a whole (and thus, by all members equally). However, it doesn't make sense for every single member to be involved in every single decision about property and resource management. Basis provides a framework for determining the stewardship and use of these resources in ways that work for the local participants. In other words, we don't force a one-size-fits-all approach to resource management, but rather give tools for people to figure it out themselves in a transparent and self-determined manner.
 
 ## Governance
 
