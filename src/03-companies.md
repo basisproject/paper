@@ -1,6 +1,6 @@
 # Chapter 3: Companies
 
-Companies are a core concept of the system. They define networks of people within the greater Basis network that have common purpose. This common purpose might be productive in nature, it might be based on shared resources like housing or farm land, it might be a geographical connection, or any other type of association that people want.
+Companies are a core concept of the system. They define groups of people within the greater Basis network that have common purpose. This common purpose might be productive in nature, it might be based on shared resources like housing or farm land, it might be a geographical connection like a town, or any other type of association that people want.
 
 ## Organization
 
