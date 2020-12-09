@@ -1,6 +1,6 @@
 ---
 title: "Basis: a distributed-ledger implementation of a socialist mode of production"
-subtitle: "Or: How I learned to stop worrying and produce without profits and private property<br><br>**(Last update: Aug 6, 2020)**"
+subtitle: "Or: How I learned to stop worrying and produce without profits and private property<br><br>**(Last update: Nov 22, 2020)**"
 author:
   - "Andrew M. Lyon"
 keywords: "distributed, socialism, communism, economics, software, blockchain, dlt, cybernetics"
