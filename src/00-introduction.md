@@ -1,20 +1,20 @@
 ---
-title: "Basis: a distributed-ledger implementation of a socialist mode of production"
-subtitle: "Or: How I learned to stop worrying and produce without profits and private property<br><br>**(Last update: Nov 22, 2020)**"
+title: "Basis: a protocol for a post-capitalist economy"
+subtitle: "Or: How I learned to stop worrying and produce without profits and private property<br><br>**(Last update: Apr 5, 2021)**"
 author:
   - "Andrew M. Lyon"
-keywords: "distributed, socialism, communism, economics, software, blockchain, dlt, cybernetics"
+keywords: "distributed, socialism, communism, economics, protocol, cybernetics"
 ---
 
 # Introduction
 
-Let's start with a premise: we can make all the things we want and need without bowing to profit as our king and without ceding control of our productive instruments to private owners (and we can do these things without an authoritarian government).
+There's a somewhat unexplored space between a planned economy and a capitalist market system. There exists a place where the positive attributes of planning -- democratic participation and production for use (as opposed to exchange) -- can exist alongside the best part of a market system: autonomous distributed production. Basis is an analysis of this space; a non-authoritarian journey into the intersection of ecology, democratic production, and free association.
 
-If socialism and capitalism are languages, Basis is a translator that speaks both and allows members to exit the relations of capitalism without being subject to a life of puritanical simplicity.
+At its core, Basis is a protocol that defines a transactional economic fabric and provides detailed cost tracking on top of this fabric. It allows members of an economic network to order products and services from each other in a way that automatically tracks labor and resource content in a much more detailed and accurate way than money. As a result, all products output by this network have not just a list of all the different occupation hours/wages that went into producing them but also details on the resources used and by what quantities.
 
-Basis defines a distributed network of co-ops that produce things for use (as opposed to for-profit). This network eats capitalism over time, business by business, property by property, becoming more and more capable of producing the needs of its members internally.
+Basis also defines a currency system, the ability to democratically price resources independently of their extraction costs (for instance, raising the price of fossil fuels), and the means for determining use of property *outside of market mechanisms.*
 
-Often socialists are asked "Why not just start a commune?" This is our commune. It has banking, it has housing, it has farm land, factories, and warehouses, and it has a militant business plan.
+Lastly, we will explore not just the described system as a utopian concept, but also the path to transition from *here* to *there* and the detailed mechanisms that will get us there.
 
 ## The economics of socialism
 
