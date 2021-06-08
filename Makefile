@@ -1,8 +1,11 @@
-.PHONY: all book html latext clean
+.PHONY: all html book latex odt clean
 
 PATH := $(PATH):/c/dev/pandoc
 
 mdfiles := $(shell find src/ -name "*.md" | sort)
+
+converted/basis.html: $(mdfiles)
+	pandoc -f markdown+yaml_metadata_block --toc -s -o $@ $^
 
 converted/basis.epub: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block --toc -o $@ $^
@@ -10,18 +13,15 @@ converted/basis.epub: $(mdfiles)
 converted/basis.tex: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -s -o $@ $^
 
-converted/basis.html: $(mdfiles)
-	pandoc -f markdown+yaml_metadata_block --toc -s -o $@ $^
-
 converted/basis.odt: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -s -o $@ $^
 
-book: converted/basis.epub
+all: html
+
 html: converted/basis.html
+book: converted/basis.epub
 latex: converted/basis.tex
 odt: converted/basis.odt
-
-all: book
 
 clean:
 	rm -rf converted/*
