@@ -1,6 +1,6 @@
 ---
 title: "Basis: a protocol for a post-capitalist economy"
-subtitle: "Or: How I learned to stop worrying and produce without profits and private property<br><br>**(Last update: June 1, 2021)**"
+subtitle: "Or: How I learned to stop worrying and produce without profits and private property<br><br>**(Last update: {{modified}})**"
 author:
   - "Andrew M. Lyon"
 keywords: "distributed, socialism, communism, economics, protocol, cybernetics"

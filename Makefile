@@ -2,19 +2,25 @@
 
 PATH := $(PATH):/c/dev/pandoc
 
-mdfiles := $(shell find src/ -name "*.md" | sort)
+get_md = find src/ -name "*.md"
+mdfiles := $(shell $(get_md) | sort)
+set_mod = sed -i "s/{{modified}}/$(shell date -d @$(shell $(get_md) -exec date -r {} +'%s' \; | sort -nr | head -1) +'%B %e, %Y')/g" $@
 
 converted/basis.html: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block --toc -s -o $@ $^
+	$(set_mod)
 
 converted/basis.epub: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block --toc -o $@ $^
+	$(set_mod)
 
 converted/basis.tex: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -s -o $@ $^
+	$(set_mod)
 
 converted/basis.odt: $(mdfiles)
 	pandoc -f markdown+yaml_metadata_block -s -o $@ $^
+	$(set_mod)
 
 all: html
 
