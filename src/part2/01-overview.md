@@ -4,6 +4,8 @@
 
 Basis -- a protocol for post-capitalist production -- can be broken down at a high level into a few types of entities: agents, blocs, resources, and network. The protocol describes these entities, and the dynamics and interactions they have with each other.
 
+The economics used in the Basis protocol are an extension of the ValueFlows [^1] protocol.
+
 ### Agents
 
 Agents are individual people who are participating in the protocol. While they can be productive, they do not necessarily have to be. Agents are the initiating force behind any movement within the protocol: from performing labor to voting to consuming products, all actions within the protocol are driven by agents.
@@ -20,15 +22,7 @@ Resources are anything that can be used or consumed. This could be a chair, a tr
 
 The network as an entity encompasses all agents, blocs, and resources. It also holds a set of global information and parameters that are managed democratically by all agents. This includes things like how much UBI each agent gets, which resources are cost-tracked, and the occupation database.
 
-### Agent-agent interactions
+### Entity interactions
 
-### Agent-bloc interactions
-
-### Agent-resource interations
-
-### Agent-network interactions
-
-### Bloc-bloc interactions
-
-### Bloc-resource interactions
+The interactions between the four entity types we've defined form the foundations of the protocol, and each of them will have a dedicated chapter.
 
