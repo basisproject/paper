@@ -3,4 +3,4 @@
 ### Tracked resources
 
 [resource tracking]
-[incentives (extracting blocs' associates paid)]
+[incentives (extracting blocs' members paid)]

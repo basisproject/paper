@@ -1,12 +1,12 @@
 ## Chapter 3: Blocs
 
-A bloc is a recursive grouping of [members](#chapter-2-members), [resources](#chapter-4-resources), and other blocs. The members and blocs that are part of a block are known as "associates."
+A bloc is a recursive grouping of [agents](#chapter-2-agents), [resources](#chapter-4-resources), and other blocs. The agents and blocs that are part of a bloc are known as "members."
 
-All blocs are controlled by their constituent *members* (not *associates* mind you but individual protocol members). Leadership (if any) must be selected by individual members, and all policies regarding membership of blocs must be ratified by individual members. As such, Basis defines a bloc as a bottom-up power structure that puts individual members in control of the things that affect them the most.
+All blocs are controlled by their constituent *agents* (not *members* mind you but individual protocol agents). Leadership (if any) must be selected by individual agents, and all policies regarding membership of blocs must be ratified by individual agents (either individually or through selected delegates). As such, Basis defines a bloc as a bottom-up power structure that puts individual agents in control of the things that affect them the most.
 
-Blocs and members are freely-associating entities: any member or bloc can join any bloc as long as the entities involved consent to the association.
+Blocs and agents are freely-associating entities: any agent or bloc can join any bloc as long as the entities involved consent to the association.
 
-Blocs are free to use whatever organization structure they see fit. There is not any predetermined pattern or framework blocs must follow, with the caveat that the members in a bloc have ultimate power over the bloc. Blocs can use a traditional top-down structure where associates select board members who determine overall direction and leadership, or blocs can be run as a collective where everyone is involved in making every decision. Blocs can have vesting schedules for new associates. They can be set up as multi-stakeholder entities (for instance, shared control between workers, customers, vendors, and/or the public).
+Blocs are free to use whatever organization structure they see fit. There is not any predetermined pattern or framework blocs must follow, with the caveat that the agents in a bloc have ultimate power over the bloc. Blocs can use a traditional top-down structure where members select a board/council that determines overall direction and leadership, or blocs can be run as a collective where everyone is involved in making every decision. Blocs can have vesting schedules for new members. They can be set up as multi-stakeholder entities (for instance, shared control between workers, customers, vendors, and/or the public).
 
 ### Voting and governance
 
