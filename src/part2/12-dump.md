@@ -1,3 +1,5 @@
+## Chapter 6: Agent-agent interactions
+
 ## Chapter 7: Agent-bloc interactions
 
 ### Work
@@ -39,4 +41,12 @@ While the transactions between member companies are transparent and freely obser
 TODO:
 
 - [#4 - Privacy for consumer orders](https://github.com/basisproject/tracker/issues/4)
+
+## Chapter 8: Agent-resource interactions
+
+## Chatper 9: Agent-network interactions
+
+## Chapter 10: Bloc-bloc interactions
+
+## Chapter 11: Bloc-resource interactions
 

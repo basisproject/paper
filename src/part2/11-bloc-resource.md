@@ -1,2 +1,2 @@
-Chapter 11: Bloc-resource interactionsaniara
+## Chapter 11: Bloc-resource interactions
 

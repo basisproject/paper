@@ -46,13 +46,15 @@ Here's an example of what a bloc's costs might look like:
 
 ### Accounting and REA
 
-Basis extends the [ValueFlows](https://valueflo.ws/) protocol for its accounting within and between blocs. ValueFlows is an REA (Resource-Agent-Event) accounting system that allows tracking detailed flows of resources through an economy.
+Basis extends the ValueFlows [^1] protocol for its accounting within and between blocs as well as between blocs and agents. ValueFlows is an REA (Resource-Agent-Event) accounting system that allows tracking detailed flows of resources through an economy.
 
 ### Wages
 
+TODO: move to "Bloc-bloc interactions"
+
 ### Orders
 
-TODO: move to "Bloc-bloc inteactions"
+TODO: move to "Bloc-bloc interactions"
 
 ### Investment
 
