@@ -1,6 +1,6 @@
 ## Chapter 3: Blocs
 
-A bloc is a recursive grouping of [agents](#chapter-2-agents), [resources](#chapter-4-resources), and other blocs. The agents and blocs that are part of a bloc are known as "members."
+A bloc is a grouping of [agents](#chapter-2-agents) and [resources](#chapter-4-resources). The agents that are part of a bloc are known as "members."
 
 All blocs are controlled by their constituent *agents* (not *members* mind you but individual protocol agents). Leadership (if any) must be selected by individual agents, and all policies regarding membership of blocs must be ratified by individual agents (either individually or through selected delegates). As such, Basis defines a bloc as a bottom-up power structure that puts individual agents in control of the things that affect them the most.
 

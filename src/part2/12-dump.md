@@ -1,16 +1,18 @@
-## Chapter 6: Agent-agent interactions
+## Chapter 12: Entity interaction dumping ground
 
-## Chapter 7: Agent-bloc interactions
+### Chapter 6: Agent-agent interactions
 
-### Work
+### Chapter 7: Agent-bloc interactions
+
+#### Work
 
 Agents work.
 
-### Consumer purchases
+#### Consumer purchases
 
 Agents buy things.
 
-#### Pricing
+##### Pricing
 
 So far we've talked a lot about costs. Does this mean that every product purchased by a consumer will be provided at-cost? No, and there two facets to this.
 
@@ -23,7 +25,7 @@ So why let companies set arbitrary prices at all? It enables things like clearin
 This system of pricing is described in "Towards a New Socialism" [^2].
 
 
-#### Cybernetics
+##### Cybernetics
 
 Cybernetics is a system of self-regulating and automated control. We employ cybernetics to incentivize companies to act in the best interests of the network. This is done by adjusting a company's cost ceiling: the more the company acts in the interests of the network, the higher its cost ceiling. In effect, a high cost ceiling translates to a higher social investment.
 
@@ -31,7 +33,7 @@ TODO:
 
 - [Cybernetics metrics and signals](https://github.com/basisproject/tracker/issues?q=is%3Aissue+is%3Aopen+label%3Atag%3Acybernetics)
 
-#### Anonymity
+##### Anonymity
 
 While the transactions between member companies are transparent and freely observable by any member of the network, there are a few cases where privacy is offered:
 
@@ -42,11 +44,11 @@ TODO:
 
 - [#4 - Privacy for consumer orders](https://github.com/basisproject/tracker/issues/4)
 
-## Chapter 8: Agent-resource interactions
+### Chapter 8: Agent-resource interactions
 
-## Chatper 9: Agent-network interactions
+### Chatper 9: Agent-network interactions
 
-## Chapter 10: Bloc-bloc interactions
+### Chapter 10: Bloc-bloc interactions
 
-## Chapter 11: Bloc-resource interactions
+### Chapter 11: Bloc-resource interactions
 
