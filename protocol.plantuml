@@ -1,8 +1,7 @@
 @startuml
 
 left to right direction
-
-node Agent as "Agent space" {
+node Agent as "Agent space" #palegreen {
 	actor Agent.agent as "Agent"
 
 	storage Agent.UBI as "UBI"
