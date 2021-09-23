@@ -1,0 +1,79 @@
+@startuml
+
+left to right direction
+
+node Agent as "Agent space" {
+	actor Agent.agent as "Agent"
+
+	storage Agent.UBI as "UBI"
+	rectangle Accounts {
+		collections Account.credits as "Credits"
+	}
+}
+
+interface Vote as "BS:vote"
+
+database AgentParams as "Agent params" {
+	storage AgentParams.UBI as "UBI amount"
+}
+
+database EconParams as "Economic params" {
+	storage EconParams.Occ as "Occupations"
+	storage EconParams.Trk as "Trackers"
+}
+
+component Cost as "Cost<>" {
+}
+
+node Bloc {
+	rectangle Bloc.cost as "Costs" {
+		component Resource.cost as "Cost<Resource>"
+		component Process.cost as "Cost<Process>"
+		storage Bloc.Allowance as "Cost allowance"
+	}
+	node Resource
+	interface Price
+}
+
+rectangle Investment {
+	hexagon Cyber as "Cybernetics"
+	interface Invest
+}
+
+rectangle EcActions as "Economic actions" {
+	interface Order as "VF:order"
+	interface Work as "VF:work"
+	interface Use as "VF:use"
+	interface Consume as "VF:consume"
+	interface Transfer as "VF:transfer"
+}
+
+Agent.agent -l-> Vote
+Agent.agent -d-> Consume
+Agent.agent -d-> Use
+Agent.agent -d-> Work
+Agent.agent -[#blue,thickness=2]* Bloc : "Membership"
+Agent.agent -u-> Invest
+Vote -d-> AgentParams
+Vote -d-> EconParams
+Bloc <-> Order
+Bloc -> Transfer
+Bloc.cost .[thickness=2]> Price
+Bloc.cost .[thickness=4].> Cyber
+AgentParams.UBI .> Agent.UBI
+EconParams.Occ .d.> Cost
+EconParams.Trk .d.> Cost
+Price -> Consume
+Price .> Cyber
+Investment -[#green,thickness=4]-> Bloc.Allowance
+Order --> Bloc.cost
+Work -> Process.cost
+Work -> Account.credits
+Transfer -d-> Bloc
+Resource -u-> Consume
+Resource -u-> Use
+Resource -u-> Transfer
+EcActions .[thickness=4]> Cyber
+
+@enduml
+
