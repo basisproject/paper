@@ -56,7 +56,7 @@ Agent.agent -u-> Invest
 Accounts .> Use
 Accounts .> Consume
 Vote -d-> AgentParams
-Vote -d-> EconParams
+Vote -d--> EconParams
 Bloc <-> Order
 Bloc -> Transfer
 Bloc.cost .[thickness=2]> Price
