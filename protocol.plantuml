@@ -4,13 +4,13 @@ left to right direction
 node Agent as "Agent space" #palegreen {
 	actor Agent.agent as "Agent"
 
-	storage Agent.UBI as "UBI"
 	rectangle Accounts {
 		collections Account.credits as "Credits"
+		storage Agent.UBI as "UBI"
 	}
 }
 
-interface Vote as "BS:vote"
+interface Vote as "vote"
 
 database AgentParams as "Agent params" {
 	storage AgentParams.UBI as "UBI amount"
@@ -40,11 +40,11 @@ rectangle Investment {
 }
 
 rectangle EcActions as "Economic actions" {
-	interface Order as "VF:order"
-	interface Work as "VF:work"
-	interface Use as "VF:use"
-	interface Consume as "VF:consume"
-	interface Transfer as "VF:transfer"
+	interface Order as "order"
+	interface Work as "work"
+	interface Use as "use"
+	interface Consume as "consume"
+	interface Transfer as "transfer"
 }
 
 Agent.agent -l-> Vote
@@ -53,6 +53,8 @@ Agent.agent -d-> Use
 Agent.agent -d-> Work
 Agent.agent -[#blue,thickness=2]* Bloc : "Membership"
 Agent.agent -u-> Invest
+Accounts .> Use
+Accounts .> Consume
 Vote -d-> AgentParams
 Vote -d-> EconParams
 Bloc <-> Order
@@ -64,15 +66,14 @@ EconParams.Occ .d.> Cost
 EconParams.Trk .d.> Cost
 Price -> Consume
 Price .> Cyber
-Investment -[#green,thickness=4]-> Bloc.Allowance
-Order --> Bloc.cost
-Work -> Process.cost
-Work -> Account.credits
+Investment .[thickness=4].> Bloc.Allowance
+Work .> Account.credits
 Transfer -d-> Bloc
 Resource -u-> Consume
 Resource -u-> Use
 Resource -u-> Transfer
 EcActions .[thickness=4]> Cyber
+EcActions .[thickness=4].> Bloc.cost
 
 @enduml
 
