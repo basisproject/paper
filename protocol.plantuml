@@ -5,7 +5,7 @@ node Agent as "Agent space" #palegreen {
 	actor Agent.agent as "Agent"
 
 	rectangle Accounts {
-		collections Account.credits as "Credits"
+		collections Account.credits as "Credits (₡)"
 		storage Agent.UBI as "UBI"
 	}
 }
@@ -19,6 +19,7 @@ database AgentParams as "Agent params" {
 database EconParams as "Economic params" {
 	storage EconParams.Occ as "Occupations"
 	storage EconParams.Trk as "Trackers"
+	storage EconParams.Proc as "Processes"
 }
 
 component Cost as "Cost<>" {
@@ -64,6 +65,7 @@ Bloc.cost .[thickness=4].> Cyber
 AgentParams.UBI .> Agent.UBI
 EconParams.Occ .d.> Cost
 EconParams.Trk .d.> Cost
+EconParams.Proc .d.> Cost
 Price -> Consume
 Price .> Cyber
 Investment .[thickness=4].> Bloc.Allowance
