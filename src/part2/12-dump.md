@@ -1,3 +1,5 @@
+### NOTES / dumping ground
+
 ## Chapter 12: Entity interaction dumping ground
 
 ### Chapter 6: Agent-agent interactions
@@ -10,7 +12,7 @@ Agents work.
 
 #### Consumer purchases
 
-Agents buy things.
+- Consumption of resources removes them from the protocol
 
 ##### Pricing
 
@@ -49,6 +51,8 @@ TODO:
 ### Chatper 9: Agent-network interactions
 
 ### Chapter 10: Bloc-bloc interactions
+
+Basis extends the ValueFlows [^1] protocol for its accounting within and between blocs as well as between blocs and agents. ValueFlows is an REA (Resource-Agent-Event) accounting system that allows tracking detailed flows of resources through an economy.
 
 ### Chapter 11: Bloc-resource interactions
 
