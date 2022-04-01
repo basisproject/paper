@@ -22,10 +22,9 @@ UBI credits are earned simply by being an agent in the Basis protocol and accrue
 
 - UBI credits are printed and paid out whenever participants wish to claim them, and are paid based on how much time has elapsed since they were last claimed.
 - Labor credits and UBI credits are not interchangeable. They are distinct currencies.
-- UBI credits are paid into a special account that is attached to each network member.
+- UBI credits are paid into a special account that is attached to each agent.
 - The UBI account has a ceiling value which caps the maximum amount of credits the account can hold. For instance this ceiling value might be 12 months' worth of periodic value. This effectively limits UBI from accumulating endlessly if it's not spent.
 - Unlike labor credits, UBI credits cannot be transferred to other members. It is always attached to one person.
-- UBI credits can *only* be spent on costs that were created in-network.
 
 #### Effects and goals of UBI
 

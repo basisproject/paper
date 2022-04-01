@@ -1,6 +1,6 @@
 ## Chapter 4: Blocs
 
-A bloc is a grouping of [agents] and [resources]. The agents that are part of a bloc are known as "members."
+A bloc is a grouping of [agents] and [resources]. The agents that are part of a bloc are known as "members" and the relationship between a bloc and a resource is known as stewardship.
 
 All blocs are cooperative entities controlled by their members. Leadership (if any) must ultimately be selected by individual agents, and all policies regarding membership of blocs must be ratified by the members. As such, Basis defines a bloc as a bottom-up power structure that puts individual agents in ultimate control of the groups they are members of.
 
@@ -10,57 +10,23 @@ Blocs are free to use whatever organization structure they see fit. There is not
 
 Membership in a bloc is completely decided by the bloc itself. Membership might be determined by geographical location, interest or skill in a particular sector of production, and can even depend on things like compulsory ordering of a service every month (which could be structured as a membership fee or even a tax in the case of a municipal bloc). Some blocs might require membership in sister blocs: perhaps you cannot be a member of the Duluth Municipal Housing bloc if you are not also a member of the Duluth Municipal bloc.
 
-### Costs
+### Bloc costs
 
-Every bloc has a running total of costs it has incurred, generally through ordering inventory or by paying wages. Costs in Basis are not a number, but rather separate collections of individual costs bundled together.
+Every bloc has a running total of costs it has incurred, generally through ordering inventory or by paying wages. How exactly costs are modeled within the protocol is covered later in the [costs] section of the paper.
 
-Costs are bucketed by a few different types: `labor`, `labor_hours`, and `resources`.
+Costs are held in two different parts of blocs: [resources][resource-costs] that the bloc is in stewardship of and *processes*.
 
-- `labor` tracks how many wages were paid to a particular occupation in a set of costs. Occupations are tracked globally in the protocol and are standard across all blocs.
-- `labor_hours` tracks how many hours were worked by a particular occupation in a set of costs. Occupations here are the same as in the `labor` object (standard and tracked globally).
-- `resources` holds the quantity of the standard unit of [tracked resources][trackers] that exist in a set of costs.
+A process is an activity that transforms economic inputs to outputs. In Basis, processes extend the concept of [processes in ValueFlows](https://valueflo.ws/introduction/processes.html) by adding a set of [costs] associated with that process. A bloc can have as many processes as it wants, each with a set of associated costs.
 
-These types can be extended to track other cost types (for instance `currency`, which will be [covered in part 3][part3]).
+Resources and processes are where [flows of value occur](https://valueflo.ws/introduction/concepts.html): a bloc might order lumber (a resource), consume the lumber and transform it using labor and machinery (in a process) to make chairs (a new resource). In this example, the lumber has a cost which is assumed by the bloc when it is ordered. When the lumber is used as an input into the "make chairs" process, the process takes on the cost of the lumber. When labor is performed to actually make the chairs, the cost of that labor also adds to the costs of the process, as does the amortized per-use cost of the machinery that was used to make the chairs. In effect, processes *combine* the costs of their inputs. Once the chairs are complete, the bloc might assign the costs of the process to the resulting chairs evenly: if the process assumed `X` costs, and the result was six chairs, then each chair might have a cost of `X / 6`. This is just an example though: blocs are free to move costs between internal processes and resources as they see fit.
 
-Here's an example of what a bloc's costs might look like:
-
-```
-{
-    "labor": {
-        "president": 12.89,
-        "accountant": 3.38,
-        "miner": 41.45
-    },
-    "labor_hours": {
-        "president": 0.2578,
-        "accountant": 0.0965,
-        "miner": 1.0363
-    },
-    "resources": {
-        "iron": 8.5,
-        "gasoline": 2.9,
-        "silicon": 0.03
-    }
-}
-```
-
-#### Breaking down costs
-
-Blocs in Basis make extensive use of the ValueFlows protocol for their accounting. In ValueFlows, there are two concepts that are related to costs within blocs: resources and processes. As described in the [chapter on resources][resource-costs], a resource can have a cost attached to it.
-
-Processes
-
-#### Summing costs
-
-Although costs are tracked as separate collections of distinct values, it's important that they are able to be summed into one aggregate number: a total cost. This allows blocs to get a quick sense for their overall cost amounts, and as we'll see later, something called a [cost allowance].
-
-Deriving this total value is simple in the case of `labor` and `labor_hours`, we simply sum the values together. For instance, in the object above, we would have `12.89 + 3.38 + 41.45 + 0.2578 + 0.0965 + 1.0363` or `59.1106`.
-
-The tricky bit comes when we convert our resource values into a cost, and this is where [trackers] come in: they allow categorizing a [resource][resources] within the cost tracking system such that a standard unit can be assigned a cost value. Thus, if in our example above, `iron` is tracked in grams, and the cost-per-gram is `0.3` then the iron cost would be `8.5 * 0.3` or `2.55`. If done for all `resources` in the costs set, we can add this to our labor costs and find our total aggregate cost value.
+The total costs of a bloc can be determined by taking the costs of all the bloc's resources and all the bloc's processes and [summing them together][cost-math]. This gives a final cost object, which can be [converted into a final number][cost-conversion].
 
 ### Cost allowance
 
-Every bloc has a cost allowance. This is a number that determines the upper limit on costs that the bloc can assume. If the bloc's costs go above this number, the protocol prevents the bloc from taking on any new costs, be it ordering inventory, paying wages, or any other ways that blocs can take on new costs. The cost allowance can be thought of as the total amount of societal debt that a bloc may take on.
+Every bloc has a cost allowance. This is a variable number that determines the upper limit on costs that the bloc can assume. If the bloc's total costs (the sum of all the bloc's resources and processes) reaches this number, the protocol prevents the bloc from taking on any new costs, be it ordering inventory, paying wages, or any other ways that blocs can take on new costs. The cost allowance can be thought of as the total amount of societal debt that a bloc may take on.
+
+Once a bloc's total costs reaches its cost allowance, a bloc must find a way to unload its costs. This would happen via other blocs [ordering products or services][orders] or through direct member taxation.
 
 The actual cost allowance value is determined by the [investment] and [cybernetics] systems defined by the protocol.
 
@@ -72,17 +38,22 @@ TODO:
 
 ### Wages
 
-Agents can perform labor for the blocs they are members of and if they track this labor within the protocol then they will receive wages in the form of [credits]. The exact arrangement of how the wage is arranged is between the member and the bloc: it could be hourly, it could be salary, it could be project or commission based. The protocol does not confine any form of arrangement, but it does allow the bloc or the member to register the labor and provides methods for compensating it with credits.
+Agents can perform labor for the blocs they are members of and if they track this labor within the protocol then they will receive wages in the form of [credits]. The exact arrangement of how the wage is arranged is between the member and the bloc: it could be hourly, it could be salary, it could be project or commission based, some combination of all three, or something entirely different. The protocol does not confine any form of arrangement, but it does allow the bloc or the member to register the labor and provides methods for compensating it with credits.
 
 When the credits are paid (not when the labor is tracked), the cost of the labor is added to the bloc's costs in the same transaction. In other words, an agent receiving credits is always matched exactly by a bloc assuming new costs.
 
 [agents]: #chapter-2-agents
 [resources]: #chapter-3-resources
+[costs]: #costs
 [resource-costs]: #resource-costs
+[cost-math]: #mathematical-operations-on-costs
+[cost-conversion]: #converting-costs-to-a-single-value
 [trackers]: #BROKEN-trackers
 [part3]: #part-3-the-real-world
 [cost allowance]: #cost-allowance
+[orders]: #BROKEN-orders
 [investment]: #BROKEN-investment
 [cybernetics]: #BROKEN-cybernetics
 [credits]: #labor-credits
 [economics]: #chapter-6-economics
+

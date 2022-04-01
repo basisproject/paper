@@ -22,7 +22,7 @@ When a bloc marks a product as available for agent consumption, it is given a pr
 
 In the absence of profit and a strong link between *price* and *cost*, another mechanism must act as the feedback mechanism for blocs. Basis uses a [cybernetics system][cybernetics] that adjusts a bloc's "cost allowance" (how much costs it can assume in total at any given point) based on its overall, ongoing performance.
 
-As a final note, the economic vocabulary used in the Basis protocol are an extension of the ValueFlows [^1] protocol, a Resource-Event-Agent (REA) accounting system that allows defining flows of resources through productive networks. Many of the processes or actions described in the Basis protocol will reference various portions of ValueFlows.
+As a final note, the economic vocabulary used in the Basis protocol are an extension of the ValueFlows [^vf] protocol, a Resource-Event-Agent (REA) accounting system that allows defining flows of resources through productive networks. Many of the processes or actions described in the Basis protocol will reference various portions of ValueFlows.
 
 [agents]: #chapter-2-agents
 [resources]: #chapter-4-resources
