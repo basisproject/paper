@@ -1,14 +1,96 @@
+## Dumping ground
+
 ### NOTES / dumping ground
 
-## Chapter 12: Entity interaction dumping ground
+### Cost tracking
 
-### Chapter 6: Agent-agent interactions
+#### Assigning costs to products and services
 
-### Chapter 7: Agent-bloc interactions
+How costs are assigned to products and services by each bloc is completely up to them. They might want to automate this based on inputs and outputs over time. They might want to carefully assign costs manually for each product. They are free to handle this however they want, provided that their total costs are kept under their cost ceiling.
 
-#### Work
+#### Labor costs
 
-Agents work.
+#### (Semi) raw material costs
+
+Basis can track not just labor costs by occupation, but also costs of raw and semi-raw materials. In effect, if wood from a lumber mill is tagged as a tracked resource, anyone who orders that wood from the lumber yard will have the cost of that wood added to their total costs. For instance, if I make wooden chairs, I need lumber, so I order 10kg of it. The lumber has a cost of:
+
+```
+{
+    "labor": {
+        "mill worker": 8.0
+    }
+    "resources": {
+        "wood": 10000.0
+    }
+}
+```
+
+If I pay myself 10₡/hr and I use that wood to build four chairs in one hour, the total cost would be (notice I added in my own labor to the costs):
+
+```
+{
+    "labor": {
+        "mill worker": 8.0
+        "chair maker": 10.0
+    }
+    "resources": {
+        "wood": 10000.0
+    }
+}
+```
+
+Now if I price my four chairs equally, the cost of each chair would be:
+
+```
+{
+    "labor": {
+        "mill worker": 2.0
+        "chair maker": 2.5
+    }
+    "resources": {
+        "wood": 2500.0
+    }
+}
+```
+
+If a company were to order one of my chairs, the above cost would be subtracted from my company's costs and added to their costs. If a consumer were to order one of my chairs, the costs are subtracted from my company and both the chair and the costs are marked as *consumed* and disappear from the system.
+
+The above is a contrived example that ignores things like shipping, amortized costs of machinery, costs of property usage, etc. However, we can see how resource and labor costs accumulate, divide, and flow within and between companies.
+
+#### Flows of costs
+
+While this has been touched on already, it's important to note that costs can be created (via labor and resources) but that costs can only ever be destroyed by three processes: consumption, taxation, and market sales. Consumption means a consumer covers the cost personally, using credits they have earned via labor. Taxation is the process of spreading a company's costs equally among its members over time such that they use their personal credits to pay the cost. Lastly is market sales, where a company sells a product into the market system at which point the costs are wiped out of the system.
+
+Within the productive network, costs are accumulated, divided, and transferred but are never destroyed.
+
+### Raw material tracking and costing
+
+By default, all products in Basis are categorized the same way: as a product! A hunk of coal or a barrel of oil is modeled the same way in the system as a pack of socks. So how do we tag certain products as tracked resources?
+
+It makes sense that we would want to track raw materials (oil, silicon, iron) but it also might make sense to track resources that are taken one or two steps further: diesel fuel, steel, various chemicals. How it's decided to tag a product as a tracked resource is a matter of systemic governance.
+
+It will also be the case that not just the resource type will be tagged, but also its source. Is an old-growth forest being decimated to make gift shop trinkets? Maybe producers or consumers would want to know this information. This helps us not just with individual knowledge, but also systemic knowledge: where are our resources coming from and at what rates? Having exact data on this could help us achieve much better ecological equilibrium.
+
+Once we have our list of tagged resources, how exactly do we cost them? This is another issue of systemic governance. The process behind this is still being decided on.
+
+TODO:
+
+- [#17 - Raw material tagging](https://github.com/basisproject/tracker/issues/17)
+- [#58 - Resource costing](https://github.com/basisproject/tracker/issues/58)
+- [#90 - Raw material transformations](https://github.com/basisproject/tracker/issues/90)
+
+### Pricing
+
+So far we've talked a lot about costs. Does this mean that every product purchased by a consumer will be provided at-cost? No, and there two facets to this.
+
+First, for members, the system will *optimize for* providing products at-cost. In other words, companies that do sell products for exactly their cost will be rewarded (more on this in the [cybernetics section](#cybernetics)). That said, companies can set whatever prices above or below cost they want. The difference from a capitalist market however is that when a company sells a widget for 10₡ that only cost 8₡ to produce, it doesn't realize the extra 2₡: the credits are still burned on purchase.
+
+Secondly, for non-members, companies are incentivized to sell at the highest price they can. So each product that is available for public consumption will have at least two prices: the in-network price and the market price.
+
+So why let companies set arbitrary prices at all? It enables things like clearing inventory for products that didn't sell well, and also it enables inventory control for higher-value items. Member companies don't realize the delta between cost and price as a gain or loss, but rather it is used as a signal to determine if the production of that particular product should be expanded or contracted. In other words, we retain the *signal mechanism* from pricing *without using it as a distribution mechanism*.
+
+This system of pricing is described in "Towards a New Socialism" [^tns].
+
 
 #### Consumer purchases
 
@@ -241,4 +323,14 @@ It should be noted that the definitions, processes, and interfaces of the public
 [resources]: #chapter-3-resources
 
 ---
+
+#### Effects and goals of UBI
+
+Defining a currency that everyone gets regularly that cannot be transferred and can only be spent on internally-produced products and services has some great benefits for both participants and the network as a whole. If the UBI is high enough to be a living wage, what this does is effectively remove the cost of survival from the productive system. In effect, we make it easy to quit a job. This is seemingly banal but the effect is incredible: this would lower externalities in production, lower the labor costs of products significantly, and ultimately make the productive system much more adaptable.
+
+If nobody needs a job to survive, then there's no systemic pressure to *win at all costs*, which would effectively not only eliminate entire classes of externalities but also reduce the pressure of competition within the system. No longer do companies have to balance survival with being community members, because survival doesn't need to be covered by the productive system. Companies are free to expand and contract as members see fit without needing to worry about the welfare of those who might come and go. Industries that find themselves teetering on obsolescence (for instance the thermal coal industry) could be phased out more easily and quickly if the participants in that industry no longer relied on their jobs to put food on the table. What were once bureaucracies can now be [adhocracies][adhoc]. The productive system is free to morph and shift to the will of the participants without fear of leaving people behind, and without massive and expensive redistribution programs.
+
+If everyone gets a living wage just for being a participant, it's quite possible that people might not even feel compelled to take a wage for many jobs. This would mean the costs of products and services is no longer the cost of labor and resources, but just resources. In effect, profitless production in combination with a living wage UBI *could make self-organized, resource-based communism a reality*.
+
+There's one more important point to make. There are entire classes of people who do productive labor every day and are not compensated for it. This includes homemakers, stay at home parents, community service volunteers, artists, etc. Don't these people deserve compensation for their contributions to society regardless of how markets value their contributions?
 

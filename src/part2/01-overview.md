@@ -24,7 +24,18 @@ In the absence of profit and a strong link between *price* and *cost*, another m
 
 As a final note, the economic vocabulary used in the Basis protocol are an extension of the ValueFlows [^vf] protocol, a Resource-Event-Agent (REA) accounting system that allows defining flows of resources through productive networks. Many of the processes or actions described in the Basis protocol will reference various portions of ValueFlows.
 
+### Two-layer organization
+
+Basis defines two main layers of operation. The inner layer is the primary productive system. This is the layer that [blocs] and [resources] exist inside of. This is where [detailed cost tracking][costs]
+occurs, and all transactions within this layer are *transparent*.
+
+The outer layer is where things like setting [network parameters], making consumer purchases, secondary market exchanges, and other actions occur. In other words, this is the layer where things happen when agents are not engaging in primary production. Things that happen in this layer are private by default.
+
+The distinction between layers is important because while much of what happens in the outer layer affects the inner layer (for instance, consumer purchases acting as a demand signal), the meat of the protocol focuses on the processes and interactions of the inner layer: profitless production.
+
 [agents]: #chapter-2-agents
-[resources]: #chapter-4-resources
+[resources]: #chapter-3-resources
+[blocs]: #chapter-4-blocs
 [cybernetics]: #BROKEN-cybernetics
 [trackers]: #BROKEN-trackers
+[network parameter]: #BROKEN-network-parameters

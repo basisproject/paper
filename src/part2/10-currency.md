@@ -1,4 +1,4 @@
-## Chapter 5: Currency, credits, and UBI
+## Chapter 10: Currency, credits, and UBI
 
 Every agent has the ability to accrue the network currency (credits, ₡) in any number of accounts they wish to manage. Credits can be spent on goods and services provided by companies in the Basis system. Credits differ from money in that they are *destroyed when spent*. Credits do not circulate the primary economy, and only exist within the accounts of agents.
 
@@ -25,16 +25,6 @@ UBI credits are earned simply by being an agent in the Basis protocol and accrue
 - UBI credits are paid into a special account that is attached to each agent.
 - The UBI account has a ceiling value which caps the maximum amount of credits the account can hold. For instance this ceiling value might be 12 months' worth of periodic value. This effectively limits UBI from accumulating endlessly if it's not spent.
 - Unlike labor credits, UBI credits cannot be transferred to other members. It is always attached to one person.
-
-#### Effects and goals of UBI
-
-Defining a currency that everyone gets regularly that cannot be transferred and can only be spent on internally-produced products and services has some great benefits for both participants and the network as a whole. If the UBI is high enough to be a living wage, what this does is effectively remove the cost of survival from the productive system. In effect, we make it easy to quit a job. This is seemingly banal but the effect is incredible: this would lower externalities in production, lower the labor costs of products significantly, and ultimately make the productive system much more adaptable.
-
-If nobody needs a job to survive, then there's no systemic pressure to *win at all costs*, which would effectively not only eliminate entire classes of externalities but also reduce the pressure of competition within the system. No longer do companies have to balance survival with being community members, because survival doesn't need to be covered by the productive system. Companies are free to expand and contract as members see fit without needing to worry about the welfare of those who might come and go. Industries that find themselves teetering on obsolescence (for instance the thermal coal industry) could be phased out more easily and quickly if the participants in that industry no longer relied on their jobs to put food on the table. What were once bureaucracies can now be [adhocracies][adhoc]. The productive system is free to morph and shift to the will of the participants without fear of leaving people behind, and without massive and expensive redistribution programs.
-
-If everyone gets a living wage just for being a participant, it's quite possible that people might not even feel compelled to take a wage for many jobs. This would mean the costs of products and services is no longer the cost of labor and resources, but just resources. In effect, profitless production in combination with a living wage UBI *could make self-organized, resource-based communism a reality*.
-
-There's one more important point to make. There are entire classes of people who do productive labor every day and are not compensated for it. This includes homemakers, stay at home parents, community service volunteers, artists, etc. Don't these people deserve compensation for their contributions to society regardless of how markets value their contributions?
 
 #### UBI Governance
 

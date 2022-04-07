@@ -1,6 +1,6 @@
 ## Chapter 3: Resources
 
-A resource in Basis, which [extends the concept of a resource as modeled by ValueFlows](https://valueflo.ws/introduction/resources.html), can be anything that's useful in a productive sense, either as an input to production or an output of production. A resource could be a house, a river, a chair, a factory, a farm, a tractor, etc. It's important to note that in Basis, resources must be explicitly entered. There must be intention behind a resource existing in the system.
+A resource in Basis, which [extends the concept of a resource as modeled by ValueFlows][resources-vf], can be anything that's useful in a productive sense, either as an input to production or an output of production. A resource could be a house, a river, a chair, a factory, a farm, a tractor, etc. It's important to note that in Basis, resources must be explicitly entered. There must be intention behind a resource existing in the system.
 
 Ownership of all resources described in the protocol is shared by all agents *equally*. An agent in India is an equal owner of the factory in Canada, and an agent in Hawaii is an equal owner of widget batch #506771 produced by Widgets"R"Us in Africa.
 
@@ -8,7 +8,7 @@ Everyone owning everything might be a fact of the protocol, but it's not a parti
 
 ### Stewardship
 
-Stewardship is a relationship between a [bloc] and a resource. Stewardship allows determining how a resource can be used or consumed. This can include setting time limits on use, determining costs of use, and any other facet that might arise. For instance, a farming guild bloc might have tractors available for local farmers to use. A chair production bloc might make their chairs available to order for other blocs or for consumption by agents. Blocs don't have to be productive either: a housing bloc, which stewards houses or apartments, can determine the rules for use of their resources. A municipal bloc might set hours of acceptable use on a public park.
+Stewardship is a relationship between a [bloc] and a resource. Stewardship allows determining how a resource can be used or consumed. This can include setting time limits on use, determining costs of use, and any other facet that might arise. For instance, a farming guild bloc might have tractors available for local farmers to use. A chair production bloc might make their chairs available to order for other blocs or for consumption by agents. Blocs don't have to be productive either: a housing bloc, which stewards houses or apartments, can determine the rules for use of their units. A municipal bloc might set hours of acceptable use on a public park.
 
 ### Use
 
@@ -38,4 +38,5 @@ Note that while resources can hold a *cost*, the bloc in stewardship of that res
 
 [bloc]: #chapter-4-blocs
 [costs]: #costs
+[resources-vf]: https://www.valueflo.ws/concepts/resources/
 
