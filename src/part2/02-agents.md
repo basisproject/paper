@@ -1,6 +1,6 @@
 ## Chapter 2: Agents
 
-An agent is any individual who wishes to be a part of the Basis protocol. The particulars of how somebody becomes an agent is left to [Part 3](#part-3-the-real-world). For our purposes here, we will assume that somebody is an agent for no other reason than they wish to be one, and leave it at that.
+An agent is any individual who wishes to be a part of the Basis protocol. The particulars of how somebody becomes an agent is left to [Part 3][part-3]. For our purposes here, we will assume that somebody is an agent for no other reason than they wish to be one, and leave it at that.
 
 All agents are equal within the Basis protocol. They all have the same abilities and privileges. This includes equal abilities to freely associate with other agents, equal decision-making power in the blocs they are associated with, and equal treatment regarding access to and management of the resources around them.
 
@@ -16,5 +16,5 @@ TODO:
 
 ### Accounts
 
-An account is a protocol-defined electronic storage for [the protocol's currency, credits.](#chapter-5-currency-credits-and-ubi) These would be analogous to bank accounts that can be accessed via the web or a mobile app. Agents can have any number of accounts and can transfer their credits freely between them.
+An account is a protocol-defined electronic storage for [the protocol's currency, credits.][currency] These would be analogous to bank accounts that can be accessed via the web or a mobile app. Agents can have any number of accounts and can transfer their credits freely between them.
 

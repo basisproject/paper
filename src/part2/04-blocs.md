@@ -31,11 +31,3 @@ TODO:
 TODO:
 - [Cost staging](https://github.com/basisproject/tracker/issues/139)
 
-[agents]: #chapter-2-agents
-[resources]: #chapter-3-resources
-[stewardship]: #stewardship
-[orders]: #BROKEN-orders
-[investment]: #BROKEN-investment
-[cybernetics]: #BROKEN-cybernetics
-[cost-conversion]: #converting-costs-to-a-single-value
-[cost-addition]: #addition

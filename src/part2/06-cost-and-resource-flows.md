@@ -78,11 +78,11 @@ This is the cost of each chair. Now, if another bloc needs a chair, when they or
 This is an example of how costs are created and assigned to resources. Blocs are free to manage costs however they see fit with a few constraints enforced by the protocol:
 
 1. Costs out must equal costs in. Blocs cannot remove, reduce, or otherwise modify the amount of costs (other than adding to them).
-2. A bloc must not exceed its [cost allowance].
+2. A bloc must not exceed its [cost allowance][cost-allowance].
 
-#### Processes
+#### Bloc processes
 
-At a lower level, a bloc can use *processes* as a way of breaking down flows of resources and labor internally. A process is an activity that transforms economic inputs to outputs. In Basis, processes extend the concept of [processes in ValueFlows](https://valueflo.ws/introduction/processes.html) by adding a set of [costs] associated with that process. A bloc can have as many processes as it wants, each with a set of associated costs.
+At a lower level, a bloc can use *processes* as a way of breaking down flows of resources and labor internally. A process is an activity that transforms economic inputs to outputs. In Basis, processes extend the concept of [processes in ValueFlows][ext-vf-processes] by adding a set of [costs] associated with that process. A bloc can have as many processes as it wants, each with a set of associated costs.
 
 In the above example, our chair maker might have a process for `unload lumber shipment`, which yields usable lumber which can be used in the `make chairs` process.
 
@@ -90,7 +90,7 @@ It's important to note that as resources have costs, so do processes. For instan
 
 #### Labor and Wages
 
-When an agent performs labor for a bloc they are a member of and if they track this labor within the protocol then they will receive wages in the form of [credits]. The exact arrangement of how the wage is arranged is between the member and the bloc: it could be hourly, it could be salary, it could be project or commission based, some combination of all three, or something entirely different. The protocol does not enforce any form of arrangement, but it does allow the bloc or the member to register the labor and provides methods for compensating it with credits.
+When an agent performs labor for a bloc they are a member of and if they track this labor within the protocol then they will receive wages in the form of [credits][labor-credits]. The exact arrangement of how the wage is arranged is between the member and the bloc: it could be hourly, it could be salary, it could be project or commission based, some combination of all three, or something entirely different. The protocol does not enforce any form of arrangement, but it does allow the bloc or the member to register the labor and provides methods for compensating it with credits.
 
 When the credits are paid (not when the labor is tracked), the cost of the labor is added to the bloc's costs in the same transaction. In other words, an agent receiving credits is always matched exactly by a bloc assuming new costs.
 
@@ -102,23 +102,11 @@ So if one bloc needs lumber to make their widgets, they might find another bloc 
 
 Orders are the drivers of flows of value through the system. Orders move resources and costs between blocs and facilitate production.
 
-Orders in Basis are a direct extension of [Agreements][vf-agreement] and [Intents][vf-intent] in ValueFlows.
+Orders in Basis are a direct extension of [Agreements][ext-vf-agreement] and [Intents][ext-vf-intent] in ValueFlows.
 
 ### Transparency
 
 All orders, processes, resources, and transactions that affect all of these things are completely transparent to any agent of the network. 
 
 This means that the order book for any given bloc can be viewed by any other company. While this might seem radical to the casual reader, the reasoning behind it is that if demand can be sensed directly (via knowing the incoming orders for any given products), profit becomes vestigial. One primary goal of Basis is to eliminate the profit mechanism in production, and what better way than to allow for reading demand directly?
-
-
-[costs]: #chapter-5-costs
-[trackers]: #BROKEN-trackers
-[part3]: #part-3-the-real-world
-[credits]: #labor-credits
-[economics]: #chapter-6-economics
-[bloc-processes]: #BROKEN-bloc-processes
-[stewardship]: #stewardship
-[cost allowance]: #bloc-cost-allowance
-[vf-agreement]: https://www.valueflo.ws/concepts/exchanges/#agreements
-[vf-intent]: https://www.valueflo.ws/concepts/proposals/
 

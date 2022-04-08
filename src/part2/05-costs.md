@@ -6,10 +6,10 @@ When people think of a cost, they often think of a number, and usually a price. 
 
 Costs in Basis are not a number, but rather separate collections of individual values bundled together. By default, this includes:
 
-- `labor-hours`: Hours of labor, grouped by occupation. Occupations are managed as [network-global parameters][network-params].
+- `labor-hours`: Hours of labor, grouped by occupation. Occupations are managed as [network-global parameters][network-parameters].
 - `labor-wages`: Credits paid to workers, grouped by occupation. Occupations here are the same dataset as those managed in `labor-hours`.
-- `resources`: Generally raw/semi-raw materials, grouped by the resource/raw material type, and optionally broken down further by extraction location. Resources are extensions of [ValueFlows resources][resources-vf].
-- `processes`: Economic processes that transform resources (such as "refine oil"). Processes are extensions of [ValueFlows processes][processes-vf].
+- `resources`: Generally raw/semi-raw materials, grouped by the resource/raw material type, and optionally broken down further by extraction location. Resources are extensions of [ValueFlows resources][ext-vf-resources].
+- `processes`: Economic processes that transform resources (such as "refine oil"). Processes are extensions of [ValueFlows processes][ext-vf-processes].
 
 Note that this is known as in-kind [^cik] cost tracking.
 
@@ -21,7 +21,7 @@ But how do we get gasoline? This is where processes come in. Not only can proces
 
 #### Distinction between tracked processes and bloc processes
 
-It's worth noting that the processes [blocs use when producing][bloc-costs] are determined by the bloc and are independent of the concept of *tracked processes* described above.
+It's worth noting that the [processes blocs use when producing][bloc-processes] are determined by the bloc and are independent of the concept of *tracked processes* described above.
 
 For instance, a bloc might have the process `build chair` it uses when producing chairs, but `build chair` does not need to be a network-wide tracked process in order for that bloc to use it. In other words, blocs are free to track internal processes in any way they deem fit, *however* cost resource transformations (crude oil -> gasoline, jet fuel, etc) can *only* happen through network-tracked processes.
 
@@ -52,11 +52,11 @@ Here's an example of what a cost object might look like:
 }
 ```
 
-The actual labels like `president`, `iron`, `refine`, etc will generally not be names, but rather be network-specific uniform resource identifiers that point to a part of the network's [global storage][network-params]. We use names here for the purposes of simplicity to show how costs are structured.
+The actual labels like `president`, `iron`, `refine`, etc will generally not be names, but rather be network-specific uniform resource identifiers that point to a part of the network's [global storage][network-parameters]. We use names here for the purposes of simplicity to show how costs are structured.
 
 ### Cost extensions
 
-The protocol allows cost objects to be extended to track other types of costs. For instance, `currency` (covered in [part 3][part-3-currency]).
+The protocol allows cost objects to be extended to track other types of costs. For instance, `currency` (covered in [part 3][currency-tracking]).
 
 This accomplishes two things: it keeps the Basis cost tracking core lean and simple, and it allows tracking cost types that the protocol's creators couldn't think up at the time of creation.
 
@@ -208,10 +208,4 @@ Costs can be divided by a decimal value as well:
 -------------------------------------------------------------
   { labor_hours: { carpenter: 4 }, resources: { wood: 3 } }
 ```
-
-[processes-vf]: https://www.valueflo.ws/concepts/processes/
-[resources-vf]: https://www.valueflo.ws/concepts/resources/
-[network-params]: #BROKEN-network-params
-[part-3-currency]: #BROKEN-part-4-currency
-[bloc-costs]: #bloc-costs
 

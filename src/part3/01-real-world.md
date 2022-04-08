@@ -1,8 +1,11 @@
 # Part 3: The Real World
 
-TODO: This is going to be kind of a dumping ground for all the random transitional garbage from the old paper until I organize it.
+Great, so we've detailed a protocol that will slowly alter the course of our global productive system into a much more intentional, ecological direction. Now what?
 
----------
+Here we will explore how might Basis function not just in a fantasy world but within our existing one. We'll detail purchasing of external market goods, selling of network goods into the market, the banking system that makes this possible, and the incentive structures that allow the network to grow steadily.
+
+After all, this protocol is no good if it cannot interface with the outside world.
+
 
 ## UBI
 
@@ -13,6 +16,13 @@ TODO: This is going to be kind of a dumping ground for all the random transition
 #### Currency tracking
 
 When a company needs to buy something from capitalist markets, it spends currency out of a [capital pool](#capital-pools) to do so. The cost of this currency, like all other costs, is tracked by Basis. This is covered in more detail in [the banking section](#currency-tracking-1).
+
+---------
+
+### Purchases
+
+Non-member orders. Any time a non-member is involved in an order, the order details will be available, but the non-member company will be anonymized. This is to protect the privacy of companies who do not wish for their purchasing to be transparent. Like consumer purchases, the order will look like it came from the Basis system directly, and the non-member company's identity will be anonymized.
+
 
 ---------
 

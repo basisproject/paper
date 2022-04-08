@@ -334,3 +334,4 @@ If everyone gets a living wage just for being a participant, it's quite possible
 
 There's one more important point to make. There are entire classes of people who do productive labor every day and are not compensated for it. This includes homemakers, stay at home parents, community service volunteers, artists, etc. Don't these people deserve compensation for their contributions to society regardless of how markets value their contributions?
 
+[blasphlam]: https://dolt.com

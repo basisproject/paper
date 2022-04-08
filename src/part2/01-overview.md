@@ -16,7 +16,7 @@ It's important to note that this part of the paper assumes the Basis protocol is
 
 As most of this protocol revolves around economics, it's important to outline some of the ultimate goals of the economic relations in Basis.
 
-Production is engaged in without profit or exchange of currency. Blocs track costs directly, and assign these costs to their products and services. Costs are separate groupings of *labor* and [tracked resources][trackers]. Blocs then assign these costs to their products, and they are only able to assign costs already assumed by the bloc: inputs and outputs must match. When another bloc orders one of these products, the product's cost is transferred from the producing bloc to the ordering bloc. No exchange of currency happens. When an agent consumes a product, the costs of that product are removed from the system. This direct cost tracking avoids the need for currency within the productive system and eliminates the idea of profit.
+Production is engaged in without profit or exchange of currency. Blocs track costs directly, and assign these costs to their products and services. Costs are separate groupings of *labor*, [tracked resources][tracked-resources], and [tracked economic processes][tracked-processes]. Blocs then assign these costs to their products, and they are only able to assign costs already assumed by the bloc: inputs and outputs must match. When another bloc orders one of these products, the product's cost is transferred from the producing bloc to the ordering bloc. No exchange of currency happens. When an agent consumes a product, the costs of that product are removed from the system. This direct cost tracking avoids the need for currency within the productive system and eliminates the idea of profit.
 
 When a bloc marks a product as available for agent consumption, it is given a price. This price can be set *independently* of the *cost* of the product (for instance if demand drops, the bloc can set a clearing price). However, the bloc does not realize any difference between the *cost* and the *price* because the currency used by the consuming agent is destroyed on spend.
 
@@ -29,13 +29,7 @@ As a final note, the economic vocabulary used in the Basis protocol are an exten
 Basis defines two main layers of operation. The inner layer is the primary productive system. This is the layer that [blocs] and [resources] exist inside of. This is where [detailed cost tracking][costs]
 occurs, and all transactions within this layer are *transparent*.
 
-The outer layer is where things like setting [network parameters], making consumer purchases, secondary market exchanges, and other actions occur. In other words, this is the layer where things happen when agents are not engaging in primary production. Things that happen in this layer are private by default.
+The outer layer is where things like setting [network parameters][network-parameters], making consumer purchases, secondary market exchanges, and other actions occur. In other words, this is the layer where things happen when agents are not engaging in primary production. Things that happen in this layer are private by default.
 
 The distinction between layers is important because while much of what happens in the outer layer affects the inner layer (for instance, consumer purchases acting as a demand signal), the meat of the protocol focuses on the processes and interactions of the inner layer: profitless production.
 
-[agents]: #chapter-2-agents
-[resources]: #chapter-3-resources
-[blocs]: #chapter-4-blocs
-[cybernetics]: #BROKEN-cybernetics
-[trackers]: #BROKEN-trackers
-[network parameter]: #BROKEN-network-parameters
