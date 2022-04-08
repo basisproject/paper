@@ -2,19 +2,27 @@
 
 ### Bloc voting
 
-TODO
+TODO:
+
+- [#60 - Voting](https://github.com/basisproject/tracker/issues/60)
 
 ### Occupations
 
-TODO
+TODO:
+
+- [#89 - Governance of occupation data](https://github.com/basisproject/tracker/issues/89)
 
 ### Tracked resources
 
-TODO
+TODO:
+
+- [#17 - Raw material tagging v2](https://github.com/basisproject/tracker/issues/17)
 
 ### Tracked processes
 
-TODO
+TODO:
+
+- [#137 - Process tracking](https://github.com/basisproject/tracker/issues/137)
 
 ### UBI Governance
 
