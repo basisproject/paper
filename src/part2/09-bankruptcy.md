@@ -6,4 +6,5 @@ Where are these costs transferred to?
 
 TODO:
 
-- [Bankruptcy / company with no members](https://github.com/basisproject/tracker/issues/96)
+- [#96 - Bankruptcy / company with no members](https://github.com/basisproject/tracker/issues/96)
+

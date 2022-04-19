@@ -2,9 +2,9 @@
 
 TODO
 
-#### Currency tracking
+### Currency tracking
 
-When a company needs to buy something from capitalist markets, it spends currency out of a [capital pool](#capital-pools) to do so. The cost of this currency, like all other costs, is tracked by Basis. This is covered in more detail in [the banking section](#currency-tracking-1).
+When a company needs to buy something from capitalist markets, it spends currency out of a [capital pool][capital-pools] to do so. The cost of this currency, like all other costs, is tracked by Basis. This is covered in more detail in [the banking section][banking-part3].
 
 TODO
 

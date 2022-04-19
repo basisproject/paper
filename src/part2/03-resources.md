@@ -26,7 +26,7 @@ As a general guideline, resources are best stewarded by the groups of people in 
 
 TODO:
 
-- [Reassigning stewardship](https://github.com/basisproject/tracker/issues/134)
+- [#134 - Reassigning stewardship](https://github.com/basisproject/tracker/issues/134)
 
 ### Resource costs
 

@@ -5,9 +5,11 @@
 [^cik]: Wikipedia (2021, August 11). Calculation in kind. https://en.wikipedia.org/w/index.php?title=Calculation_in_kind&direction=next&oldid=1030707980
 
 [agents]: #chapter-2-agents
+[banking-part3]: #chapter-2-banking
 [bloc-costs]: #bloc-costs
 [bloc-processes]: #bloc-processes
 [blocs]: #chapter-4-blocs
+[capital-pools]: #BROKEN-capital-pools
 [cost-addition]: #addition
 [cost-allowance]: #bloc-cost-allowance
 [cost-conversion]: #converting-costs-to-a-single-value

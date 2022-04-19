@@ -24,10 +24,11 @@ The actual cost allowance value is determined by the [investment] and [cyberneti
 
 TODO:
 
-- [Cost allowance overage](https://github.com/basisproject/tracker/issues/135)
+- [#135 - Cost allowance overage](https://github.com/basisproject/tracker/issues/135)
 
 ### Cost staging
 
 TODO:
-- [Cost staging](https://github.com/basisproject/tracker/issues/139)
+
+- [#139 - Cost staging](https://github.com/basisproject/tracker/issues/139)
 

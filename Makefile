@@ -2,7 +2,7 @@
 
 PATH := $(PATH):/c/dev/pandoc
 
-get_md = find src/ -name "*.md"
+get_md = find src/ -name "*.md" -not -name "todo-*"
 mdfiles := $(shell $(get_md) | sort)
 plantfiles := $(shell find . -name "*.plantuml")
 set_mod = sed -i "s/{{modified}}/$(shell date -d @$(shell $(get_md) -exec date -r {} +'%s' \; | sort -nr | head -1) +'%B %e, %Y')/g" $@
