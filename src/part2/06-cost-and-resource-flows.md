@@ -92,7 +92,9 @@ It's important to note that as resources have costs, so do processes. For instan
 
 When an agent performs labor for a bloc they are a member of and if they track this labor within the protocol then they will receive wages in the form of [credits][labor-credits]. The exact arrangement of how the wage is arranged is between the member and the bloc: it could be hourly, it could be salary, it could be project or commission based, some combination of all three, or something entirely different. The protocol does not enforce any form of arrangement, but it does allow the bloc or the member to register the labor and provides methods for compensating it with credits.
 
-When the credits are paid (not when the labor is tracked), the cost of the labor is added to the bloc's costs in the same transaction. In other words, an agent receiving credits is always matched exactly by a bloc assuming new costs.
+This is how `labor_hours` and `labor_wages` are created and tracked in the protocol: agents get paid for their work by creating labor transactions.
+
+For details on when labor transactions are created versus when credits are paid, see the [section on cost staging][cost-staging].
 
 ### Orders
 

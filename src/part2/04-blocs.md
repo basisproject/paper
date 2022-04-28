@@ -10,6 +10,12 @@ Blocs are free to use whatever organization structure they see fit. There is not
 
 Membership in a bloc is completely decided by the bloc itself. Membership might be determined by geographical location, interest or skill in a particular sector of production, and can even depend on things like compulsory ordering of a service every month (which could be structured as a membership fee or even a tax in the case of a municipal bloc). Some blocs might require membership in sister blocs: perhaps you cannot be a member of the Duluth Housing bloc if you are not also a member of the Duluth Municipal bloc.
 
+### Bloc voting
+
+TODO:
+
+- [#60 - Voting](https://github.com/basisproject/tracker/issues/60)
+
 ### Bloc cost allowance
 
 Every bloc has a cost allowance. This is a variable number that determines the upper limit on costs that the bloc can assume. If the bloc's total costs (the sum of all the bloc's resources and processes) reaches this number, the protocol prevents the bloc from taking on any new costs, be it ordering inventory, paying wages, or any other ways that blocs can take on new costs. The cost allowance can be thought of as the total amount of societal debt that a bloc may take on.

@@ -13,12 +13,15 @@
 [cost-addition]: #addition
 [cost-allowance]: #bloc-cost-allowance
 [cost-conversion]: #converting-costs-to-a-single-value
+[cost-flows]: #chapter-6-cost-and-resource-flows
+[cost-staging]: #cost-staging
 [costs]: #chapter-5-costs
 [cybernetics]: #cybernetics
 [currency]: #chapter-10-currency-credits-and-ubi
 [currency-tracking]: #BROKEN-currency-tracking
 [investment]: #chapter-8-investment
 [labor-credits]: #labor-credits
+[labor-wages]: #labor-and-wages
 [network-parameters]: #BROKEN-network-parameters
 [orders]: #orders
 [part-3]: #part-3-the-real-world
