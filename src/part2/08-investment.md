@@ -1,6 +1,6 @@
 ## Chapter 8: Investment
 
-Investment determines the [cost allowance][cost-allowance] of a bloc, allowing that bloc to take on greater or lesser costs.
+Investment determines the [allocation][allocation] of a bloc, allowing that bloc to take on greater or lesser costs.
 
 ### Cybernetics
 

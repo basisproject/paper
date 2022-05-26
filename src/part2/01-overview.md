@@ -20,7 +20,7 @@ Production is engaged in without profit or exchange of currency. Blocs track cos
 
 When a bloc marks a product as available for agent consumption, it is given a price. This price can be set *independently* of the *cost* of the product (for instance if demand drops, the bloc can set a clearing price). However, the bloc does not realize any difference between the *cost* and the *price* because the currency used by the consuming agent is destroyed on spend.
 
-In the absence of profit and a strong link between *price* and *cost*, another mechanism must act as the feedback mechanism for blocs. Basis uses a [cybernetics system][cybernetics] that adjusts a bloc's "cost allowance" (how much costs it can assume in total at any given point) based on its overall, ongoing performance.
+In the absence of profit and a strong link between *price* and *cost*, another mechanism must act as the feedback mechanism for blocs. Basis uses a [cybernetics system][cybernetics] that adjusts a bloc's ["allocation"][allocation] (how much costs it can assume in total at any given point) based on its overall, ongoing performance.
 
 As a final note, the economic vocabulary used in the Basis protocol are an extension of the ValueFlows [^vf] protocol, a Resource-Event-Agent (REA) accounting system that allows defining flows of resources through productive networks. Many of the processes or actions described in the Basis protocol will reference various portions of ValueFlows.
 

@@ -78,7 +78,7 @@ This is the cost of each chair. Now, if another bloc needs a chair, when they or
 This is an example of how costs are created and assigned to resources. Blocs are free to manage costs however they see fit with a few constraints enforced by the protocol:
 
 1. Costs out must equal costs in. Blocs cannot remove, reduce, or otherwise modify the amount of costs (other than adding to them).
-2. A bloc must not exceed its [cost allowance][cost-allowance].
+2. A bloc must not exceed its [allocation][allocation].
 
 #### Bloc processes
 

@@ -16,21 +16,21 @@ TODO:
 
 - [#60 - Voting](https://github.com/basisproject/tracker/issues/60)
 
-### Bloc cost allowance
+### Bloc allocation
 
-Every bloc has a cost allowance. This is a variable number that determines the upper limit on costs that the bloc can assume. If the bloc's total costs (the sum of all the bloc's resources and processes) reaches this number, the protocol prevents the bloc from taking on any new costs, be it ordering inventory, paying wages, or any other ways that blocs can take on new costs. The cost allowance can be thought of as the total amount of societal debt that a bloc may take on.
+Every bloc has an allocation. This is a variable number that determines the upper limit on costs that the bloc can assume. If the bloc's total costs (the sum of all the bloc's resources and processes) reaches this number, the protocol prevents the bloc from taking on any new costs, be it ordering inventory, paying wages, or any other ways that blocs can take on new costs. The allocation can be thought of as the total amount of societal debt that a bloc may take on.
 
 The total costs of a bloc can be determined by taking the costs of all the bloc's resources and all the bloc's processes and [summing them together][cost-addition]. This gives a final cost object, which can be [converted into a final number][cost-conversion].
 
-Once a bloc's total costs reaches its cost allowance, a bloc must find a way to unload its costs. This would happen via other blocs [ordering products][orders] or through direct member taxation.
+Once a bloc's total costs reaches its allocation, a bloc must find a way to unload its costs. This would happen via other blocs [ordering products][orders] or through direct member taxation.
 
-The actual cost allowance value is determined by the [investment] and [cybernetics] systems defined by the protocol.
+The actual allocation value is determined by the [investment] and [cybernetics] systems defined by the protocol.
 
 #### Allowance exceptions
 
 TODO:
 
-- [#135 - Cost allowance overage](https://github.com/basisproject/tracker/issues/135)
+- [#135 - Allocation overage](https://github.com/basisproject/tracker/issues/135)
 
 ### Cost staging
 
