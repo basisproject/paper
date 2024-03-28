@@ -2,19 +2,21 @@
 
 A resource in Basis, which [extends the concept of a resource as modeled by ValueFlows][ext-vf-resources], can be anything that's useful in a productive sense, either as an input to production or an output of production. A resource could be a house, a river, a chair, a factory, a farm, a tractor, etc. It's important to note that in Basis, resources must be explicitly entered. There must be intention behind a resource existing in the system.
 
-Ownership of all resources described in the protocol is shared by all agents *equally*. An agent in India is an equal owner of the factory in Canada, and an agent in Hawaii is an equal owner of widget batch #506771 produced by Widgets"R"Us in Africa.
+By default, Basis assumes that ownership of all resources described in the protocol is shared by all agents *equally*. An agent in India is an equal owner of the factory in Canada, and an agent in Hawaii is an equal owner of widget batch #506771 produced by Widgets"R"Us in Africa.
 
-Everyone owning everything might be a fact of the protocol, but it's not a particularly useful distinction. Resources in Basis have two more relationships (beyond ownership) that apply: stewardship and use.
+Instead of ownership, Basis defines two other relations to resources: stewardship and use.
 
 ### Stewardship
 
 Stewardship is a relationship between a [bloc][blocs] and a resource. Stewardship allows determining how a resource can be used or consumed. This can include setting time limits on use, determining costs of use, and any other facet that might arise. For instance, a farming guild bloc might have tractors available for local farmers to use. A chair production bloc might make their chairs available to order for other blocs or for consumption by agents. Blocs don't have to be productive either: a housing bloc, which stewards houses or apartments, can determine the rules for use of their units. A municipal bloc might set hours of acceptable use on a public park.
 
+The distinction between stewardship and ownership can be thought of as the distinction between ad-hoc and bureaucratic. Stewardship can shift and change over time, where ownership much more rigid.
+
 ### Use
 
 Use is a relationship in which a resource is in active consumption by either an agent or another bloc. Usage of a resource might often happen by members of the bloc in stewardship, but this isn't a given, and anyone can use a resource within the bounds set by the steward.
 
-Usage could be something like living in a house, taking a bus, operating a lathe, etc.
+Usage could be something like living in a house, renting a car, taking a bus, operating a lathe, etc.
 
 ### Determining stewardship
 

@@ -23,7 +23,7 @@ But how do we get gasoline? This is where processes come in. Not only can proces
 
 It's worth noting that the [processes blocs use when producing][bloc-processes] are determined by the bloc and are independent of the concept of *tracked processes* described above.
 
-For instance, a bloc might have the process `build chair` it uses when producing chairs, but `build chair` does not need to be a network-wide tracked process in order for that bloc to use it. In other words, blocs are free to track internal processes in any way they deem fit, *however* cost resource transformations (crude oil -> gasoline, jet fuel, etc) can *only* happen through network-tracked processes.
+For instance, a bloc might have the process `build chair` it uses when producing chairs, but `build chair` does not need to be a network-wide tracked process in order for that bloc to use it. In other words, blocs are free to track internal processes in any way they deem fit, *however* cost resource transformations (crude oil -> gasoline, jet fuel, etc) can *only* happen through network-tracked processes which are created and maintained via democratic process.
 
 ### Cost representation
 
@@ -209,3 +209,10 @@ Costs can be divided by a decimal value as well:
   { labor_hours: { carpenter: 4 }, resources: { wood: 3 } }
 ```
 
+### Incentives
+
+We've talked about what types of costs can be tracked, but we haven't covered *why a bloc would bother tracking costs*. What do they get out of it?
+
+In essence, the system pays them to track the costs. For instance, how does Basis know to pay a worker their wage? Well, they would track that cost in the system, and as a result they would get payment. The same principle works for all cost tracking: when a bloc tracks the cost, the workers of that bloc get paid.
+
+The exact mechanisms at play here are covered in the [cost staging section][cost-staging], which balances the incentive to create new costs with the base goal of meeting a social need.

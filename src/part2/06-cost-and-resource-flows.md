@@ -88,6 +88,8 @@ In the above example, our chair maker might have a process for `unload lumber sh
 
 It's important to note that as resources have costs, so do processes. For instance, `make chairs` might first have the cost of the lumber added to it, and then the labor of the chair maker. Once the chairs are created, the total cost of the `make chairs` process might be assigned equally to the chairs.
 
+It's important to note the [distinction between tracked processes and bloc processes][distinction-processes].
+
 #### Labor and Wages
 
 When an agent performs labor for a bloc they are a member of and if they track this labor within the protocol then they will receive wages in the form of [credits][labor-credits]. The exact arrangement of how the wage is arranged is between the member and the bloc: it could be hourly, it could be salary, it could be project or commission based, some combination of all three, or something entirely different. The protocol does not enforce any form of arrangement, but it does allow the bloc or the member to register the labor and provides methods for compensating it with credits.

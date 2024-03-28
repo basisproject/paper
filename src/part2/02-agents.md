@@ -10,11 +10,10 @@ Every action within the protocol, whether direct or indirect, is driven by an ag
 
 Basis requires the use of an identity protocol for agentship. This ensures various aspects of the protocol are the same for everyone. For instance, without *identity* the protocol would not be able to determine if someone cast multiple votes in a decision.
 
-TODO:
-
-- [#132 - Identity system](https://github.com/basisproject/tracker/issues/132)
+For this, Basis relies on its sister protocol, [the Stamp project][stamp-protocol]. Not only does Stamp provide an identity system for agentship within Basis, but it provides the necessary mechanisms for [democratic structures of blocs][bloc-structure].
 
 ### Accounts
 
 An account is a protocol-defined electronic storage for [the protocol's currency, credits.][currency] These would be analogous to bank accounts that can be accessed via the web or a mobile app. Agents can have any number of accounts and can transfer their credits freely between them.
+
 

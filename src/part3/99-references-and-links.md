@@ -9,6 +9,7 @@
 [banking-part3]: #chapter-2-banking
 [bloc-costs]: #bloc-costs
 [bloc-processes]: #bloc-processes
+[bloc-structure]: #bloc-structure
 [blocs]: #chapter-4-blocs
 [capital-pools]: #BROKEN-capital-pools
 [cost-addition]: #addition
@@ -19,6 +20,7 @@
 [cybernetics]: #cybernetics
 [currency]: #chapter-10-currency-credits-and-ubi
 [currency-tracking]: #BROKEN-currency-tracking
+[distinction-processes]: #distinction-between-tracked-processes-and-bloc-processes
 [investment]: #chapter-8-investment
 [labor-credits]: #labor-credits
 [labor-wages]: #labor-and-wages
@@ -26,6 +28,7 @@
 [orders]: #orders
 [part-3]: #part-3-the-real-world
 [resources]: #chapter-3-resources
+[stamp-protocol]: https://stamp-protocol.github.io/
 [stewardship]: #stewardship
 [tracked-resources]: #BROKEN-tracked-resources
 [tracked-processes]: #BROKEN-tracked-processes
